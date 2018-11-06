@@ -1,0 +1,48 @@
+<templateSet group="apicloud-module-navigationBar">
+  <template name="navigationBar.open" value="navigationBar.open({&#10;    x: $0$,&#10;    y: $01$,&#10;    w: $320$,&#10;    h: $220$,&#10;    style:'$left_to_right$',&#10;    itemSize:$itemSizeJson$,&#10;    items: [{&#10;        title:'$title0$',&#10;        titleSelected:'$titleSelected0$',&#10;        bg:'$bg1$',&#10;        alpha: $1$,&#10;        bgSelected:'$bgSelected$'&#10;    }],&#10;    selectedIndex:$selectedIndex$,&#10;    font: {&#10;        size:$11$,&#10;        sizeSelected:$14$,&#10;        color:'$color$',&#10;        colorSelected:'$colorSelected$'&#10;    },&#10;    bg: '$bg$',&#10;    alpha: $a1$&#10;}, function(ret, err){&#10;    &#10;});" description="打开" toReformat="true" toShortenFQNames="true">
+    <variable name="0" expression="snakeCase(&quot;0&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="01" expression="snakeCase(&quot;0&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="320" expression="snakeCase(&quot;320&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="220" expression="snakeCase(&quot;220&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="left_to_right" expression="snakeCase(&quot;leftToRight&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="itemSizeJson" expression="snakeCase(&quot;itemJson&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="title0" expression="snakeCase(&quot;title&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="titleSelected0" expression="snakeCase(&quot;titleselected&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="bg1" expression="snakeCase(&quot;bg&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="1" expression="snakeCase(&quot;1&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="bgSelected" expression="snakeCase(&quot;bgselected&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="selectedIndex" expression="snakeCase(&quot;selectedindex&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="11" expression="snakeCase(&quot;11&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="14" expression="snakeCase(&quot;14&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="color" expression="snakeCase(&quot;color&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="colorSelected" expression="snakeCase(&quot;colorselected&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="bg" expression="snakeCase(&quot;bg&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="a1" expression="snakeCase(&quot;1&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="navigationBar.close" value="navigationBar.close();" description="关闭" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="navigationBar.hide" value="navigationBar.hide();" description="隐藏" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="navigationBar.show" value="navigationBar.show();" description="显示" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="navigationBar.config" value="navigationBar.config({&#10;    id: $id$,&#10;    key: '$key$',&#10;    value: '$value$'&#10;},function(ret,err){&#10;&#10;});" description="设置或获取模块配置的值" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="key" expression="snakeCase(&quot;key&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="snakeCase(&quot;value&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,7 @@
+<templateSet group="apicloud-module-polyVideo">
+  <template name="www" value="rff" description="打开一个音/视频播放器" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

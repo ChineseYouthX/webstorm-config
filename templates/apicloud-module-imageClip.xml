@@ -1,0 +1,32 @@
+<templateSet group="apicloud-module-imageClip">
+  <template name="imageClip.open" value="imageClip.open({&#10;    path:&quot;$path$&quot;,&#10;    x:$0$,&#10;    y:$01$,&#10;    w:$320$,&#10;    h:$480$,&#10;    clipRect:{&#10;        x:$x$,&#10;        y:$y$,&#10;        w:$w$,&#10;        h:$h$,&#10;        fixation:$false$&#10;    }&#10;},function(ret, err){&#10;&#10;});" description="打开图片裁剪" toReformat="true" toShortenFQNames="true">
+    <variable name="path" expression="snakeCase(&quot;path&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="0" expression="snakeCase(&quot;0&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="01" expression="snakeCase(&quot;0&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="320" expression="snakeCase(&quot;320&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="480" expression="snakeCase(&quot;480&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="x" expression="snakeCase(&quot;x&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="y" expression="snakeCase(&quot;y&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="w" expression="snakeCase(&quot;w&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="h" expression="snakeCase(&quot;h&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="false" expression="snakeCase(&quot;false&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="imageClip.save" value="imageClip.save(function(ret,err){&#10;&#10;});" description="保存截图到指定位置" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="imageClip.close" value="imageClip.close();" description="关闭截图" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="imageClip.reset" value="imageClip.reset();" description="重置裁剪区域，恢复到初始打开时的状态" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

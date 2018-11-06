@@ -1,0 +1,69 @@
+<templateSet group="apicloud-module-weibo">
+  <template name="weibo.shareText" value="weibo.shareText({&#10;    apiKey: '$apikey$',&#10;    text: '$text$'&#10;}, function(ret, err){&#10;   &#10;});" description="分享文本内容" toReformat="true" toShortenFQNames="true">
+    <variable name="apikey" expression="snakeCase(&quot;apikey&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="text" expression="snakeCase(&quot;text&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="weibo.shareImage" value="weibo.shareImage({&#10;    apiKey: '$apikey$',&#10;    text: '$text$',&#10;    imageUrl: '$imageUrl$'&#10;}, function(ret, err){&#10;   &#10;});" description="分享图片内容" toReformat="true" toShortenFQNames="true">
+    <variable name="apikey" expression="snakeCase(&quot;apikey&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="text" expression="snakeCase(&quot;text&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="imageUrl" expression="snakeCase(&quot;imgurl&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="weibo.shareMusic" value="weibo.shareMusic({&#10;    apiKey: '$apikey$',&#10;    text: '$text$',&#10;    title: '$title$',&#10;    description: '$description$',&#10;    thumb: '$thumb$',&#10;    contentUrl: '$contentUrl$'&#10;}, function(ret, err){&#10;   &#10;});" description="分享网络音频资源" toReformat="true" toShortenFQNames="true">
+    <variable name="apikey" expression="snakeCase(&quot;apikey&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="text" expression="snakeCase(&quot;text&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="title" expression="snakeCase(&quot;text&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="description" expression="snakeCase(&quot;description&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="thumb" expression="snakeCase(&quot;thumb&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="contentUrl" expression="snakeCase(&quot;contenturl&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="weibo.shareVideo" value="weibo.shareVideo({&#10;    apiKey: '$apikey$',&#10;    text: '$text$',&#10;    title: '$title$',&#10;    description: '$description$',&#10;    thumb: '$thumb$',&#10;    contentUrl: '$contentUrl$'&#10;}, function(ret, err){&#10;   &#10;});" description="分享网络视频资源" toReformat="true" toShortenFQNames="true">
+    <variable name="apikey" expression="snakeCase(&quot;apikey&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="text" expression="snakeCase(&quot;text&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="title" expression="snakeCase(&quot;text&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="description" expression="snakeCase(&quot;description&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="thumb" expression="snakeCase(&quot;thumb&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="contentUrl" expression="snakeCase(&quot;contenturl&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="weibo.shareWebPage" value="weibo.shareWebPage({&#10;    apiKey: '$apikey$',&#10;    text: '$text$',&#10;    title: '$title$',&#10;    description: '$description$',&#10;    thumb: '$thumb$',&#10;    contentUrl: '$contentUrl$'&#10;}, function(ret, err){&#10;   &#10;});" description="分享网页" toReformat="true" toShortenFQNames="true">
+    <variable name="apikey" expression="snakeCase(&quot;apikey&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="text" expression="snakeCase(&quot;text&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="title" expression="snakeCase(&quot;text&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="description" expression="snakeCase(&quot;description&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="thumb" expression="snakeCase(&quot;thumb&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="contentUrl" expression="snakeCase(&quot;contenturl&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="weibo.auth" value="weibo.auth({&#10;    apiKey: '$apikey$',&#10;    registUrl: '$registUrl$'&#10;}, function(ret, err){&#10;   &#10;});" description="授权登录（用于实现第三方登录）" toReformat="true" toShortenFQNames="true">
+    <variable name="apikey" expression="snakeCase(&quot;apikey&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="registUrl" expression="snakeCase(&quot;registurl&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="weibo.cancelAuth" value="weibo.cancelAuth(function(ret, err){&#10;   &#10;});" description="取消授权，退出登录状态" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="weibo.getUserInfo" value="weibo.getUserInfo({&#10;     token: '$token$',&#10;     userId: '$userId$'&#10;},function(ret, err){&#10;   &#10;});" description="获取用户账户信息" toReformat="true" toShortenFQNames="true">
+    <variable name="token" expression="snakeCase(&quot;token&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="userId" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

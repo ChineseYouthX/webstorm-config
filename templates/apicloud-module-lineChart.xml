@@ -1,0 +1,40 @@
+<templateSet group="apicloud-module-lineChart">
+  <template name="lineChart.open" value="lineChart.open({&#10;    x:$0$,&#10;    y:$100$,&#10;    w:$320$,&#10;    h:$300$,&#10;    yAxis:{&#10;    &#9;&quot;max&quot;:$max$,&#10;    &#9;&quot;step&quot;:$step$&#10;    },&#10;    xAxis:{&#10;&#9;&#9;&quot;indexs&quot;:$indexarray$,&#10;&#9;&#9;&quot;screenXcount&quot;:$screenXcount$&#10;&#9;},&#10;    lines:[{&#10;    &#9;    'color': '$color1$', &#10;    &#9;    'datas': dataarray,&#10;    &#9;    id: $1$&#10;    },{&#10;        &#9;'color': '$color2$', &#10;        &#9;'datas': dataarray1,&#10;        &#9;id: $2$&#10;    }],&#10;    bgColor:'$bgColor$',&#10;    coorLineColor:'$coorLineColor$',&#10;    markColor:'$markColor$'&#10;},function(ret, err) {&#10;&#10;});" description="打开K线图视图" toReformat="true" toShortenFQNames="true">
+    <variable name="0" expression="snakeCase(&quot;0&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="100" expression="snakeCase(&quot;100&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="320" expression="snakeCase(&quot;320&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="300" expression="snakeCase(&quot;300&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="max" expression="snakeCase(&quot;max&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="step" expression="snakeCase(&quot;step&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="indexarray" expression="snakeCase(&quot;indexarray&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="screenXcount" expression="snakeCase(&quot;screenXcount&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="color1" expression="snakeCase(&quot;color&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="1" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="color2" expression="snakeCase(&quot;color&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="bgColor" expression="snakeCase(&quot;bgcolor&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="coorLineColor" expression="snakeCase(&quot;coorlinecolor&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="markColor" expression="snakeCase(&quot;markcolor&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="lineChart.hide" value="lineChart.hide({&#10;     id: $1$&#10;});" description="隐藏K线图视图" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="lineChart.show" value="lineChart.show({&#10;     id: $1$&#10;});" description="显示K线图视图" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="lineChart.close" value="lineChart.close({&#10;     id: $1$&#10;}); " description="关闭K线图" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

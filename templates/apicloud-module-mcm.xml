@@ -1,0 +1,307 @@
+<templateSet group="apicloud-module-mcm">
+  <template name="model.config" value="model.config({&#10;    appKey: '$appkey$',&#10;    host: '$host$'&#10;});" description="全局函数，配置appKey等应用信息" toReformat="true" toShortenFQNames="true">
+    <variable name="appkey" expression="snakeCase(&quot;appkey&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="host" expression="snakeCase(&quot;host&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="model.count" value="model.count({&#10;    class: '$class$',&#10;    qid: '$id$'&#10;},function(ret,err){&#10;&#10;});" description="根据条件返回对象下满足该条件的总记录数" toReformat="true" toShortenFQNames="true">
+    <variable name="class" expression="snakeCase(&quot;class&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="model.deleteById" value="model.deleteById({&#10;    class: '$class$',&#10;    id: '$id$'&#10;},function(ret,err){&#10;&#10;});" description="根据ID删除对象的一条数据" toReformat="true" toShortenFQNames="true">
+    <variable name="class" expression="snakeCase(&quot;class&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="model.downloadFile" value="model.downloadFile({&#10;    report:$false$,&#10;    id:'$id$',&#10;    savePath:'$path$'&#10;},function(ret, err) {&#10;    &#10;});" description="下载文件" toReformat="true" toShortenFQNames="true">
+    <variable name="false" expression="snakeCase(&quot;false&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="path" expression="snakeCase(&quot;path&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="model.exist" value="model.exist({&#10;    class: '$class$',&#10;    id: '$id$'&#10;},function(ret,err){&#10;&#10;});" description="查询某对象/对象下某行是否存在" toReformat="true" toShortenFQNames="true">
+    <variable name="class" expression="snakeCase(&quot;class&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="model.findAll" value="model.findAll({&#10;    class: '$class$',&#10;    qid: '$id$'&#10;},function(ret,err){&#10;&#10;});" description="根据条件查找对象中所有符合条件的数据" toReformat="true" toShortenFQNames="true">
+    <variable name="class" expression="snakeCase(&quot;class&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="model.findById" value="model.findById({&#10;    class: '$class$',&#10;    id: '$id$'&#10;},function(ret,err){&#10;&#10;});&#10;" description="根据ID查找对象的一条数据" toReformat="true" toShortenFQNames="true">
+    <variable name="class" expression="snakeCase(&quot;class&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="model.insert" value="model.insert({&#10;    class: '$class$',&#10;    value: '$value$'&#10;},function(ret,err){&#10;&#10;});" description="向对象插入一条数据" toReformat="true" toShortenFQNames="true">
+    <variable name="class" expression="snakeCase(&quot;class&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="snakeCase(&quot;value&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="model.updateById" value="model.updateById({&#10;    class: '$class$',&#10;    id: '$id$',&#10;    value: '$value$'&#10;},function(ret,err){&#10;&#10;});&#10;" description="根据ID更新对象的一条数据" toReformat="true" toShortenFQNames="true">
+    <variable name="class" expression="snakeCase(&quot;class&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="snakeCase(&quot;value&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="model.uploadFile" value="model.uploadFile({&#10;    report:$false$,&#10;    data:{&#10;        file:{&#10;            name:'$name$',&#10;            url:'$path$'&#10;        },&#10;        values:$valueJson$&#10;    }&#10;},function(ret, err) {&#10;    &#10;});" description="上传文件到云端file表里面" toReformat="true" toShortenFQNames="true">
+    <variable name="false" expression="snakeCase(&quot;false&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="snakeCase(&quot;name&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="path" expression="snakeCase(&quot;path&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="valueJson" expression="snakeCase(&quot;valueJson&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="query.asc" value="query.asc({&#10;&#9;qid:$qid$,&#10;&#9;column:'$column$'&#10;});" description="设置查询返回结果按某列正序排列" toReformat="true" toShortenFQNames="true">
+    <variable name="qid" expression="snakeCase(&quot;qid&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="column" expression="snakeCase(&quot;column&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="query.createQuery" value="query.createQuery(function(ret, err) {&#10;    &#10;});" description="创建一个query对象" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="query.desc" value="query.desc({&#10;&#9;qid:$qid$,&#10;&#9;column:'$column$'&#10;});" description="设置查询返回结果按某列倒序排列" toReformat="true" toShortenFQNames="true">
+    <variable name="qid" expression="snakeCase(&quot;qid&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="column" expression="snakeCase(&quot;column&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="query.exceptFields" value="query.exceptFields({&#10;&#9;qid:$qid$,&#10;&#9;value:'$valuearray$'&#10;});" description="设置查询返回除某些字段以外的字段" toReformat="true" toShortenFQNames="true">
+    <variable name="qid" expression="snakeCase(&quot;qid&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="valuearray" expression="snakeCase(&quot;valueArray&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="query.include" value="query.include({&#10;&#9;qid:$qid$,&#10;&#9;column:'$column$'&#10;});" description="设置查询返回结果中包含pointer指向的对象" toReformat="true" toShortenFQNames="true">
+    <variable name="qid" expression="snakeCase(&quot;qid&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="column" expression="snakeCase(&quot;column&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="query.justFields" value="query.justFields({&#10;&#9;qid:$qid$,&#10;&#9;value:'$valuearray$'&#10;});" description="设置查询仅返回需要的字段" toReformat="true" toShortenFQNames="true">
+    <variable name="qid" expression="snakeCase(&quot;qid&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="valuearray" expression="snakeCase(&quot;valueArray&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="query.limit" value="query.limit({&#10;&#9;qid:$qid$,&#10;&#9;value:'$value$'&#10;});" description="设置查询返回结果限制为n条" toReformat="true" toShortenFQNames="true">
+    <variable name="qid" expression="snakeCase(&quot;qid&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="snakeCase(&quot;value&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="query.skip" value="query.skip({&#10;&#9;qid:$qid$,&#10;&#9;value:'$value$'&#10;});" description="设置查询返回结果中忽略前n条" toReformat="true" toShortenFQNames="true">
+    <variable name="qid" expression="snakeCase(&quot;qid&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="snakeCase(&quot;value&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="query.whereContain" value="query.whereContain({&#10;&#9;qid:$qid$,&#10;&#9;column:'$column$',&#10;&#9;value:'$value$'&#10;});" description="设置查询条件为某列内容中包含某值" toReformat="true" toShortenFQNames="true">
+    <variable name="qid" expression="snakeCase(&quot;qid&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="column" expression="snakeCase(&quot;column&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="snakeCase(&quot;value&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="query.whereContainAll" value="query.whereContainAll({&#10;&#9;qid:$qid$,&#10;&#9;column:'$column$',&#10;&#9;value:'$value$'&#10;});" description="设置查询条件为某列内容中包含某几个值" toReformat="true" toShortenFQNames="true">
+    <variable name="qid" expression="snakeCase(&quot;qid&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="column" expression="snakeCase(&quot;column&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="snakeCase(&quot;valueArray&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="query.whereEndWith" value="query.whereEndWith({&#10;&#9;qid:$qid$,&#10;&#9;column:'$column$',&#10;&#9;value:'$value$'&#10;});" description="设置查询条件为某列内容以某值结尾" toReformat="true" toShortenFQNames="true">
+    <variable name="qid" expression="snakeCase(&quot;qid&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="column" expression="snakeCase(&quot;column&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="snakeCase(&quot;value&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="query.whereEqual" value="query.whereEqual({&#10;&#9;qid:$qid$,&#10;&#9;column:'$column$',&#10;&#9;value:'$value$'&#10;});" description="设置查询条件为某列等于某值" toReformat="true" toShortenFQNames="true">
+    <variable name="qid" expression="snakeCase(&quot;qid&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="column" expression="snakeCase(&quot;column&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="snakeCase(&quot;value&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="query.whereExist" value="query.whereExist({&#10;&#9;qid:$qid$,&#10;&#9;column:'$column$'&#10;});" description="设置查询条件为某列内容不为空" toReformat="true" toShortenFQNames="true">
+    <variable name="qid" expression="snakeCase(&quot;qid&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="column" expression="snakeCase(&quot;column&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="query.whereGreaterThan" value="query.whereGreaterThan({&#10;&#9;qid:$qid$,&#10;&#9;column:'$column$',&#10;&#9;value:'$value$'&#10;});" description="设置查询条件为某列的内容大于某值" toReformat="true" toShortenFQNames="true">
+    <variable name="qid" expression="snakeCase(&quot;qid&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="column" expression="snakeCase(&quot;column&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="snakeCase(&quot;value&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="query.whereGreaterThanOrEqual" value="query.whereGreaterThanOrEqual({&#10;&#9;qid:$qid$,&#10;&#9;column:'$column$',&#10;&#9;value:'$value$'&#10;});" description="设置查询条件为某列的内容大于等于某值" toReformat="true" toShortenFQNames="true">
+    <variable name="qid" expression="snakeCase(&quot;qid&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="column" expression="snakeCase(&quot;column&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="snakeCase(&quot;value&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="query.whereLessThan" value="query.whereLessThan({&#10;&#9;qid:$qid$,&#10;&#9;column:'$column$',&#10;&#9;value:'$value$'&#10;});" description="设置查询条件为某列的内容小于某值" toReformat="true" toShortenFQNames="true">
+    <variable name="qid" expression="snakeCase(&quot;qid&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="column" expression="snakeCase(&quot;column&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="snakeCase(&quot;value&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="query.whereLessThanOrEqual" value="query.whereLessThanOrEqual({&#10;&#9;qid:$qid$,&#10;&#9;column:'$column$',&#10;&#9;value:'$value$'&#10;});" description="设置查询条件为某列的内容小于等于某值" toReformat="true" toShortenFQNames="true">
+    <variable name="qid" expression="snakeCase(&quot;qid&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="column" expression="snakeCase(&quot;column&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="snakeCase(&quot;value&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="query.whereLike" value="query.whereLike({&#10;&#9;qid:$qid$,&#10;&#9;column:'$column$',&#10;&#9;value:'$value$'&#10;});" description="设置查询条件为某列内容中包含某值" toReformat="true" toShortenFQNames="true">
+    <variable name="qid" expression="snakeCase(&quot;qid&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="column" expression="snakeCase(&quot;column&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="snakeCase(&quot;value&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="query.whereNotContain" value="query.whereNotContain({&#10;&#9;qid:$qid$,&#10;&#9;column:'$column$',&#10;&#9;value:'$value$'&#10;});" description="设置查询条件为某列内容中不包含某值" toReformat="true" toShortenFQNames="true">
+    <variable name="qid" expression="snakeCase(&quot;qid&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="column" expression="snakeCase(&quot;column&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="snakeCase(&quot;value&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="query.whereNotEqual" value="query.whereNotEqual({&#10;&#9;qid:$qid$,&#10;&#9;column:'$column$',&#10;&#9;value:'$value$'&#10;});" description="设置查询条件为某列不等于某值" toReformat="true" toShortenFQNames="true">
+    <variable name="qid" expression="snakeCase(&quot;qid&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="column" expression="snakeCase(&quot;column&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="snakeCase(&quot;value&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="query.whereNotExist" value="query.whereNotExist({&#10;&#9;qid:$qid$,&#10;&#9;column:'$column$'&#10;});" description="设置查询条件为某列内容为空" toReformat="true" toShortenFQNames="true">
+    <variable name="qid" expression="snakeCase(&quot;qid&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="column" expression="snakeCase(&quot;column&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="query.whereStartWith" value="query.whereStartWith({&#10;&#9;qid:$qid$,&#10;&#9;column:'$column$',&#10;&#9;value:'$value$'&#10;});" description="设置查询条件为某列内容以某值开头" toReformat="true" toShortenFQNames="true">
+    <variable name="qid" expression="snakeCase(&quot;qid&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="column" expression="snakeCase(&quot;column&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="snakeCase(&quot;value&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="query.whereUnLike" value="query.whereUnLike({&#10;&#9;qid:$qid$,&#10;&#9;column:'$column$',&#10;&#9;value:'$value$'&#10;});" description="设置查询条件为某列内容中不包含某值" toReformat="true" toShortenFQNames="true">
+    <variable name="qid" expression="snakeCase(&quot;qid&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="column" expression="snakeCase(&quot;column&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="snakeCase(&quot;value&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="relation.count" value="relation.count({&#10;    class: '$class$',&#10;    id: '$id$',&#10;    column: '$column$'&#10;}, function (ret, err) {&#10;    &#10;});" description="查找对象某关系列下对应的数据总条数" toReformat="true" toShortenFQNames="true">
+    <variable name="class" expression="snakeCase(&quot;class&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="column" expression="snakeCase(&quot;column&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="relation.deleteAll" value="relation.deleteAll({&#10;    class: '$class$',&#10;    id: '$id$',&#10;    column: '$column$'&#10;}, function (ret, err) {&#10;    &#10;});" description="删除对象某关系列下对应的所有数据" toReformat="true" toShortenFQNames="true">
+    <variable name="class" expression="snakeCase(&quot;class&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="column" expression="snakeCase(&quot;column&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="relation.findAll" value="relation.findAll({&#10;    class: '$class$',&#10;    id: '$id$',&#10;    column: '$column$'&#10;}, function (ret, err) {&#10;    &#10;});" description="查找对象某关系列下对应的所有数据" toReformat="true" toShortenFQNames="true">
+    <variable name="class" expression="snakeCase(&quot;class&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="column" expression="snakeCase(&quot;column&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="relation.insert" value="relation.insert({&#10;    class: '$class$',&#10;    id: '$id$',&#10;    column: '$column$',&#10;    value:$valueArray$&#10;}, function (ret, err) {&#10;    &#10;});" description="向对象的某关系列下插入一条内容" toReformat="true" toShortenFQNames="true">
+    <variable name="class" expression="snakeCase(&quot;class&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="column" expression="snakeCase(&quot;column&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="valueArray" expression="snakeCase(&quot;valueArray&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="user.login" value="user.login({&#10;    username: '$username$',&#10;    password: '$password$'&#10;}, function(ret, err) {&#10;    &#10;});" description="登录" toReformat="true" toShortenFQNames="true">
+    <variable name="username" expression="snakeCase(&quot;username&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="password" expression="snakeCase(&quot;password&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="user.logout" value="user.logout(function(ret, err) {&#10;    &#10;});" description="注销登录" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="user.register" value="user.register({&#10;    username: '$username$',&#10;    password: '$password$',&#10;    email:'$email$'&#10;}, function(ret, err) {&#10;    &#10;});" description="注册" toReformat="true" toShortenFQNames="true">
+    <variable name="username" expression="snakeCase(&quot;username&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="password" expression="snakeCase(&quot;password&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="email" expression="snakeCase(&quot;email&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="user.updatePassword" value="user.updatePassword({&#10;   password:'$password$'&#10;},function(ret, err) {&#10;    &#10;});" description="修改密码" toReformat="true" toShortenFQNames="true">
+    <variable name="password" expression="snakeCase(&quot;password&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

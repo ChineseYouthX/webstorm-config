@@ -1,0 +1,48 @@
+<templateSet group="apicloud-module-pieChart">
+  <template name="pieChart.open" value="pieChart.open({&#10;    x: $0$,&#10;    y: $100$,&#10;    radius: $1001$,&#10;    title: '$title$',&#10;    subTitle: '$subTitle$',&#10;    elements: $elementarray$&#10;}, function(ret, err) {&#10;    &#10;});&#10;" description="打开饼图视图" toReformat="true" toShortenFQNames="true">
+    <variable name="0" expression="snakeCase(&quot;0&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="100" expression="snakeCase(&quot;100&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="1001" expression="snakeCase(&quot;100&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="title" expression="snakeCase(&quot;title&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="subTitle" expression="snakeCase(&quot;subtitle&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="elementarray" expression="snakeCase(&quot;elementarray&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="pieChart.reloadData" value="pieChart.reloadData({&#10;    id: $id$,&#10;    elements: $elementarray$&#10;}, function(ret, err) {&#10;    &#10;});&#10;" description="刷新展示数据" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="elementarray" expression="snakeCase(&quot;elementarray&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="pieChart.serFrame" value="pieChart.serFrame({&#10;    id: $id$,&#10;    x: $x$,&#10;    y: $y$,&#10;    radius: $radius$,&#10;    anim: $false$&#10;});&#10;" description="重设模块视图的位置大小" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="x" expression="snakeCase(&quot;x&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="y" expression="snakeCase(&quot;y&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="radius" expression="snakeCase(&quot;radius&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="false" expression="snakeCase(&quot;false&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="pieChart.close" value="pieChart.close({&#10;    id: $id$&#10;});&#10;" description="关闭饼图" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="pieChart.hide" value="pieChart.hide({&#10;    id: $id$&#10;});&#10;" description="隐藏饼图" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="pieChart.show" value="pieChart.show({&#10;    id: $id$&#10;});&#10;" description="显示饼图" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

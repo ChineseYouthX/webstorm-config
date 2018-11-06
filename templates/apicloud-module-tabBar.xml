@@ -1,0 +1,47 @@
+<templateSet group="apicloud-module-tabBar">
+  <template name="tabBar.open" value="tabBar.open({&#10;    h: $50$,    &#10;&#9;bgImg:'$bgimgpath$',&#10;    selectImg:'$selectimgpath$',&#10;    perScreenBtn: $5$,&#10;    selecteIndex: $selecteIndex$,&#10;    items:[&#10;        {&#10;            title:'$title$',&#10;            highlight:'$imagePath$',&#10;            selected:'$imagePath$',&#10;            color:'$color$',&#10;            selectedTitleColor:'$color1$',&#10;            img:'$imgPath$',&#10;            badge:'$badge$'&#10;        }&#10;    ],&#10;    fixedOn:'$fixedon$'&#10;}, function(ret, err){&#10;&#10;});" description="打开" toReformat="true" toShortenFQNames="true">
+    <variable name="50" expression="snakeCase(&quot;50&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="bgimgpath" expression="snakeCase(&quot;bgimgpath&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="selectimgpath" expression="snakeCase(&quot;selectimgpath&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="5" expression="snakeCase(&quot;5&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="selecteIndex" expression="snakeCase(&quot;selecteindex&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="title" expression="snakeCase(&quot;title&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="imagePath" expression="snakeCase(&quot;imgaepath&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="color" expression="snakeCase(&quot;color&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="color1" expression="snakeCase(&quot;color&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="imgPath" expression="snakeCase(&quot;imgpath&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="badge" expression="snakeCase(&quot;badge&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="fixedon" expression="snakeCase(&quot;fixedon&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tabBar.setBadge" value="tabBar.setBadge({&#10;    index: $index$,&#10;    badge: '$badge$'&#10;});" description="设置按钮左上角的badge标注" toReformat="true" toShortenFQNames="true">
+    <variable name="index" expression="snakeCase(&quot;index&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="badge" expression="snakeCase(&quot;badge&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tabBar.hide" value="tabBar.hide();" description="隐藏tabBar" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tabBar.show" value="tabBar.show();" description="显示隐藏的tabBar" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tabBar.close" value="tabBar.close();" description="关闭tabBar" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tabBar.setSelect" value="tabBar.setSelect({&#10;    index: $index$&#10;});" description="设置选中按钮" toReformat="true" toShortenFQNames="true">
+    <variable name="index" expression="snakeCase(&quot;index&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

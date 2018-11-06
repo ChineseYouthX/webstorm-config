@@ -1,0 +1,53 @@
+<templateSet group="apicloud-module-bookReader">
+  <template name="bookReader.open" value="bookReader.open({&#10;   filePath : '$path$'&#10;},function(ret, err){&#10;   &#10;});" description="打开阅读器" toReformat="true" toShortenFQNames="true">
+    <variable name="path" expression="snakeCase(&quot;path&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bookReader.setValue" value="bookReader.setValue({&#10;    bg:'$bg$',&#10;    textStyle:{&#10;        color:'$color$',&#10;        size:$size$&#10;    }&#10;});" description="设置阅读器的参数" toReformat="true" toShortenFQNames="true">
+    <variable name="bg" expression="snakeCase(&quot;bgcolor&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="color" expression="snakeCase(&quot;color&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="size" expression="snakeCase(&quot;size&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bookReader.show" value="bookReader.show();" description="显示阅读器" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bookReader.hide" value="bookReader.hide();" description="隐藏阅读器" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bookReader.close" value="bookReader.close();" description="关闭阅读器" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bookReader.getProgress" value="bookReader.getProgress({&#10;     filePath:'$filrPath$'&#10;});" description="关获取指定文件的阅读进度" toReformat="true" toShortenFQNames="true">
+    <variable name="filrPath" expression="snakeCase(&quot;filepath&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bookReader.setBrightness" value="bookReader.setBrightness({&#10;     brightness:$80$&#10;},function(ret,err){&#10;&#10;});" description="设置屏幕亮度" toReformat="true" toShortenFQNames="true">
+    <variable name="80" expression="snakeCase(&quot;80&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bookReader.getBrightness" value="bookReader.getBrightness(function(ret,err){&#10;&#10;});" description="获取屏幕亮度" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bookReader.brightness" value="bookReader.brightness(function(ret,err){&#10;&#10;});" description="获取、设置屏幕亮度" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

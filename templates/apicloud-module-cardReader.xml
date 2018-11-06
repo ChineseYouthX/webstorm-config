@@ -1,0 +1,7 @@
+<templateSet group="apicloud-module-cardReader">
+  <template name="cardReader.open" value="cardReader.open(function(ret,err){&#10;   &#10;});" description="打开信用卡识别器" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

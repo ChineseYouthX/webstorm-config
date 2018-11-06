@@ -1,0 +1,408 @@
+<templateSet group="apicloud-module-bMap">
+  <template name="bMap.open" value="bMap.open({&#10;    rect: {&#10;        x: $0$,&#10;        y: $0y$,&#10;        w: $320$,&#10;        h: $300$&#10;    },&#10;    center: {&#10;        lon: $lon$,&#10;        lat: $lat$&#10;    },&#10;    zoomLevel: $10$,//3~18&#10;    showUserLocation: $true$,&#10;    fixedOn: '$fixedOn$',//winName/frameName&#10;    fixed: $true1$&#10;}, function(ret){&#10;    &#10;});" description="打开百度地图" toReformat="true" toShortenFQNames="true">
+    <variable name="0" expression="snakeCase(&quot;0&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="0y" expression="snakeCase(&quot;0&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="320" expression="snakeCase(&quot;320&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="300" expression="snakeCase(&quot;300&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="lon" expression="snakeCase(&quot;lon&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="lat" expression="snakeCase(&quot;lat&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="10" expression="snakeCase(&quot;10&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="true" expression="snakeCase(&quot;true&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="fixedOn" expression="snakeCase(&quot;fixedon&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="true1" expression="snakeCase(&quot;true&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.close" value="bMap.close();" description="关闭百度地图" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.show" value="bMap.show();" description="显示百度地图" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.hide" value="bMap.hide();" description="隐藏百度地图" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.getLocation" value="bMap.getLocation({&#10;    accuracy: '$accuracy$',//10m/100m/1km/3km&#10;    autoStop: $true$,&#10;    filter: $1$&#10;}, function(ret, err){&#10;    &#10;});" description="开始定位" toReformat="true" toShortenFQNames="true">
+    <variable name="accuracy" expression="snakeCase(&quot;accuracy&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="true" expression="snakeCase(&quot;true&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="1" expression="snakeCase(&quot;1&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.stopLocation" value="bMap.stopLocation();" description="停止定位" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.getCoordsFromName" value="bMap.getCoordsFromName({&#10;    city: '$city$',&#10;    address: '$address$'&#10;},function(ret,err){&#10;    &#10;});" description="根据地址查找经纬度" toReformat="true" toShortenFQNames="true">
+    <variable name="city" expression="snakeCase(&quot;city&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="address" expression="snakeCase(&quot;address&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.getNameFromCoords" value="bMap.getNameFromCoords({&#10;    lon: $city$,&#10;    lat: $address$&#10;},function(ret,err){&#10;    &#10;});" description="根据经纬度查找地址信息" toReformat="true" toShortenFQNames="true">
+    <variable name="city" expression="snakeCase(&quot;lon&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="address" expression="snakeCase(&quot;lat&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.getDistance" value="bMap.getDistance({&#10;    start: {&#10;        lon: $lon1$,&#10;        lat: $lat$&#10;    },&#10;    end: {&#10;        lon: $lon$,&#10;        lat: $lat2$&#10;    }&#10;},function(ret,err){&#10;    &#10;});" description="获取地图两点之间的距离" toReformat="true" toShortenFQNames="true">
+    <variable name="lon1" expression="snakeCase(&quot;lon&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="lat" expression="snakeCase(&quot;lat&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="lon" expression="snakeCase(&quot;lon&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="lat2" expression="snakeCase(&quot;lat&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.showUserLocation" value="bMap.showUserLocation({&#10;    isShow: $true$,&#10;    trackingMode: '$none$'//none/follow/compass&#10;});" description="是否在地图上显示用户位置" toReformat="true" toShortenFQNames="true">
+    <variable name="true" expression="snakeCase(&quot;true&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="none" expression="snakeCase(&quot;none&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.setCenter" value="bMap.setCenter({&#10;    coords: {&#10;        lon: $lon$,&#10;        lat: $lat$&#10;    },&#10;    animation: $true$&#10;});" description="根据经纬度设置百度地图中心点" toReformat="true" toShortenFQNames="true">
+    <variable name="lon" expression="snakeCase(&quot;lon&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="lat" expression="snakeCase(&quot;lat&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="true" expression="snakeCase(&quot;true&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.setZoomLevel" value="bMap.setZoomLevel({&#10;    level: $10$//3~18&#10;});" description="设置百度地图缩放等级" toReformat="true" toShortenFQNames="true">
+    <variable name="10" expression="snakeCase(&quot;10&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.setMapAttr" value="bMap.setMapAttr({&#10;    type: '$standard$',//standard/satellite/trafficOn/trafAndsate&#10;    zoomEnable: $true$,&#10;    scrollEnable: $true1$&#10;});" description="设置百度地图相关属性" toReformat="true" toShortenFQNames="true">
+    <variable name="standard" expression="snakeCase(&quot;standard&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="true" expression="snakeCase(&quot;true&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="true1" expression="snakeCase(&quot;true&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.setRotation" value="bMap.setRotation({&#10;    degree: $0$&#10;});" description="设置百度地图旋转角度" toReformat="true" toShortenFQNames="true">
+    <variable name="0" expression="snakeCase(&quot;0&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.setOverlook" value="bMap.setOverlook({&#10;    degree: $0$,&#10;});" description="设置百度地图俯视角度" toReformat="true" toShortenFQNames="true">
+    <variable name="0" expression="snakeCase(&quot;0&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.setScaleBar" value="bMap.setScaleBar({&#10;    show: $false$,&#10;    position:{&#10;        x: $0$,&#10;        y: $0y$&#10;    } &#10;});" description="设置百度地图比例尺" toReformat="true" toShortenFQNames="true">
+    <variable name="false" expression="snakeCase(&quot;false&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="0" expression="snakeCase(&quot;0&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="0y" expression="snakeCase(&quot;0&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.setCompass" value="bMap.setCompass({&#10;    position:{&#10;        x: $0$,&#10;        y: $0y$&#10;    } &#10;});" description="设置百度地图指南针位置" toReformat="true" toShortenFQNames="true">
+    <variable name="0" expression="snakeCase(&quot;0&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="0y" expression="snakeCase(&quot;0&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.setTraffic" value="bMap.setTraffic({&#10;    traffic: $false$&#10;});" description="设置百度地图交通路况" toReformat="true" toShortenFQNames="true">
+    <variable name="false" expression="snakeCase(&quot;true&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.setHeatMap" value="bMap.setHeatMap({&#10;    heatMap: $false$&#10;});" description="设置百度地图城市热力图" toReformat="true" toShortenFQNames="true">
+    <variable name="false" expression="snakeCase(&quot;true&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.setBuilding" value="bMap.setBuilding({&#10;    building: $false$&#10;});" description="设定地图是否现实 3D 楼块效果" toReformat="true" toShortenFQNames="true">
+    <variable name="false" expression="snakeCase(&quot;true&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.setRegion" value="bMap.setRegion({&#10;    lbLon: $lbLon$, &#10;    lbLat: $lbLat$, &#10;    rtLon: $rtLon$, &#10;    rtLat: $rtLat$,&#10;    building: $false$&#10;});" description="设置地图显示范围（矩形区域）" toReformat="true" toShortenFQNames="true">
+    <variable name="lbLon" expression="snakeCase(&quot;lblon&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="lbLat" expression="snakeCase(&quot;lblat&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="rtLon" expression="snakeCase(&quot;rtlon&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="rtLat" expression="snakeCase(&quot;rtlat&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="false" expression="snakeCase(&quot;true&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.getRegion" value="bMap.getRegion(function(ret,err){&#10;&#10;});" description="获取地图显示范围" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.transCoords" value="bMap.transCoords({&#10;    type: '$common$',&#10;    lon: $lon$,&#10;    lat: $lat$,&#10;    mcode: '$mcode$'&#10;}, function(ret,err){&#10;&#10;});" description="将其它类型的地理坐标转换为百度坐标" toReformat="true" toShortenFQNames="true">
+    <variable name="common" expression="snakeCase(&quot;common&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="lon" expression="snakeCase(&quot;lon&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="lat" expression="snakeCase(&quot;lat&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="mcode" expression="snakeCase(&quot;mcode&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.zoomIn" value="bMap.zoomIn();" description="缩小地图，放大视角，放大一级比例尺" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.zoomOut" value="bMap.zoomOut();" description="放大地图，缩小视角，缩小一级比例尺" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.isPolygonContantsPoint" value="bMap.isPolygonContantsPoint({&#10;    point: {&#10;         lon: $lon$,&#10;         lat: $lat$&#10;     },&#10;     points: $pointsarray$&#10;},function(ret,err){&#10;&#10;});" description="判断已知点是否在指定的多边形区域内" toReformat="true" toShortenFQNames="true">
+    <variable name="lon" expression="snakeCase(&quot;lon&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="lat" expression="snakeCase(&quot;lat&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="pointsarray" expression="snakeCase(&quot;pointsarray&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.addAnnotations" value="bMap.addAnnotations({&#10;    annotations: $annotationsarray$,&#10;    icon: '$icon$',&#10;    draggable: $false$&#10;},function(ret,err){&#10;&#10;});" description="在地图上添加标注信息" toReformat="true" toShortenFQNames="true">
+    <variable name="annotationsarray" expression="snakeCase(&quot;annotationsarray&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="icon" expression="snakeCase(&quot;iconpath&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="false" expression="snakeCase(&quot;false&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.getAnnotationCoords" value="bMap.getAnnotationCoords({&#10;    id: $false$&#10;},function(ret,err){&#10;&#10;});" description="获取指定标注的经纬度" toReformat="true" toShortenFQNames="true">
+    <variable name="false" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.setAnnotationCoords" value="bMap.setAnnotationCoords({&#10;    id: $false$,&#10;    lon: $lon$,&#10;    lat: $lat$&#10;},function(ret,err){&#10;&#10;});" description="设置某个已添加标注的经纬度" toReformat="true" toShortenFQNames="true">
+    <variable name="false" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="lon" expression="snakeCase(&quot;lon&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="lat" expression="snakeCase(&quot;lat&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.annotationExist" value="bMap.annotationExist({&#10;    id: $false$&#10;},function(ret,err){&#10;&#10;});" description="判断标注是否存在" toReformat="true" toShortenFQNames="true">
+    <variable name="false" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.setBubble" value="bMap.setBubble({&#10;    id: $false$,&#10;    bgImg: '$bgImg$',&#10;    content: {&#10;       title: '$title$',&#10;       subTitle: '$subtitle$',&#10;       illus: '$illus$'&#10;    },&#10;    styles:{&#10;       titleColor: '$titleColor$',&#10;       titleSize: $16$,&#10;       subTitleColor: '$subTitleColor$',&#10;       subTitleSize: $14$,&#10;       illusAlign: '$left$'&#10;    }&#10;},function(ret,err){&#10;&#10;});" description="设置点击标注时弹出的气泡信息" toReformat="true" toShortenFQNames="true">
+    <variable name="false" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="bgImg" expression="snakeCase(&quot;bgimg&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="title" expression="snakeCase(&quot;title&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="subtitle" expression="snakeCase(&quot;subtitle&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="illus" expression="snakeCase(&quot;illus&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="titleColor" expression="snakeCase(&quot;titlecolor&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="16" expression="snakeCase(&quot;16&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="subTitleColor" expression="snakeCase(&quot;subtitlecolor&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="14" expression="snakeCase(&quot;14&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="left" expression="snakeCase(&quot;left&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.popupBubble" value="bMap.popupBubble({&#10;    id: $false$&#10;});" description="弹出指定标注的气泡" toReformat="true" toShortenFQNames="true">
+    <variable name="false" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.addBillboard" value="bMap.addBillboard({&#10;    id: $false$,&#10;    coords: {&#10;        lon: $lon$,&#10;        lat: $lat$&#10;    },&#10;    bgImg: '$bgImg$',&#10;    content: {&#10;        title: '$title$',&#10;        subTitle: '$subTitle$',&#10;        illus: '$illus$'&#10;    },&#10;    styles: {&#10;        titleColor: '$titleColor$',&#10;        titleSize: $16$,&#10;        subTitleColor: '$subTitleColor$',&#10;        subTitleSize: $12$,&#10;        illusAlign: '$left$'&#10;    }&#10;}, function(ret){&#10;    &#10;});" description="在地图上添加布告牌" toReformat="true" toShortenFQNames="true">
+    <variable name="false" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="lon" expression="snakeCase(&quot;lon&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="lat" expression="snakeCase(&quot;lat&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="bgImg" expression="snakeCase(&quot;bgimg&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="title" expression="snakeCase(&quot;title&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="subTitle" expression="snakeCase(&quot;subtitle&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="illus" expression="snakeCase(&quot;illus&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="titleColor" expression="snakeCase(&quot;titlecolor&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="16" expression="snakeCase(&quot;16&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="subTitleColor" expression="snakeCase(&quot;subtitlecolor&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="12" expression="snakeCase(&quot;12&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="left" expression="snakeCase(&quot;left&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.addMobileAnnotations" value="bMap.addMobileAnnotations({&#10;    annotations: $annotationsarray$&#10;}, function(ret){&#10;    &#10;});" description="在地图上添加可移动、旋转的标注图标" toReformat="true" toShortenFQNames="true">
+    <variable name="annotationsarray" expression="snakeCase(&quot;annotationsarray&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.moveAnnotation" value="bMap.moveAnnotation({&#10;    id: $id$,&#10;    duration: $duration$,&#10;    end: {&#10;        lon: $lon$,&#10;        lat: $lat$&#10;    }&#10;}, function(ret){&#10;    &#10;});" description="移动地图上已添加的可移动、旋转的标注图标" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="duration" expression="snakeCase(&quot;duration&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="lon" expression="snakeCase(&quot;lon&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="lat" expression="snakeCase(&quot;lat&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.addLine" value="bMap.addLine({&#10;     id: $id$,&#10;     styles: {&#10;        borderColor: '$borderColor$',&#10;        borderWidth: $1$&#10;     },&#10;     points: $pointsjson$&#10;});" description="在地图上添加折线" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="borderColor" expression="snakeCase(&quot;bordercolor&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="1" expression="snakeCase(&quot;1&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="pointsjson" expression="snakeCase(&quot;pointarray&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.addPolygon" value="bMap.addPolygon({&#10;     id: $id$,&#10;     styles: {&#10;        borderColor: '$borderColor$',&#10;        borderWidth: $1$,&#10;        fillColor: '$fillColor$'&#10;     },&#10;     points: $pointsjson$&#10;});" description="在地图上添加多边形" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="borderColor" expression="snakeCase(&quot;bordercolor&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="1" expression="snakeCase(&quot;1&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="fillColor" expression="snakeCase(&quot;fillcolor&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="pointsjson" expression="snakeCase(&quot;pointarray&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.addArc" value="bMap.addArc({&#10;     id: $id$,&#10;     styles: {&#10;        borderColor: '$borderColor$',&#10;        borderWidth: $1$&#10;     },&#10;     points: $pointsjson$&#10;});" description="在地图上添加弧形" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="borderColor" expression="snakeCase(&quot;bordercolor&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="1" expression="snakeCase(&quot;1&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="pointsjson" expression="snakeCase(&quot;pointarray&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.addCircle" value="bMap.addCircle({&#10;     id: $id$,&#10;     center: {&#10;        lon: $lon$,&#10;        lat: $lat$&#10;     },&#10;     styles: {&#10;        borderColor: '$borderColor$',&#10;        borderWidth: $1$,&#10;        fillColor: '$fillColor$'&#10;     },&#10;     radius: $radius$&#10;});" description="在地图上添加圆形" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="lon" expression="snakeCase(&quot;lon&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="lat" expression="snakeCase(&quot;lat&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="borderColor" expression="snakeCase(&quot;bordercolor&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="1" expression="snakeCase(&quot;1&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="fillColor" expression="snakeCase(&quot;fillcolor&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="radius" expression="snakeCase(&quot;radius&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.addImg" value="bMap.addImg({&#10;     id: $id$,&#10;     imgPath: '$imgPath$',&#10;     lbLon: $lbLon$,&#10;     lbLat: $lbLat$,&#10;     rtLon: $rtLon$,&#10;     rtLat: $rtLat$,&#10;     opacity: $1$&#10;});" description="在地图上添加图片" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="imgPath" expression="snakeCase(&quot;imgpath&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="lbLon" expression="snakeCase(&quot;lblon&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="lbLat" expression="snakeCase(&quot;lblat&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="rtLon" expression="snakeCase(&quot;rtlon&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="rtLat" expression="snakeCase(&quot;rtlat&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="1" expression="snakeCase(&quot;1&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.removeOverlay" value="bMap.removeOverlay({&#10;     ids: $id$&#10;});" description="移除指定 id 的覆盖物" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;idarray&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.searchRoute" value="bMap.searchRoute({&#10;    id: $id$,&#10;    type: '$transit$',&#10;    policy: '$ebus_time_first$',&#10;    start: {&#10;        lon: $lon$,&#10;        lat: $lat$&#10;    },&#10;    end: {&#10;        lon: $lon1$,&#10;        lat: $lat1$&#10;    }&#10;}, function(ret, err){&#10;   &#10;});" description="搜索路线方案" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="transit" expression="snakeCase(&quot;transit&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="ebus_time_first" expression="snakeCase(&quot;ebusTimeFirst&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="lon" expression="snakeCase(&quot;lon&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="lat" expression="snakeCase(&quot;lat&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="lon1" expression="snakeCase(&quot;lon&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="lat1" expression="snakeCase(&quot;lat&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.drawRoute" value="bMap.drawRoute({&#10;    id: $id$,&#10;    autoresizing: $true$,&#10;    index: $0$,&#10;    styles:{&#10;        start:{&#10;           icon: '$icon$'&#10;        },&#10;        end:{&#10;           icon: '$icon1$'&#10;        }&#10;    }&#10;}, function(ret, err){&#10;   &#10;});" description="在地图上显示指定路线" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="true" expression="snakeCase(&quot;true&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="0" expression="snakeCase(&quot;0&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="icon" expression="snakeCase(&quot;icon&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="icon1" expression="snakeCase(&quot;icon&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.removeRoute" value="bMap.removeRoute({&#10;    ids: $id$&#10;});" description="移除指定 id 的路线" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;idarray&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.searchBusRoute" value="bMap.searchBusRoute({&#10;    city: '$city$',&#10;    line: '$line$'&#10;},function(ret,err){&#10;&#10;});" description="根据关键字搜索公交、地铁线路" toReformat="true" toShortenFQNames="true">
+    <variable name="city" expression="snakeCase(&quot;city&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="line" expression="snakeCase(&quot;line&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.drawBusRoute" value="bMap.drawBusRoute({&#10;    id: $id$,&#10;    autoresizing: $true$,&#10;    city: '$city$',&#10;    uid: '$uid$'&#10;},function(ret,err){&#10;&#10;});" description="根据 searchBusRoute 搜索返回的 uid 查询线路详情并绘制在地图上" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="true" expression="snakeCase(&quot;true&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="city" expression="snakeCase(&quot;city&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="uid" expression="snakeCase(&quot;uid&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.removeBusRoute" value="bMap.removeBusRoute({&#10;    ids: $id$&#10;});" description="移除地图上显示的公交、地铁线路" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;idarray&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.searchInCity" value="bMap.searchInCity({&#10;    city: '$city$',&#10;    keyword: '$keyword$',&#10;    pageIndex: $0$,&#10;    pageCapacity: $10$&#10;},function(ret,err){&#10;&#10;});" description="根据单个关键字搜索兴趣点" toReformat="true" toShortenFQNames="true">
+    <variable name="city" expression="snakeCase(&quot;city&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="keyword" expression="snakeCase(&quot;keyword&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="0" expression="snakeCase(&quot;0&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="10" expression="snakeCase(&quot;10&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.searchNearby" value="bMap.searchNearby({&#10;    keyword: '$keyword$',&#10;    lon: $lon$,&#10;    lat: $lat$,&#10;    radius: $radius$&#10;},function(ret,err){&#10;&#10;});" description="根据单个关键字在圆形区域内搜索兴趣点" toReformat="true" toShortenFQNames="true">
+    <variable name="keyword" expression="snakeCase(&quot;keyword&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="lon" expression="snakeCase(&quot;lon&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="lat" expression="snakeCase(&quot;lat&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="radius" expression="snakeCase(&quot;radius&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.searchInBounds" value="bMap.searchInBounds({&#10;    keyword: '$keyword$',&#10;    lbLon: $lon$,&#10;    lbLat: $lat$,&#10;    rtLon: $lon1$, &#10;    rtLat: $lat1$ &#10;},function(ret,err){&#10;&#10;});" description="根据单个关键字在方形区域内搜索兴趣点" toReformat="true" toShortenFQNames="true">
+    <variable name="keyword" expression="snakeCase(&quot;keyword&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="lon" expression="snakeCase(&quot;lon&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="lat" expression="snakeCase(&quot;lat&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="lon1" expression="snakeCase(&quot;lon&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="lat1" expression="snakeCase(&quot;lat&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="bMap.autocomplete" value="bMap.autocomplete({&#10;    keyword: '$keyword$',&#10;    city: '$city$'&#10;},function(ret,err){&#10;&#10;});" description="根据关键字返回建议搜索关键字" toReformat="true" toShortenFQNames="true">
+    <variable name="keyword" expression="snakeCase(&quot;keyword&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="city" expression="snakeCase(&quot;city&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
