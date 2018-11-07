@@ -1,7 +1,0 @@
-<templateSet group="apicloud-module-imageTool">
-  <template name="imageTool.openImage" value="imageTool.openImage(function(ret,err){&#10;&#10;});" description="打开系统相册并返回图片信息" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-</templateSet>
