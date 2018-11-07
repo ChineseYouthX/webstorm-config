@@ -1,0 +1,8 @@
+<templateSet group="apicloud-module-pdfReader">
+  <template name="pdfReader.open" value="pdfReader.open({&#10;    path: '$path$'//文件路径&#10;});" description="打开一个pdf格式的文档" toReformat="true" toShortenFQNames="true">
+    <variable name="path" expression="snakeCase(&quot;path&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

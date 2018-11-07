@@ -1,0 +1,7 @@
+<templateSet group="apicloud-module-mam">
+  <template name="mam.checkUpdate" value="mam.checkUpdate(function(ret, err){&#10;    &#10;});" description="检测当前版本是否有更新或者被强制关闭" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

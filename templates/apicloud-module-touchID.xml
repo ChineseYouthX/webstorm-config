@@ -1,0 +1,8 @@
+<templateSet group="apicloud-module-touchID">
+  <template name="touchID.verify" value="touchID.verify({&#10;&#9;title : '$title$'&#10;},function(ret, err) {&#10;    &#10;});" description="弹出验证界面，验证用户指纹" toReformat="true" toShortenFQNames="true">
+    <variable name="title" expression="snakeCase(&quot;title&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,54 @@
+<templateSet group="apicloud-module-UIGraph">
+  <template name="UIGraph.open" value="UIGraph.open({&#10;    rect: {&#10;        x: $0$,&#10;        y: $01$,&#10;        w: $320$,&#10;        h: $220$&#10;    },&#10;    yAxis: {&#10;        max: $max$,&#10;        min: $min$,&#10;        step: $step$,&#10;        unit: '$unit$'&#10;    },&#10;    data: $dataArray$,&#10;    styles: {&#10;        bg: '$bg$',&#10;        axisColor: '$axisColor$',&#10;        nodeColor: '$nodeColor$',&#10;        lineColor: '$lineColor$',&#10;        lineWidth: $1$,&#10;        markColor: '$markColor$',&#10;        markSize:  $16$,&#10;        bubble: {&#10;            bgImg: '$bgimgpath$',&#10;            size:  $14$&#10;        }&#10;    },&#10;    showNode: $true$,&#10;    fixedOn: '$fixedOn$',&#10;    fixed: $true1$&#10;}, function(ret, err){&#10;    &#10;});" description="打开贝塞尔曲线模块" toReformat="true" toShortenFQNames="true">
+    <variable name="0" expression="snakeCase(&quot;0&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="01" expression="snakeCase(&quot;0&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="320" expression="snakeCase(&quot;320&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="220" expression="snakeCase(&quot;220&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="max" expression="snakeCase(&quot;max&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="min" expression="snakeCase(&quot;min&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="step" expression="snakeCase(&quot;step&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="unit" expression="snakeCase(&quot;unit&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="dataArray" expression="snakeCase(&quot;dataArray&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="bg" expression="snakeCase(&quot;bg&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="axisColor" expression="snakeCase(&quot;color&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="nodeColor" expression="snakeCase(&quot;color&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="lineColor" expression="snakeCase(&quot;color&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="1" expression="snakeCase(&quot;1&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="markColor" expression="snakeCase(&quot;color&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="16" expression="snakeCase(&quot;16&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="bgimgpath" expression="snakeCase(&quot;bgimgpath&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="14" expression="snakeCase(&quot;14&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="true" expression="snakeCase(&quot;true&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="fixedOn" expression="snakeCase(&quot;fixedon&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="true1" expression="snakeCase(&quot;true&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="UIGraph.close" value="UIGraph.close({&#10;    id: $id$&#10;});" description="关闭曲线图模块" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="UIGraph.show" value="UIGraph.show({&#10;    id: $id$&#10;});" description="显示曲线图模块" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="UIGraph.hide" value="UIGraph.hide({&#10;    id: $id$&#10;});" description="隐藏曲线图模块" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="UIGraph.reloadData" value="UIGraph.reloadData({&#10;    id: $id$,&#10;    type:'$type$',&#10;    data:$dataarray$&#10;});" description="更新曲线图的数据" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="type" expression="snakeCase(&quot;type&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="dataarray" expression="snakeCase(&quot;dataarray&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

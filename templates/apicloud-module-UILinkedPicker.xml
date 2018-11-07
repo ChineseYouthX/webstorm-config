@@ -1,0 +1,46 @@
+<templateSet group="apicloud-module-UILinkedPicker">
+  <template name="UILinkedPicker.open" value="UILinkedPicker.open({&#10;    rect:{&#10;        x: $0$,&#10;        y: $01$, &#10;        w: $320$, &#10;        h: $480$  &#10;    },&#10;    styles:{&#10;        bg: '$bg$',   &#10;        text:{                  &#10;           size: $22$,             &#10;           selected: '$selected$',     &#10;           normal: '$normal$'        &#10;        },&#10;        item:{                   &#10;          w: $w$,                &#10;          h: $h$,                &#10;          normal: '$normal1$',    &#10;          selected: '$selected1$',  &#10;          zoomIn: $1$        &#10;        }&#10;   },&#10;   rows: $5$,&#10;   indexs: $indexArray$,&#10;   bounce: $true$,&#10;   fixedOn: '$fixedOn$',&#10;   fixed: $true$,&#10;   data: $dataArray$&#10;}, function(ret,err) {&#10;   &#10;});" description="打开选择器" toReformat="true" toShortenFQNames="true">
+    <variable name="0" expression="snakeCase(&quot;0&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="01" expression="snakeCase(&quot;0&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="320" expression="snakeCase(&quot;320&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="480" expression="snakeCase(&quot;480&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="bg" expression="snakeCase(&quot;bg&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="22" expression="snakeCase(&quot;22&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="selected" expression="snakeCase(&quot;selectedcolor&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="normal" expression="snakeCase(&quot;normalcolor&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="w" expression="snakeCase(&quot;w&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="h" expression="snakeCase(&quot;h&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="normal1" expression="snakeCase(&quot;normalcolor&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="selected1" expression="snakeCase(&quot;selectedcolor&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="1" expression="snakeCase(&quot;1&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="5" expression="snakeCase(&quot;5&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="indexArray" expression="snakeCase(&quot;indexarray&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="true" expression="snakeCase(&quot;true&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="fixedOn" expression="snakeCase(&quot;fixedon&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="dataArray" expression="snakeCase(&quot;dataarray&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="UILinkedPicker.set" value="UILinkedPicker.set({&#10;   indexs: $indexArray$&#10;});" description="设置选择器的选中项" toReformat="true" toShortenFQNames="true">
+    <variable name="indexArray" expression="snakeCase(&quot;indexarray&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="UILinkedPicker.close" value="UILinkedPicker.close();" description="关闭选择器" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="UILinkedPicker.hide" value="UILinkedPicker.hide();" description="隐藏选择器" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="UILinkedPicker.show" value="UILinkedPicker.show();" description="显示已隐藏的选择器" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

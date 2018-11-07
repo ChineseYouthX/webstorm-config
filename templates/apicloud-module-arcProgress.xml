@@ -1,0 +1,29 @@
+<templateSet group="apicloud-module-arcProgress">
+  <template name="arcProgress.open" value="arcProgress.open({    &#10;    type:'$annular$',&#10;    centerX:$100$,&#10;    centeerY:$1001$,&#10;    radius:$60$,&#10;    bgColor:'$bgColor$',&#10;    pgColor:'$pgColor$',&#10;    loopWidth:$3$,&#10;    fixedOn:'$fixedOn$',&#10;    fixed:$true$&#10;}, function(ret, err){&#10;       &#10;});" description="打开圆形进度条" toReformat="true" toShortenFQNames="true">
+    <variable name="annular" expression="snakeCase(&quot;annular&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="100" expression="snakeCase(&quot;100&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="1001" expression="snakeCase(&quot;100&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="60" expression="snakeCase(&quot;60&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="bgColor" expression="snakeCase(&quot;bgcolor&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="pgColor" expression="snakeCase(&quot;pgcolor&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="snakeCase(&quot;3&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="fixedOn" expression="snakeCase(&quot;fixedon&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="true" expression="snakeCase(&quot;true&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="arcProgress.setValue" value="arcProgress.setValue({&#10;    id:$id$,&#10;    value:$0$&#10;});" description="设置进度值" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="0" expression="snakeCase(&quot;0&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="arcProgress.close" value="arcProgress.close({&#10;   id:$id$&#10;});" description="关闭圆形进度视图" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,46 @@
+<templateSet group="apicloud-module-UICustomPicker">
+  <template name="UICustomPicker.open" value="UICustomPicker.open({&#10;    rect: {&#10;        x: $0$,&#10;        y: $01$,&#10;        w: $320$,&#10;        h: $250$&#10;    },&#10;    styles: {&#10;        bg: '$bg$',&#10;        normalColor: '$normalColor$',&#10;        selectedColor: '$selectedColor$',&#10;        selectedSize: $36$,&#10;        tagColor: '$tagColor$',&#10;        tagSize: $12$&#10;    },&#10;    data: $dataArray$,&#10;    rows: $3$,&#10;    fixedOn: '$fixedOn$',&#10;    fixed: $true$&#10;}, function(ret, err){&#10;    &#10;});" description="打开自定义选择器" toReformat="true" toShortenFQNames="true">
+    <variable name="0" expression="snakeCase(&quot;0&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="01" expression="snakeCase(&quot;0&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="320" expression="snakeCase(&quot;320&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="250" expression="snakeCase(&quot;250&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="bg" expression="snakeCase(&quot;bg&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="normalColor" expression="snakeCase(&quot;color&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="selectedColor" expression="snakeCase(&quot;color&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="36" expression="snakeCase(&quot;36&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="tagColor" expression="snakeCase(&quot;color&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="12" expression="snakeCase(&quot;12&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="dataArray" expression="snakeCase(&quot;dataarray&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="snakeCase(&quot;3&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="fixedOn" expression="snakeCase(&quot;fixedon&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="true" expression="snakeCase(&quot;true&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="UICustomPicker.close" value="UICustomPicker.close({&#10;     id:$id$&#10;});" description="关闭自定义选择器" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="UICustomPicker.show" value="UICustomPicker.show({&#10;     id:$id$&#10;});" description="显示自定义选择器" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="UICustomPicker.hide" value="UICustomPicker.hide({&#10;     id:$id$&#10;});" description="隐藏自定义选择器" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="UICustomPicker.setValue" value="UICustomPicker.setValue({&#10;     id:$id$,&#10;     data:$dataArray$&#10;});" description="设置自定义选择器当前选中的内容" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="dataArray" expression="snakeCase(&quot;dataarray&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

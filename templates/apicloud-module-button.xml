@@ -1,0 +1,41 @@
+<templateSet group="apicloud-module-button">
+  <template name="button.open" value="button.open({&#10;  bg:{ &#10;  &#9;normal:&quot;$color$&quot; &#10;  }&#10;},function(ret,err){&#10;   &#10;});" description="打开一个按钮视图" toReformat="true" toShortenFQNames="true">
+    <variable name="color" expression="snakeCase(&quot;color&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="button.setTitle" value="button.setTitle({&#10;   id: $id$,&#10;   title: {&#10;       normalTitle: '$title$'&#10;   }&#10;});" description="重设按钮标题" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="title" expression="snakeCase(&quot;title&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="button.setFrame" value="button.setFrame({&#10;   id: $id$,&#10;   x: $x$,&#10;   y: $y$&#10;});" description="重设模块视图的位置大小" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="x" expression="snakeCase(&quot;x&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="y" expression="snakeCase(&quot;y&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="button.close" value="button.close({&#10;   id: $id$&#10;});" description="关闭按钮视图" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="button.hide" value="button.hide({&#10;   id: $id$&#10;});" description="隐藏按钮视图" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="button.show" value="button.show({&#10;   id: $id$&#10;});" description="显示按钮视图" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

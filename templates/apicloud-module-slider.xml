@@ -1,0 +1,51 @@
+<templateSet group="apicloud-module-slider">
+  <template name="slider.open" value="slider.open({&#10;    x: $30$,&#10;    y: $104$,&#10;    w: $260$,&#10;    h: $5$,&#10;    bgImg: &quot;bgimgpath&quot;,&#10;    selectedBgImg: &quot;selectedBgImgpath&quot;,&#10;    bar:{&#10;    &#9;barWidth: $barWidth$,&#10;    &#9;barHeight: $barHeight$,&#10;    &#9;barImg: '$barImgcolor$'&#10;    },&#10;    bubble:{&#10;    &#9;bubbleWidth: $60$,&#10;    &#9;bubbleHeight: $40$,&#10;    &#9;bubbleImg: '$bubbleimgcolor$'&#10;    },&#10;    minValue: $02$,&#10;    maxValue: $100$,&#10;    defValue: $30$&#10;}, function(ret, err) {&#10;    &#10;});" description="打开slider" toReformat="true" toShortenFQNames="true">
+    <variable name="30" expression="snakeCase(&quot;30&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="104" expression="snakeCase(&quot;104&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="260" expression="snakeCase(&quot;260&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="5" expression="snakeCase(&quot;5&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="barWidth" expression="snakeCase(&quot;30&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="barHeight" expression="snakeCase(&quot;18&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="barImgcolor" expression="snakeCase(&quot;barimgcolor&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="60" expression="snakeCase(&quot;60&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="40" expression="snakeCase(&quot;40&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="bubbleimgcolor" expression="snakeCase(&quot;bubbleimgcolor&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="02" expression="snakeCase(&quot;0&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="100" expression="snakeCase(&quot;100&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="slider.setValue" value="slider.setValue({&#10;    id: $id$,&#10;    value: $value$&#10;});" description="设置slider的值" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="snakeCase(&quot;value&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="slider.lock" value="slider.lock({&#10;    id: $id$,&#10;    lock: $true$&#10;});" description="锁定slider的值" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="true" expression="snakeCase(&quot;true&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="slider.close" value="slider.close({&#10;    id: $id$&#10;},function(ret,err){&#10;&#10;});" description="关闭slider" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="slider.show" value="slider.show({&#10;    id: $id$&#10;},function(ret,err){&#10;&#10;});" description="显示滑动器" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="slider.hide" value="slider.hide({&#10;    id: $id$&#10;},function(ret,err){&#10;&#10;});" description="隐藏滑动器" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="snakeCase(&quot;id&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

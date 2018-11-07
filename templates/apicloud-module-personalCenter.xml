@@ -1,0 +1,47 @@
+<templateSet group="apicloud-module-personalCenter">
+  <template name="personalCenter.open" value="personalCenter.open({&#10;    imgPath: '$imgPath$',&#10;    placeholderImg: '$placeholderImg$',&#10;    btnArray: [{&#10;        bgImg: '$bgImg$',&#10;        selectedImg: '$selectedImg$'&#10;    }, {&#10;        bgImg: '$bgImg1$',&#10;        selectedImg: '$selectedImg1$'&#10;    }, {&#10;        bgImg: '$bgImg2$',&#10;        selectedImg: '$selectedImg2$'&#10;    }]&#10;}, function(ret, err) {&#10;    &#10;});" description="打开个人中心" toReformat="true" toShortenFQNames="true">
+    <variable name="imgPath" expression="snakeCase(&quot;imgpath&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="placeholderImg" expression="snakeCase(&quot;placeholderimg&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="bgImg" expression="snakeCase(&quot;bgimg&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="selectedImg" expression="snakeCase(&quot;selectedimg&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="bgImg1" expression="snakeCase(&quot;bgimg&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="selectedImg1" expression="snakeCase(&quot;selectedimg&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="bgImg2" expression="snakeCase(&quot;bgimg&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="selectedImg2" expression="snakeCase(&quot;selectedimg&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="personalCenter.updateValue" value="personalCenter.updateValue({&#10;    imgPath: '$imgPath$',&#10;    userName: '$userName$',&#10;    subTile: '$subTile$',&#10;    btnArray: [{&#10;        count: '$count$'&#10;    }, {&#10;        count: '$count1$'&#10;    }, {&#10;        count: '$count2$'&#10;    }]&#10;});" description="刷新个人中心显示数据" toReformat="true" toShortenFQNames="true">
+    <variable name="imgPath" expression="snakeCase(&quot;imgpath&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="userName" expression="snakeCase(&quot;username&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="subTile" expression="snakeCase(&quot;subtile&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="count" expression="snakeCase(&quot;count&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="count1" expression="snakeCase(&quot;count&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="count2" expression="snakeCase(&quot;count&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="personalCenter.close" value="personalCenter.close();" description="关闭个人中心" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="personalCenter.setSelect" value="personalCenter.setSelect({&#10;    index:$1$&#10;});" description="设置选中按钮" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="snakeCase(&quot;index&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="personalCenter.show" value="personalCenter.show();" description="显示个人中心" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="personalCenter.hide" value="personalCenter.hide();" description="隐藏个人中心" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

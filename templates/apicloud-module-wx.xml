@@ -1,0 +1,85 @@
+<templateSet group="apicloud-module-wx">
+  <template name="wx.isInstalled" value="wx.isInstalled(function(ret, err){&#10;    &#10;});" description="判断当前设备是否安装微信客户端" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="wx.shareText" value="wx.shareText({&#10;    apiKey: '$apikey$',&#10;    scene: '$timeline$',&#10;    text: '$text$'&#10;}, function(ret, err){&#10;    &#10;});" description="分享文本内容" toReformat="true" toShortenFQNames="true">
+    <variable name="apikey" expression="snakeCase(&quot;apikey&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="timeline" expression="snakeCase(&quot;timeline&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="text" expression="snakeCase(&quot;text&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="wx.shareImage" value="wx.shareImage({&#10;    apiKey: '$apikey$',&#10;    scene: '$timeline$',&#10;    thumb: '$thumb$',&#10;    contentUrl: '$contentUrl$'&#10;}, function(ret, err){&#10;    &#10;});" description="分享图片内容" toReformat="true" toShortenFQNames="true">
+    <variable name="apikey" expression="snakeCase(&quot;apikey&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="timeline" expression="snakeCase(&quot;timeline&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="thumb" expression="snakeCase(&quot;imgpath&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="contentUrl" expression="snakeCase(&quot;contenturl&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="wx.shareMusic" value="wx.shareMusic({&#10;    apiKey: '$apikey$',&#10;    scene: '$timeline$',&#10;    title: '$title$',&#10;    description: '$description$',&#10;    thumb: '$thumb$',&#10;    contentUrl: '$contentUrl$'&#10;}, function(ret, err){&#10;    &#10;});" description="分享网络音频资源" toReformat="true" toShortenFQNames="true">
+    <variable name="apikey" expression="snakeCase(&quot;apikey&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="timeline" expression="snakeCase(&quot;timeline&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="title" expression="snakeCase(&quot;title&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="description" expression="snakeCase(&quot;description&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="thumb" expression="snakeCase(&quot;imgpath&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="contentUrl" expression="snakeCase(&quot;contenturl&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="wx.shareVideo" value="wx.shareVideo({&#10;    apiKey: '$apikey$',&#10;    scene: '$timeline$',&#10;    title: '$title$',&#10;    description: '$description$',&#10;    thumb: '$thumb$',&#10;    contentUrl: '$contentUrl$'&#10;}, function(ret, err){&#10;    &#10;});" description="分享网络视频资源" toReformat="true" toShortenFQNames="true">
+    <variable name="apikey" expression="snakeCase(&quot;apikey&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="timeline" expression="snakeCase(&quot;timeline&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="title" expression="snakeCase(&quot;title&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="description" expression="snakeCase(&quot;description&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="thumb" expression="snakeCase(&quot;imgpath&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="contentUrl" expression="snakeCase(&quot;contenturl&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="wx.shareWebpage" value="wx.shareWebpage({&#10;    apiKey: '$apikey$',&#10;    scene: '$timeline$',&#10;    title: '$title$',&#10;    description: '$description$',&#10;    thumb: '$thumb$',&#10;    contentUrl: '$contentUrl$'&#10;}, function(ret, err){&#10;    &#10;});" description="分享网页" toReformat="true" toShortenFQNames="true">
+    <variable name="apikey" expression="snakeCase(&quot;apikey&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="timeline" expression="snakeCase(&quot;timeline&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="title" expression="snakeCase(&quot;title&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="description" expression="snakeCase(&quot;description&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="thumb" expression="snakeCase(&quot;imgpath&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="contentUrl" expression="snakeCase(&quot;contenturl&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="wx.auth" value="wx.auth({&#10;    apiKey: '$apikey$'&#10;}, function(ret, err){&#10;    &#10;});" description="登录授权（用于实现第三方登录）" toReformat="true" toShortenFQNames="true">
+    <variable name="apikey" expression="snakeCase(&quot;apikey&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="wx.getToken" value="wx.getToken({&#10;    apiKey: '$apikey$',&#10;    apiSecret: '$apiSecret$',&#10;    code: '$code$'&#10;}, function(ret, err){&#10;    &#10;});" description="获取授权 accessToken（需要登录授权成功）" toReformat="true" toShortenFQNames="true">
+    <variable name="apikey" expression="snakeCase(&quot;apikey&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="apiSecret" expression="snakeCase(&quot;apisecret&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="code" expression="snakeCase(&quot;code&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="wx.getUserInfo" value="wx.getUserInfo({&#10;    accessToken: '$accessToken$',&#10;    openId: '$openId$'&#10;}, function(ret, err){&#10;    &#10;});" description="获取用户信息（需要获取 accessToken 成功）" toReformat="true" toShortenFQNames="true">
+    <variable name="accessToken" expression="snakeCase(&quot;accesstoken&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="openId" expression="snakeCase(&quot;openId&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="wx.refreshToken" value="wx.refreshToken({&#10;    apiKey: '$apiKey$',&#10;    dynamicToken: '$dynamicToken$'&#10;}, function(ret, err){&#10;    &#10;});" description="调用此接口刷新 accessToken" toReformat="true" toShortenFQNames="true">
+    <variable name="apiKey" expression="snakeCase(&quot;apikey&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="dynamicToken" expression="snakeCase(&quot;dynamicToken&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

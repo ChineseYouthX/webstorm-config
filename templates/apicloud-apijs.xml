@@ -1,0 +1,305 @@
+<templateSet group="apicloud-apijs">
+  <template name="$api.addCls" value="$api.addCls($element$, '$classname$');" description="为DOM元素增加className" toReformat="true" toShortenFQNames="true">
+    <variable name="element" expression="snakeCase(&quot;element&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="classname" expression="snakeCase(&quot;classname&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.addEvt" value="$api.addEvt($element$, '$eventname$', function(){&#10;//do something&#10;});" description="为DOM元素绑定事件" toReformat="true" toShortenFQNames="true">
+    <variable name="element" expression="snakeCase(&quot;element&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="eventname" expression="snakeCase(&quot;eventname&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.after" value="$api.after($element$, '$str$');" description="在DOM元素后面插入HTML字符串" toReformat="true" toShortenFQNames="true">
+    <variable name="element" expression="snakeCase(&quot;element&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="str" expression="snakeCase(&quot;str&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.append" value="$api.append($element$, '$str$');" description="在DOM元素内部，最后一个子元素后面插入HTML字符串" toReformat="true" toShortenFQNames="true">
+    <variable name="element" expression="snakeCase(&quot;element&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="str" expression="snakeCase(&quot;str&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.attr" value="$api.attr($element$,'$attrname$','$attrvalue$');" description="获取或设置DOM元素的属性" toReformat="true" toShortenFQNames="true">
+    <variable name="element" expression="snakeCase(&quot;element&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="attrname" expression="snakeCase(&quot;attrname&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="attrvalue" expression="snakeCase(&quot;attrvalue&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.before" value="$api.before($element$, '$str$');" description="在DOM元素前面插入HTML字符串" toReformat="true" toShortenFQNames="true">
+    <variable name="element" expression="snakeCase(&quot;element&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="str" expression="snakeCase(&quot;str&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.byId" value="$api.byId('$idStr$');" description="通过Id选择DOM元素" toReformat="true" toShortenFQNames="true">
+    <variable name="idStr" expression="snakeCase(&quot;idstr&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.clearStorage" value="$api.clearStorage ();" description="清除localStorage的所有数据，慎用" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.closest" value="$api.closest($element$, '$selector$');" description="根据选择器匹配最近的父元素" toReformat="true" toShortenFQNames="true">
+    <variable name="element" expression="snakeCase(&quot;element&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="selector" expression="snakeCase(&quot;selector&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.contains" value="$api.contains($parentEl$, $targetEl$);" description="判断某一个元素是否包含目标元素" toReformat="true" toShortenFQNames="true">
+    <variable name="parentEl" expression="snakeCase(&quot;parentEl&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="targetEl" expression="snakeCase(&quot;targetEl&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.css" value="$api.css($element$, '$style$');" description="设置所传入的DOM元素的样式，可传入多条样式" toReformat="true" toShortenFQNames="true">
+    <variable name="element" expression="snakeCase(&quot;element&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="style" expression="snakeCase(&quot;style&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.cssVal" value="$api.cssVal($element$, '$prop$');" description="获取指定DOM元素的指定属性的完整的值" toReformat="true" toShortenFQNames="true">
+    <variable name="element" expression="snakeCase(&quot;element&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="prop" expression="snakeCase(&quot;prop&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.dom" value="$api.dom($element$, '$selector$');" description="选择首个匹配的DOM元素" toReformat="true" toShortenFQNames="true">
+    <variable name="element" expression="snakeCase(&quot;element&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="selector" expression="snakeCase(&quot;selector&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.domAll" value="$api.domAll($element$, '$selector$');" description="选择所有匹配的DOM元素" toReformat="true" toShortenFQNames="true">
+    <variable name="element" expression="snakeCase(&quot;element&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="selector" expression="snakeCase(&quot;selector&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.eq" value="$api.eq($element$, $num$);" description="选择第几个子元素" toReformat="true" toShortenFQNames="true">
+    <variable name="element" expression="snakeCase(&quot;element&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="num" expression="snakeCase(&quot;num&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.first" value="$api.first($element$, '$selector$');" description="选择DOM元素的第一个子元素" toReformat="true" toShortenFQNames="true">
+    <variable name="element" expression="snakeCase(&quot;element&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="selector" expression="snakeCase(&quot;selector&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.fixIos7Bar" value="$api.fixIos7Bar($element$);" description="适配iOS7+系统状态栏，为传入的DOM元素增加20px的上内边距" toReformat="true" toShortenFQNames="true">
+    <variable name="element" expression="snakeCase(&quot;element&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.fixStatusBar" value="$api.fixStatusBar($element$);" description="适配iOS7+、Android4.4+系统状态栏，为传入的DOM元素增加适当的上内边距，避免header与状态栏重叠" toReformat="true" toShortenFQNames="true">
+    <variable name="element" expression="snakeCase(&quot;element&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.get" value="$api.get('$url$',function(ret){&#10;&#10;},'$datatype$');&#10;" description="api.ajax()方法的get方式简写" toReformat="true" toShortenFQNames="true">
+    <variable name="url" expression="snakeCase(&quot;url&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="datatype" expression="snakeCase(&quot;datatype&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.getStorage" value="$api.getStorage('$key$');" description="获取localStorage数据" toReformat="true" toShortenFQNames="true">
+    <variable name="key" expression="snakeCase(&quot;key&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.hasCls" value="$api.hasCls($element$, '$classname$');" description="DOM元素是否含有某个className" toReformat="true" toShortenFQNames="true">
+    <variable name="element" expression="snakeCase(&quot;element&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="classname" expression="snakeCase(&quot;classname&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.html" value="$api.html($element$, '$str$');" description="获取或设置DOM元素的innerHTML" toReformat="true" toShortenFQNames="true">
+    <variable name="element" expression="snakeCase(&quot;element&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="str" expression="snakeCase(&quot;str&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.isArray" value="$api.isArray($obj$);" description="判断对象是否为数组" toReformat="true" toShortenFQNames="true">
+    <variable name="obj" expression="snakeCase(&quot;obj&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.jsonToStr" value="$api.jsonToStr($json$);" description="将标准的JSON 对象转换成字符串格式" toReformat="true" toShortenFQNames="true">
+    <variable name="json" expression="snakeCase(&quot;json&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.last" value="$api.last($element$, '$selector$');" description="选择DOM元素的最后一个子元素" toReformat="true" toShortenFQNames="true">
+    <variable name="element" expression="snakeCase(&quot;element&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="selector" expression="snakeCase(&quot;selector&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.next" value="$api.next($element$);" description="选择相邻的下一个元素" toReformat="true" toShortenFQNames="true">
+    <variable name="element" expression="snakeCase(&quot;element&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.not" value="$api.not($element$, '$selector$');" description="根据排除选择器选择子元素" toReformat="true" toShortenFQNames="true">
+    <variable name="element" expression="snakeCase(&quot;element&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="selector" expression="snakeCase(&quot;selector&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.offset" value="$api.offset($element$);" description="设置或者获取元素的文本内容" toReformat="true" toShortenFQNames="true">
+    <variable name="element" expression="snakeCase(&quot;element&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.one" value="$api.one($element$, '$eventname$', function(){&#10;//do something&#10;});" description="为DOM元素绑定事件，事件只执行一次" toReformat="true" toShortenFQNames="true">
+    <variable name="element" expression="snakeCase(&quot;element&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="eventname" expression="snakeCase(&quot;eventname&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.post" value="$api.post('$url$',$data$,function(ret){&#10;  &#10;},'$datatype$');&#10;&#10;" description="api.ajax()方法的post方式简写" toReformat="true" toShortenFQNames="true">
+    <variable name="url" expression="snakeCase(&quot;url&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="data" expression="snakeCase(&quot;data&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="datatype" expression="snakeCase(&quot;datatype&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.prepend" value="$api.prepend($element$, '$str$');" description="在DOM元素内部，首个子元素前插入HTML字符串" toReformat="true" toShortenFQNames="true">
+    <variable name="element" expression="snakeCase(&quot;element&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="str" expression="snakeCase(&quot;str&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.prev" value="$api.prev($element$);" description="选择相邻的前一个元素" toReformat="true" toShortenFQNames="true">
+    <variable name="element" expression="snakeCase(&quot;element&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.remove" value="$api.remove($element$);" description="移除DOM元素" toReformat="true" toShortenFQNames="true">
+    <variable name="element" expression="snakeCase(&quot;element&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.removeAttr" value="$api.attr($element$,'$attrname$');" description="移除DOM元素的属性" toReformat="true" toShortenFQNames="true">
+    <variable name="element" expression="snakeCase(&quot;element&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="attrname" expression="snakeCase(&quot;attrname&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.removeCls" value="$api.removeCls($element$, '$classname$');" description="移除指定的className" toReformat="true" toShortenFQNames="true">
+    <variable name="element" expression="snakeCase(&quot;element&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="classname" expression="snakeCase(&quot;classname&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.rmEvt" value="$api.rmEvt($element$, '$eventname$', function(){&#10;//do something&#10;});&#10;" description="移除DOM元素绑定的事件" toReformat="true" toShortenFQNames="true">
+    <variable name="element" expression="snakeCase(&quot;element&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="eventname" expression="snakeCase(&quot;eventname&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="JSX_HTML" value="true" />
+    </context>
+  </template>
+  <template name="$api.rmStorage" value="$api.rmStorage('$key$');" description="清除localStorage中与键名对应的值" toReformat="true" toShortenFQNames="true">
+    <variable name="key" expression="snakeCase(&quot;key&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.setStorage" value="$api.setStorage('$key$','$value$');" description="设置localStorage数据" toReformat="true" toShortenFQNames="true">
+    <variable name="key" expression="snakeCase(&quot;key&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="snakeCase(&quot;value&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.strToJson" value="$api.strToJson ('$jsonstr$');" description="将JSON字符串转换成JSON对象" toReformat="true" toShortenFQNames="true">
+    <variable name="jsonstr" expression="snakeCase(&quot;jsonstr&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.text" value="$api.text($element$, '$str$');" description="设置或者获取元素的文本内容" toReformat="true" toShortenFQNames="true">
+    <variable name="element" expression="snakeCase(&quot;element&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="str" expression="snakeCase(&quot;str&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.toast" value="$api.toast('$title$','$text$',$num$);" description="延时提示框" toReformat="true" toShortenFQNames="true">
+    <variable name="title" expression="snakeCase(&quot;title&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="text" expression="snakeCase(&quot;text&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="num" expression="snakeCase(&quot;num&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.toggleCls" value="$api.toggleCls($element$, '$classname$');" description="切换指定的className" toReformat="true" toShortenFQNames="true">
+    <variable name="element" expression="snakeCase(&quot;element&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="classname" expression="snakeCase(&quot;classname&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.trim" value="$api.trim('$str$');" description="去掉字符串首尾空格" toReformat="true" toShortenFQNames="true">
+    <variable name="str" expression="snakeCase(&quot;str&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.trimAll" value="$api.trimAll('$str$');" description="去掉字符串所有空格" toReformat="true" toShortenFQNames="true">
+    <variable name="str" expression="snakeCase(&quot;str&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$api.val" value="$api.val($element$, '$value$');" description="获取或设置常用 Form 表单元素的 value 值" toReformat="true" toShortenFQNames="true">
+    <variable name="element" expression="snakeCase(&quot;element&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="snakeCase(&quot;value&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
