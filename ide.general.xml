@@ -1,16 +1,11 @@
 <application>
   <component name="GeneralSettings">
-    <option name="autoSaveIfInactive" value="true" />
     <option name="confirmExit" value="false" />
-    <option name="inactiveTimeout" value="1" />
     <option name="showTipsOnStartup" value="false" />
   </component>
   <component name="Registry">
-    <entry key="dumb.aware.run.configurations" value="true" />
-    <entry key="ide.tooltip.initialDelay" value="58" />
-    <entry key="ide.editor.tabs.open.at.the.end" value="true" />
-    <entry key="search.everywhere.settings" value="true" />
-    <entry key="bigger.font.in.project.view" value="true" />
+    <entry key="ide.tooltip.show.with.actions" value="true" />
+    <entry key="ide.balloon.shadow.size" value="0" />
     <entry key="win.editor.thumb.default.alpha.base" value="0" />
     <entry key="win.editor.thumb.default.alpha.delta" value="102" />
     <entry key="win.editor.thumb.darcula.alpha.base" value="0" />
@@ -18,7 +13,5 @@
     <entry key="win.editor.thumb.default.fill.min" value="102" />
     <entry key="win.editor.thumb.default.fill.max" value="150" />
     <entry key="win.editor.thumb.darcula.fill.min" value="102" />
-    <entry key="ide.svg.icon" value="true" />
-    <entry key="ide.balloon.shadow.size" value="0" />
   </component>
 </application>
