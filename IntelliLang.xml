@@ -1,9 +1,5 @@
 <application>
   <component name="LanguageInjectionConfiguration">
-    <injection language="Darcs" injector-id="xml">
-      <display-name>el-button/@size</display-name>
-      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("size")).withParent(xmlTag().withLocalName(string().equalTo("el-button")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
-    </injection>
     <injection language="ESLint" injector-id="xml">
       <display-name>el-table</display-name>
       <place><![CDATA[xmlTag().withLocalName(string().equalTo("el-table")).withNamespace(string().equalTo("http://www.w3.org/1999/html"))]]></place>
@@ -11,10 +7,6 @@
     <injection language="ESLint" injector-id="xml">
       <display-name>el-table-column/@label</display-name>
       <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("label")).withParent(xmlTag().withLocalName(string().equalTo("el-table-column")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
-    </injection>
-    <injection language="Vue" injector-id="xml">
-      <display-name>template</display-name>
-      <place><![CDATA[xmlTag().withLocalName(string().equalTo("template")).withNamespace(string().equalTo("http://www.w3.org/1999/html"))]]></place>
     </injection>
   </component>
 </application>
