@@ -1,8 +1,0 @@
-<application>
-  <component name="LanguageInjectionConfiguration">
-    <injection language="ESLint" injector-id="xml">
-      <display-name>el-table-column/@label</display-name>
-      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("label")).withParent(xmlTag().withLocalName(string().equalTo("el-table-column")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
-    </injection>
-  </component>
-</application>
