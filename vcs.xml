@@ -6,31 +6,10 @@
           <option name="url" value="http://github.com" />
           <option name="userName" value="511598384@qq.com" />
         </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://git.91ybt.com/project/msg_server/front_end/admin.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://git.91ybt.com/project/data_analysis/front_end/com_dataAnalysis_app_chart.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://git.91ybt.com" />
-          <option name="userName" value="zuhuizhao" />
-        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="E:\project\data_analysis\front_end" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="SHOW_CHANGES_FROM_PARENTS" value="true" />
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="1" />
-        <option value="2" />
-        <option value="3" />
-      </list>
-    </option>
   </component>
 </application>
