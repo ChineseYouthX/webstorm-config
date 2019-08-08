@@ -3,18 +3,13 @@
     <option name="visitedUrls">
       <list>
         <UrlAndUserName>
-          <option name="url" value="http://github.com" />
-          <option name="userName" value="511598384@qq.com" />
-        </UrlAndUserName>
-        <UrlAndUserName>
           <option name="url" value="http://git.91ybt.com" />
-          <option name="userName" value="434848237@qq.com" />
+          <option name="userName" value="xilinxia" />
         </UrlAndUserName>
       </list>
     </option>
   </component>
   <component name="Vcs.Log.App.Settings">
-    <option name="SHOW_CHANGES_FROM_PARENTS" value="true" />
     <option name="COLUMN_ORDER">
       <list>
         <option value="0" />
