@@ -7,17 +7,5 @@
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>*.xml</mask>
-    <mask>*.css</mask>
-    <mask>*.ng</mask>
-    <mask>*.shtml</mask>
-    <mask>*.shtm</mask>
-    <mask>*.htm</mask>
-    <mask>*.sht</mask>
-    <mask>*.html</mask>
-    <mask>*.ats</mask>
-    <mask>*.ts</mask>
-    <mask>*.cjs</mask>
-    <mask>*.js</mask>
   </component>
 </application>
