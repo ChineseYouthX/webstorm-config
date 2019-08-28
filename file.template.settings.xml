@@ -1,8 +1,7 @@
 <application>
   <component name="ExportableFileTemplateSettings">
     <default_templates>
-      <template name="vue.vue" reformat="true" live-template-enabled="true" />
-      <template name="Vue WeChat.vue" reformat="true" live-template-enabled="true" />
+      <template name="Vue Template.vue" reformat="true" live-template-enabled="true" />
       <template name="XSLT Stylesheet.xsl" reformat="true" live-template-enabled="false" enabled="false" />
     </default_templates>
   </component>
