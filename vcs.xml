@@ -10,6 +10,10 @@
           <option name="url" value="http://git.91ybt.com" />
           <option name="userName" value="zuhuizhao" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git.91ybt.com/project/integralsystem/front_end/com_integralSystem_store.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="E:\project\integral_system\front_end\com_integralSystem" />
