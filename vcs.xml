@@ -6,6 +6,10 @@
           <option name="url" value="http://git.91ybt.com" />
           <option name="userName" value="yc" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git.ybt.com" />
+          <option name="userName" value="yancang" />
+        </UrlAndUserName>
       </list>
     </option>
   </component>
