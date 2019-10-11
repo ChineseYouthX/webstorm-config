@@ -6,17 +6,8 @@
           <option name="url" value="http://git.91ybt.com" />
           <option name="userName" value="zuhuizhao" />
         </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://git.91ybt.com/project/integralsystem/front_end/com_integralSystem_bank.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://git.91ybt.com/project/integralsystem/front_end/com_integralSystem_cashier_app.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="E:\project\integral_system\front_end\com_integralSystem" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ORDER">
