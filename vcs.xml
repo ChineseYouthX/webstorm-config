@@ -11,11 +11,12 @@
           <option name="userName" value="zhaozuhui" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="http://10.10.10.12:81" />
-          <option name="userName" value="yancang" />
+          <option name="url" value="http://10.10.10.12:81/project/middleService/frontEnd/com.middleService.admin.git" />
+          <option name="userName" value="" />
         </UrlAndUserName>
       </list>
     </option>
+    <option name="cloneParentDir" value="E:\project\middleService\frontEnd\com.middleService" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ORDER">
