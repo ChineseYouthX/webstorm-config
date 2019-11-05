@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="逾期" />
+      <item value="网银" />
       <item value="存款" />
       <item value="网格化工具" />
     </histories>
