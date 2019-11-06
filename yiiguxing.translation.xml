@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="organize" />
+      <item value="orgnize" />
       <item value="不填" />
       <item value="逾期" />
       <item value="网银" />
@@ -9,8 +11,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1" />
-        <entry key="ENGLISH" value="1" />
+        <entry key="CHINESE" value="2" />
+        <entry key="ENGLISH" value="2" />
       </map>
     </option>
   </component>
