@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="通知" />
+      <item value="通知人" />
       <item value="取消" />
       <item value="实名信息" />
       <item value="辖内农信社" />
