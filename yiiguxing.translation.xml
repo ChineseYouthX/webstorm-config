@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="information Integrity" />
       <item value="办理" />
       <item value="是否延期" />
       <item value="预约办理日期" />
@@ -18,7 +19,7 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="14" />
-        <entry key="ENGLISH" value="14" />
+        <entry key="ENGLISH" value="15" />
       </map>
     </option>
   </component>
