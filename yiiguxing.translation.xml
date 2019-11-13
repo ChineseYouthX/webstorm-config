@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="办理" />
+      <item value="complete Handle" />
+      <item value="完成" />
+      <item value="complete" />
+      <item value="延迟" />
       <item value="describe" />
       <item value="描述" />
       <item value="客户" />
@@ -15,7 +20,6 @@
       <item value="期限" />
       <item value="贷款" />
       <item value="information Integrity" />
-      <item value="办理" />
       <item value="是否延期" />
       <item value="预约办理日期" />
       <item value="客户属性" />
@@ -31,8 +35,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="28" />
-        <entry key="ENGLISH" value="29" />
+        <entry key="CHINESE" value="33" />
+        <entry key="ENGLISH" value="33" />
       </map>
     </option>
   </component>
