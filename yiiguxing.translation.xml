@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="待办理" />
+      <item value="办理" />
       <item value="我的评价" />
       <item value="评价" />
       <item value="meshing" />
