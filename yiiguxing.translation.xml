@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="已审核" />
+      <item value="审核中" />
+      <item value="等待办理" />
       <item value="无效" />
       <item value="补充" />
       <item value="evaluate" />
@@ -43,8 +46,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="43" />
-        <entry key="ENGLISH" value="43" />
+        <entry key="CHINESE" value="48" />
+        <entry key="ENGLISH" value="48" />
       </map>
     </option>
   </component>
