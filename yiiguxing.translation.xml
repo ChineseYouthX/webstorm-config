@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="定位" />
+      <item value="位置" />
+      <item value="贷款" />
+      <item value="评级" />
       <item value="业务中心" />
       <item value="个人中心" />
       <item value="百分比" />
@@ -36,7 +40,6 @@
       <item value="dev Dependencies" />
       <item value="用途" />
       <item value="期限" />
-      <item value="贷款" />
       <item value="information Integrity" />
       <item value="是否延期" />
       <item value="预约办理日期" />
@@ -48,12 +51,11 @@
       <item value="评" />
       <item value="价" />
       <item value="维度" />
-      <item value="数据" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="55" />
-        <entry key="ENGLISH" value="55" />
+        <entry key="CHINESE" value="59" />
+        <entry key="ENGLISH" value="59" />
       </map>
     </option>
   </component>
