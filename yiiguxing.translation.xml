@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="联系方式" />
       <item value="存款" />
       <item value="款" />
       <item value="款类型" />
@@ -50,12 +51,11 @@
       <item value="资料完善度" />
       <item value="业务进度" />
       <item value="申请" />
-      <item value="单位" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="63" />
-        <entry key="ENGLISH" value="63" />
+        <entry key="CHINESE" value="64" />
+        <entry key="ENGLISH" value="64" />
       </map>
     </option>
   </component>
