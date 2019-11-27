@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="组装" />
+      <item value="重组" />
       <item value="身份证背面" />
       <item value="身份证反面" />
       <item value="身份证正面" />
@@ -49,13 +51,11 @@
       <item value="dev Dependencies" />
       <item value="用途" />
       <item value="期限" />
-      <item value="information Integrity" />
-      <item value="是否延期" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="70" />
-        <entry key="ENGLISH" value="70" />
+        <entry key="CHINESE" value="72" />
+        <entry key="ENGLISH" value="72" />
       </map>
     </option>
   </component>
