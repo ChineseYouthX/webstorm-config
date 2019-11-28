@@ -12,12 +12,13 @@
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="http://10.10.10.12:81" />
-          <option name="userName" value="xiaxilin" />
+          <option name="userName" value="yancang" />
         </UrlAndUserName>
       </list>
     </option>
   </component>
   <component name="Vcs.Log.App.Settings">
+    <option name="SHOW_CHANGES_FROM_PARENTS" value="true" />
     <option name="COLUMN_ORDER">
       <list>
         <option value="0" />
