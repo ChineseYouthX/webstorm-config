@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Global" />
+      <item value="Verified" />
       <item value="组装" />
       <item value="重组" />
       <item value="身份证背面" />
@@ -49,13 +51,11 @@
       <item value="职务" />
       <item value="dependencies" />
       <item value="dev Dependencies" />
-      <item value="用途" />
-      <item value="期限" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="72" />
-        <entry key="ENGLISH" value="72" />
+        <entry key="CHINESE" value="73" />
+        <entry key="ENGLISH" value="74" />
       </map>
     </option>
   </component>
