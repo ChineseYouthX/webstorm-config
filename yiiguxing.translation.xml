@@ -1,28 +1,12 @@
 <application>
   <component name="AppStorage">
     <histories>
-      <item value="bing sb out" />
-      <item value="bing" />
-      <item value="bing out" />
-      <item value="detailed" />
-      <item value="待办理" />
-      <item value="办理" />
-      <item value="我的评价" />
-      <item value="评价" />
-      <item value="meshing" />
-      <item value="grid" />
-      <item value="通知" />
-      <item value="通知人" />
-      <item value="取消" />
-      <item value="实名信息" />
-      <item value="辖内农信社" />
-      <item value="建档评级" />
-      <item value="务工" />
+      <item value="黑名单" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="3" />
-        <entry key="ENGLISH" value="3" />
+        <entry key="CHINESE" value="1" />
+        <entry key="ENGLISH" value="1" />
       </map>
     </option>
   </component>
