@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="对账" />
       <item value="customer" />
       <item value="result" />
       <item value="结果" />
@@ -50,11 +51,10 @@
       <item value="complete" />
       <item value="延迟" />
       <item value="describe" />
-      <item value="描述" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="79" />
+        <entry key="CHINESE" value="80" />
         <entry key="ENGLISH" value="80" />
       </map>
     </option>
