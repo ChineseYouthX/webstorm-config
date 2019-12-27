@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Fabulous" />
       <item value="adapter" />
       <item value="customer" />
       <item value="result" />
@@ -50,7 +51,6 @@
       <item value="完成" />
       <item value="complete" />
       <item value="延迟" />
-      <item value="describe" />
     </histories>
     <option name="languageScores">
       <map>
