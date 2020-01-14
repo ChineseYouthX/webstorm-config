@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="subsidy" />
       <item value="现在" />
       <item value="当前" />
       <item value="当前应用上传文件" />
@@ -50,12 +51,11 @@
       <item value="补充" />
       <item value="evaluate" />
       <item value="原因" />
-      <item value="危险" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="91" />
-        <entry key="ENGLISH" value="91" />
+        <entry key="ENGLISH" value="92" />
       </map>
     </option>
   </component>
