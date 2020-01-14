@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="现在" />
+      <item value="当前" />
+      <item value="当前应用上传文件" />
       <item value="实施" />
       <item value="实施组" />
       <item value="实施工程师" />
@@ -48,14 +51,11 @@
       <item value="evaluate" />
       <item value="原因" />
       <item value="危险" />
-      <item value="额度" />
-      <item value="信用" />
-      <item value="说明" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="88" />
-        <entry key="ENGLISH" value="88" />
+        <entry key="CHINESE" value="91" />
+        <entry key="ENGLISH" value="91" />
       </map>
     </option>
   </component>
