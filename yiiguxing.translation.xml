@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="费用" />
+      <item value="费用凭证" />
+      <item value="kinship File" />
+      <item value="关系" />
+      <item value="关系证明" />
       <item value="补贴申请" />
       <item value="discovery" />
       <item value="subsidy" />
@@ -46,16 +51,11 @@
       <item value="信息完善度" />
       <item value="受理类型" />
       <item value="业务类型" />
-      <item value="已审核" />
-      <item value="审核中" />
-      <item value="等待办理" />
-      <item value="无效" />
-      <item value="补充" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="93" />
-        <entry key="ENGLISH" value="93" />
+        <entry key="CHINESE" value="98" />
+        <entry key="ENGLISH" value="98" />
       </map>
     </option>
   </component>
