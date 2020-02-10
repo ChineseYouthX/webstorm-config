@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Global" />
       <item value="补贴" />
       <item value="允许提交" />
       <item value="顺序" />
@@ -33,7 +34,6 @@
       <item value="积分" />
       <item value="指定" />
       <item value="province" />
-      <item value="Global" />
       <item value="Verified" />
       <item value="组装" />
       <item value="重组" />
@@ -55,7 +55,7 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="104" />
-        <entry key="ENGLISH" value="104" />
+        <entry key="ENGLISH" value="105" />
       </map>
     </option>
   </component>
