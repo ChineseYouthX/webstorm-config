@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="描述" />
+      <item value="职位描述" />
+      <item value="工作年限" />
+      <item value="学历" />
+      <item value="最低学历" />
       <item value="introduction" />
       <item value="介绍" />
       <item value="联系人" />
@@ -46,16 +51,11 @@
       <item value="身份证正面" />
       <item value="实名认证" />
       <item value="忘记密码" />
-      <item value="评价" />
-      <item value="联系方式" />
-      <item value="存款" />
-      <item value="款" />
-      <item value="款类型" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="109" />
-        <entry key="ENGLISH" value="110" />
+        <entry key="CHINESE" value="114" />
+        <entry key="ENGLISH" value="114" />
       </map>
     </option>
   </component>
