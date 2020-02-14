@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="最高" />
       <item value="最低" />
       <item value="低" />
       <item value="性质" />
@@ -50,12 +51,11 @@
       <item value="province" />
       <item value="Verified" />
       <item value="组装" />
-      <item value="重组" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="122" />
-        <entry key="ENGLISH" value="122" />
+        <entry key="CHINESE" value="123" />
+        <entry key="ENGLISH" value="123" />
       </map>
     </option>
   </component>
