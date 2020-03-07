@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="邻里是否和谐" />
+      <item value="家庭是否和睦" />
+      <item value="occupation" />
+      <item value="从事职业情况" />
+      <item value="社会声誉情况" />
       <item value="家庭劳动力" />
       <item value="keep" />
       <item value="供养" />
@@ -46,16 +51,11 @@
       <item value="关系" />
       <item value="关系证明" />
       <item value="补贴申请" />
-      <item value="discovery" />
-      <item value="subsidy" />
-      <item value="现在" />
-      <item value="当前" />
-      <item value="当前应用上传文件" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="137" />
-        <entry key="ENGLISH" value="139" />
+        <entry key="CHINESE" value="138" />
+        <entry key="ENGLISH" value="140" />
       </map>
     </option>
   </component>
