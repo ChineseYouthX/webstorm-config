@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="履行能力" />
+      <item value="职业" />
       <item value="优化" />
       <item value="restore" />
       <item value="邻里是否和谐" />
@@ -49,8 +51,6 @@
       <item value="材料" />
       <item value="费用" />
       <item value="费用凭证" />
-      <item value="kinship File" />
-      <item value="关系" />
     </histories>
     <option name="languageScores">
       <map>
