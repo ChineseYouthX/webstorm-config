@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="integral" />
+      <item value="full" />
+      <item value="完整的" />
       <item value="householdHead" />
       <item value="doorHead" />
       <item value="household" />
@@ -48,14 +51,11 @@
       <item value="学历" />
       <item value="最低学历" />
       <item value="introduction" />
-      <item value="介绍" />
-      <item value="联系人" />
-      <item value="发布" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="142" />
-        <entry key="ENGLISH" value="142" />
+        <entry key="CHINESE" value="143" />
+        <entry key="ENGLISH" value="143" />
       </map>
     </option>
   </component>
