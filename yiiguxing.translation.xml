@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="传送" />
+      <item value="delivery" />
       <item value="integral" />
       <item value="full" />
       <item value="完整的" />
@@ -49,13 +51,11 @@
       <item value="职位描述" />
       <item value="工作年限" />
       <item value="学历" />
-      <item value="最低学历" />
-      <item value="introduction" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="143" />
-        <entry key="ENGLISH" value="143" />
+        <entry key="ENGLISH" value="144" />
       </map>
     </option>
   </component>
