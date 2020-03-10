@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="personal Information" />
       <item value="debt" />
       <item value="expenditure" />
       <item value="支出" />
@@ -50,12 +51,11 @@
       <item value="补贴申请" />
       <item value="discovery" />
       <item value="subsidy" />
-      <item value="现在" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="141" />
-        <entry key="ENGLISH" value="142" />
+        <entry key="CHINESE" value="142" />
+        <entry key="ENGLISH" value="143" />
       </map>
     </option>
   </component>
