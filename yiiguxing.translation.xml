@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="务工" />
       <item value="传送" />
       <item value="delivery" />
       <item value="integral" />
@@ -50,7 +51,6 @@
       <item value="描述" />
       <item value="职位描述" />
       <item value="工作年限" />
-      <item value="学历" />
     </histories>
     <option name="languageScores">
       <map>
