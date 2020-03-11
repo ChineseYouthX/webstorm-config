@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="数据结构" />
+      <item value="格式" />
       <item value="经济" />
       <item value="经" />
       <item value="personal Information" />
@@ -49,13 +51,11 @@
       <item value="费用凭证" />
       <item value="kinship File" />
       <item value="关系" />
-      <item value="关系证明" />
-      <item value="补贴申请" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="144" />
-        <entry key="ENGLISH" value="144" />
+        <entry key="CHINESE" value="146" />
+        <entry key="ENGLISH" value="146" />
       </map>
     </option>
   </component>
