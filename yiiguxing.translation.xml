@@ -1,38 +1,16 @@
 <application>
   <component name="AppStorage">
     <histories>
-      <item value="务工" />
-      <item value="传送" />
-      <item value="delivery" />
-      <item value="integral" />
-      <item value="full" />
-      <item value="完整的" />
-      <item value="householdHead" />
-      <item value="doorHead" />
-      <item value="household" />
-      <item value="Head of household" />
-      <item value="户主" />
+      <item value="debt" />
+      <item value="expenditure" />
+      <item value="支出" />
+      <item value="收入" />
       <item value="负债" />
-      <item value="liability" />
-      <item value="familyEquity" />
-      <item value="salesRevenue" />
-      <item value="履行能力" />
-      <item value="职业" />
-      <item value="优化" />
-      <item value="restore" />
-      <item value="邻里是否和谐" />
-      <item value="家庭是否和睦" />
-      <item value="occupation" />
-      <item value="从事职业情况" />
-      <item value="社会声誉情况" />
-      <item value="家庭劳动力" />
-      <item value="keep" />
-      <item value="供养" />
-      <item value="Dependent population" />
-      <item value="Dependent population口" />
-      <item value="供养人口" />
-      <item value="婚姻状况" />
-      <item value="marry" />
+      <item value="财产" />
+      <item value="产" />
+      <item value="资产" />
+      <item value="Locally" />
+      <item value="本地保存" />
       <item value="刷新" />
       <item value="新" />
       <item value="轮播" />
@@ -51,11 +29,33 @@
       <item value="描述" />
       <item value="职位描述" />
       <item value="工作年限" />
+      <item value="学历" />
+      <item value="最低学历" />
+      <item value="introduction" />
+      <item value="介绍" />
+      <item value="联系人" />
+      <item value="发布" />
+      <item value="Global" />
+      <item value="补贴" />
+      <item value="允许提交" />
+      <item value="顺序" />
+      <item value="Apply" />
+      <item value="立即申请" />
+      <item value="材料" />
+      <item value="费用" />
+      <item value="费用凭证" />
+      <item value="kinship File" />
+      <item value="关系" />
+      <item value="关系证明" />
+      <item value="补贴申请" />
+      <item value="discovery" />
+      <item value="subsidy" />
+      <item value="现在" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="143" />
-        <entry key="ENGLISH" value="144" />
+        <entry key="CHINESE" value="141" />
+        <entry key="ENGLISH" value="142" />
       </map>
     </option>
   </component>
