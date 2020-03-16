@@ -1,15 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
-      <item value="容错" />
-      <item value="registered residence" />
-      <item value="户口" />
-      <item value="户口簿" />
-      <item value="户口册" />
-      <item value="breed" />
-      <item value="种植" />
-      <item value="养殖" />
-      <item value="enterprise" />
+      <item value="数据结构" />
+      <item value="格式" />
+      <item value="经济" />
+      <item value="经" />
+      <item value="personal Information" />
       <item value="debt" />
       <item value="expenditure" />
       <item value="支出" />
@@ -51,11 +47,15 @@
       <item value="Apply" />
       <item value="立即申请" />
       <item value="材料" />
+      <item value="费用" />
+      <item value="费用凭证" />
+      <item value="kinship File" />
+      <item value="关系" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="144" />
-        <entry key="ENGLISH" value="145" />
+        <entry key="CHINESE" value="146" />
+        <entry key="ENGLISH" value="146" />
       </map>
     </option>
   </component>
