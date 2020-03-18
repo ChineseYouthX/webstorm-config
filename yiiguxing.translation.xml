@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="neighbor" />
       <item value="字母" />
       <item value="lastLetter" />
       <item value="活期存款" />
@@ -50,11 +51,10 @@
       <item value="允许提交" />
       <item value="顺序" />
       <item value="Apply" />
-      <item value="立即申请" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="149" />
+        <entry key="CHINESE" value="150" />
         <entry key="ENGLISH" value="150" />
       </map>
     </option>
