@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="附近" />
       <item value="方向" />
       <item value="Cropper" />
       <item value="Work" />
@@ -50,12 +51,11 @@
       <item value="顺序" />
       <item value="Apply" />
       <item value="立即申请" />
-      <item value="材料" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="150" />
-        <entry key="ENGLISH" value="150" />
+        <entry key="CHINESE" value="152" />
+        <entry key="ENGLISH" value="152" />
       </map>
     </option>
   </component>
