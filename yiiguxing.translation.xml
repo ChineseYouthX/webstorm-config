@@ -1,6 +1,18 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="第二" />
+      <item value="第一个" />
+      <item value="日" />
+      <item value="低于" />
+      <item value="连续" />
+      <item value="续月" />
+      <item value="insufficient" />
+      <item value="不足" />
+      <item value="月" />
+      <item value="积分" />
+      <item value="每" />
+      <item value="每万元" />
       <item value="上传自动扫描" />
       <item value="附近" />
       <item value="方向" />
@@ -39,23 +51,11 @@
       <item value="月薪" />
       <item value="描述" />
       <item value="职位描述" />
-      <item value="工作年限" />
-      <item value="学历" />
-      <item value="最低学历" />
-      <item value="introduction" />
-      <item value="介绍" />
-      <item value="联系人" />
-      <item value="发布" />
-      <item value="Global" />
-      <item value="补贴" />
-      <item value="允许提交" />
-      <item value="顺序" />
-      <item value="Apply" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="153" />
-        <entry key="ENGLISH" value="153" />
+        <entry key="CHINESE" value="167" />
+        <entry key="ENGLISH" value="167" />
       </map>
     </option>
   </component>
