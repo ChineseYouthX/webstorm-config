@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="指示" />
+      <item value="introduction" />
       <item value="缴纳金额" />
       <item value="是否缴纳住房公积金" />
       <item value="方向" />
@@ -42,7 +44,6 @@
       <item value="工作年限" />
       <item value="学历" />
       <item value="最低学历" />
-      <item value="introduction" />
       <item value="介绍" />
       <item value="联系人" />
       <item value="发布" />
@@ -50,12 +51,11 @@
       <item value="补贴" />
       <item value="允许提交" />
       <item value="顺序" />
-      <item value="Apply" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="150" />
-        <entry key="ENGLISH" value="151" />
+        <entry key="CHINESE" value="151" />
+        <entry key="ENGLISH" value="152" />
       </map>
     </option>
   </component>
