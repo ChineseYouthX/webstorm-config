@@ -1,6 +1,13 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="cacophony " />
+      <item value="goggles " />
+      <item value="fluorescent " />
+      <item value="brew" />
+      <item value="harrow" />
+      <item value="harrowing" />
+      <item value="outbreak" />
       <item value="勺嘴鹬" />
       <item value="bad gateway" />
       <item value="指示" />
@@ -44,17 +51,10 @@
       <item value="描述" />
       <item value="职位描述" />
       <item value="工作年限" />
-      <item value="学历" />
-      <item value="最低学历" />
-      <item value="介绍" />
-      <item value="联系人" />
-      <item value="发布" />
-      <item value="Global" />
-      <item value="补贴" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="152" />
+        <entry key="CHINESE" value="153" />
         <entry key="ENGLISH" value="153" />
       </map>
     </option>
