@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="勺嘴鹬" />
       <item value="bad gateway" />
       <item value="指示" />
       <item value="introduction" />
@@ -50,12 +51,11 @@
       <item value="发布" />
       <item value="Global" />
       <item value="补贴" />
-      <item value="允许提交" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="152" />
-        <entry key="ENGLISH" value="152" />
+        <entry key="ENGLISH" value="153" />
       </map>
     </option>
   </component>
