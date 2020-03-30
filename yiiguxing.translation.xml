@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="merchant" />
+      <item value="store" />
       <item value="详情" />
       <item value="兑换" />
       <item value="现价" />
@@ -49,13 +51,11 @@
       <item value="新" />
       <item value="轮播" />
       <item value="轮播图" />
-      <item value="swiper" />
-      <item value="Firework" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="177" />
-        <entry key="ENGLISH" value="177" />
+        <entry key="CHINESE" value="178" />
+        <entry key="ENGLISH" value="179" />
       </map>
     </option>
   </component>
