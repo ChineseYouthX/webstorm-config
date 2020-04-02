@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="soldout" />
+      <item value="售罄" />
       <item value="inventory" />
       <item value="recommend" />
       <item value="规格" />
@@ -49,13 +51,11 @@
       <item value="最低" />
       <item value="低" />
       <item value="性质" />
-      <item value="工作性质" />
-      <item value="月薪" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="154" />
-        <entry key="ENGLISH" value="154" />
+        <entry key="CHINESE" value="155" />
+        <entry key="ENGLISH" value="155" />
       </map>
     </option>
   </component>
