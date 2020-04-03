@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="付款码" />
+      <item value="扫码" />
       <item value="支付" />
       <item value="merchant" />
       <item value="store" />
@@ -49,13 +51,11 @@
       <item value="Locally" />
       <item value="本地保存" />
       <item value="刷新" />
-      <item value="新" />
-      <item value="轮播" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="179" />
-        <entry key="ENGLISH" value="179" />
+        <entry key="ENGLISH" value="180" />
       </map>
     </option>
   </component>
