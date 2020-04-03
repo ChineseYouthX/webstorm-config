@@ -1,24 +1,34 @@
 <application>
   <component name="AppStorage">
     <histories>
-      <item value="soldout" />
-      <item value="售罄" />
-      <item value="inventory" />
-      <item value="recommend" />
-      <item value="规格" />
-      <item value="cacophony " />
-      <item value="goggles " />
-      <item value="fluorescent " />
-      <item value="brew" />
-      <item value="harrow" />
-      <item value="harrowing" />
-      <item value="outbreak" />
-      <item value="勺嘴鹬" />
-      <item value="bad gateway" />
-      <item value="指示" />
-      <item value="introduction" />
-      <item value="缴纳金额" />
-      <item value="是否缴纳住房公积金" />
+      <item value="支付" />
+      <item value="merchant" />
+      <item value="store" />
+      <item value="详情" />
+      <item value="兑换" />
+      <item value="现价" />
+      <item value="原价" />
+      <item value="aging" />
+      <item value="第三" />
+      <item value="定期" />
+      <item value="时效" />
+      <item value="live Deposit" />
+      <item value="活期存款" />
+      <item value="活期存款时效性" />
+      <item value="第二" />
+      <item value="第一个" />
+      <item value="日" />
+      <item value="低于" />
+      <item value="连续" />
+      <item value="续月" />
+      <item value="insufficient" />
+      <item value="不足" />
+      <item value="月" />
+      <item value="积分" />
+      <item value="每" />
+      <item value="每万元" />
+      <item value="上传自动扫描" />
+      <item value="附近" />
       <item value="方向" />
       <item value="Cropper" />
       <item value="Work" />
@@ -41,21 +51,11 @@
       <item value="刷新" />
       <item value="新" />
       <item value="轮播" />
-      <item value="轮播图" />
-      <item value="swiper" />
-      <item value="Firework" />
-      <item value="sync" />
-      <item value="education" />
-      <item value="company" />
-      <item value="最高" />
-      <item value="最低" />
-      <item value="低" />
-      <item value="性质" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="155" />
-        <entry key="ENGLISH" value="155" />
+        <entry key="CHINESE" value="179" />
+        <entry key="ENGLISH" value="179" />
       </map>
     </option>
   </component>
