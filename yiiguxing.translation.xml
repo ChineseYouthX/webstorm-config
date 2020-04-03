@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="立即收款" />
+      <item value="收款" />
       <item value="收款码" />
       <item value="退款" />
       <item value="Config" />
@@ -49,8 +51,6 @@
       <item value="支出" />
       <item value="收入" />
       <item value="负债" />
-      <item value="财产" />
-      <item value="产" />
     </histories>
     <option name="languageScores">
       <map>
