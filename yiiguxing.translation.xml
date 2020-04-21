@@ -1,21 +1,23 @@
 <application>
   <component name="AppStorage">
     <histories>
-      <item value="enterpriseBature" />
-      <item value="偶" />
-      <item value="odd" />
-      <item value="板" />
-      <item value="distributed" />
-      <item value="distribute" />
-      <item value="分布" />
-      <item value="立即收款" />
-      <item value="收款" />
-      <item value="收款码" />
-      <item value="退款" />
-      <item value="Config" />
-      <item value="配置" />
+      <item value="stop" />
+      <item value="播放" />
+      <item value="精" />
       <item value="付款码" />
+      <item value="扫码支付" />
+      <item value="款码" />
       <item value="扫码" />
+      <item value="card" />
+      <item value="医疗" />
+      <item value="餐饮" />
+      <item value="商超" />
+      <item value="总计" />
+      <item value="交易" />
+      <item value="结算" />
+      <item value="计数单位" />
+      <item value="单位" />
+      <item value="component Did Mount" />
       <item value="支付" />
       <item value="merchant" />
       <item value="store" />
@@ -49,13 +51,11 @@
       <item value="Work" />
       <item value="dict" />
       <item value="数据结构" />
-      <item value="格式" />
-      <item value="经济" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="183" />
-        <entry key="ENGLISH" value="183" />
+        <entry key="CHINESE" value="193" />
+        <entry key="ENGLISH" value="194" />
       </map>
     </option>
   </component>
