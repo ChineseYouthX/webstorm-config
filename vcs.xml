@@ -14,8 +14,13 @@
           <option name="url" value="http://10.10.10.12:81" />
           <option name="userName" value="zhaozuhui" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://10.10.10.12:81/project/workflow/frontEnd/com.workflow.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
+    <option name="cloneParentDir" value="E:\project\work_flow" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COMPACT_REFERENCES_VIEW" value="false" />
