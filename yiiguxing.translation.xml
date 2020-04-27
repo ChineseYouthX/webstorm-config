@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="disposal    " />
       <item value="interaction    " />
       <item value="assume   " />
       <item value="handy  " />
@@ -50,7 +51,6 @@
       <item value="insufficient" />
       <item value="不足" />
       <item value="月" />
-      <item value="积分" />
     </histories>
     <option name="languageScores">
       <map>
