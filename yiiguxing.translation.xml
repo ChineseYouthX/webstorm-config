@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="This is a re-implementation of the default animation, except it fades in from downwards, instead of upwards." />
+      <item value="temporary links used by LinkingTool and RelinkingTool are also orthogonal:" />
       <item value="Instead of the default animation, use a custom fade-down" />
       <item value="must name or refer to the DIV HTML element" />
       <item value="initialize the Palette that is on the left side of the page" />
@@ -49,13 +51,11 @@
       <item value="活期存款" />
       <item value="活期存款时效性" />
       <item value="第二" />
-      <item value="第一个" />
-      <item value="日" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="214" />
-        <entry key="ENGLISH" value="215" />
+        <entry key="CHINESE" value="217" />
+        <entry key="ENGLISH" value="218" />
       </map>
     </option>
   </component>
