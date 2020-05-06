@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="annex" />
+      <item value="appendix" />
+      <item value="附件" />
       <item value="Single" />
       <item value="censusRegister" />
       <item value="census register" />
@@ -48,14 +51,11 @@
       <item value="live Deposit" />
       <item value="活期存款" />
       <item value="活期存款时效性" />
-      <item value="第二" />
-      <item value="第一个" />
-      <item value="日" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="196" />
-        <entry key="ENGLISH" value="196" />
+        <entry key="CHINESE" value="197" />
+        <entry key="ENGLISH" value="197" />
       </map>
     </option>
   </component>
