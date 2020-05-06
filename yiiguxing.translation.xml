@@ -1,6 +1,16 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="the label" />
+      <item value="the label shape" />
+      <item value="the link label, normally not visible" />
+      <item value="the arrowhead" />
+      <item value="the link path shape" />
+      <item value="the highlight shape, normally transparent" />
+      <item value="mouse-overs subtly highlight link" />
+      <item value="the whole link panel" />
+      <item value="replace the default Link template in the linkTemplateMap" />
+      <item value="selection Adorned" />
       <item value="for conciseness in defining templates" />
       <item value="init for these samples -- you don't need to call this" />
       <item value="This is a re-implementation of the default animation, except it fades in from downwards, instead of upwards." />
@@ -41,21 +51,11 @@
       <item value="支付" />
       <item value="merchant" />
       <item value="store" />
-      <item value="详情" />
-      <item value="兑换" />
-      <item value="现价" />
-      <item value="原价" />
-      <item value="aging" />
-      <item value="第三" />
-      <item value="定期" />
-      <item value="时效" />
-      <item value="live Deposit" />
-      <item value="活期存款" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="219" />
-        <entry key="ENGLISH" value="220" />
+        <entry key="CHINESE" value="229" />
+        <entry key="ENGLISH" value="230" />
       </map>
     </option>
   </component>
