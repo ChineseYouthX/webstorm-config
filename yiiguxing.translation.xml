@@ -1,6 +1,12 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="selection Adorned" />
+      <item value="resegmentable" />
+      <item value="reshapable" />
+      <item value="relinkable To" />
+      <item value="relinkable From" />
+      <item value="this DiagramEvent listener is defined below" />
       <item value="the label" />
       <item value="the label shape" />
       <item value="the link label, normally not visible" />
@@ -10,7 +16,6 @@
       <item value="mouse-overs subtly highlight link" />
       <item value="the whole link panel" />
       <item value="replace the default Link template in the linkTemplateMap" />
-      <item value="selection Adorned" />
       <item value="for conciseness in defining templates" />
       <item value="init for these samples -- you don't need to call this" />
       <item value="This is a re-implementation of the default animation, except it fades in from downwards, instead of upwards." />
@@ -46,16 +51,11 @@
       <item value="交易" />
       <item value="结算" />
       <item value="计数单位" />
-      <item value="单位" />
-      <item value="component Did Mount" />
-      <item value="支付" />
-      <item value="merchant" />
-      <item value="store" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="229" />
-        <entry key="ENGLISH" value="230" />
+        <entry key="CHINESE" value="236" />
+        <entry key="ENGLISH" value="237" />
       </map>
     </option>
   </component>
