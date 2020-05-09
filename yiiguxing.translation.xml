@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="收件箱" />
       <item value="智能的" />
       <item value="智慧的" />
       <item value="通用的" />
@@ -50,7 +51,6 @@
       <item value="现价" />
       <item value="原价" />
       <item value="aging" />
-      <item value="第三" />
     </histories>
     <option name="languageScores">
       <map>
