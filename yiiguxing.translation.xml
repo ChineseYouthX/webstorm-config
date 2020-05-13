@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="insanely " />
       <item value="fiction" />
       <item value="orchestration " />
       <item value="收件箱" />
@@ -50,7 +51,6 @@
       <item value="store" />
       <item value="详情" />
       <item value="兑换" />
-      <item value="现价" />
     </histories>
     <option name="languageScores">
       <map>
