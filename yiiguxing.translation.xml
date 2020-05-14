@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="falastic" />
+      <item value="falalistic" />
       <item value="Credentials" />
       <item value="insanely " />
       <item value="fiction" />
@@ -49,8 +51,6 @@
       <item value="component Did Mount" />
       <item value="支付" />
       <item value="merchant" />
-      <item value="store" />
-      <item value="详情" />
     </histories>
     <option name="languageScores">
       <map>
