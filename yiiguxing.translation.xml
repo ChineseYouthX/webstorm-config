@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="基础配置" />
       <item value="eclipse" />
       <item value="moon eclipse" />
       <item value="月食" />
@@ -50,12 +51,11 @@
       <item value="总计" />
       <item value="交易" />
       <item value="结算" />
-      <item value="计数单位" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="199" />
-        <entry key="ENGLISH" value="199" />
+        <entry key="ENGLISH" value="200" />
       </map>
     </option>
   </component>
