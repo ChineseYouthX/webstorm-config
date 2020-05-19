@@ -22,9 +22,13 @@
           <option name="url" value="http://10.10.10.12:81/project/wisdomParking/frontEnd/com.wisdomParking.property.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://10.10.10.12:81/project/wisdom-park/frontEnd/biz.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="E:\project\wisdomParking\frontEnd\com.wisdomParking" />
+    <option name="cloneParentDir" value="E:\project\wisdomPark\frontEnd" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COMPACT_REFERENCES_VIEW" value="false" />
