@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Query" />
+      <item value="查询" />
       <item value="property" />
       <item value="刷新" />
       <item value="停车费" />
@@ -49,13 +51,11 @@
       <item value="The Node.location comes from the &quot;loc&quot; property of the node data, // converted by the Point.parse static method. // If the Node.location is changed, it updates the &quot;loc&quot; property of the node data, // converting back using the Point.stringify static method." />
       <item value="the main object is a Panel that surrounds a TextBlock with a rectangular Shape" />
       <item value="stop" />
-      <item value="播放" />
-      <item value="精" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="247" />
-        <entry key="ENGLISH" value="248" />
+        <entry key="CHINESE" value="248" />
+        <entry key="ENGLISH" value="249" />
       </map>
     </option>
   </component>
