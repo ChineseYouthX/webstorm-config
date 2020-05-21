@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="字典" />
+      <item value="elevator Num" />
       <item value="householder" />
       <item value="住户" />
       <item value="count" />
@@ -49,13 +51,12 @@
       <item value="Diamond" />
       <item value="Rectangle" />
       <item value="Rounded Rectangle" />
-      <item value="Shape" />
-      <item value="Spot" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="256" />
-        <entry key="ENGLISH" value="257" />
+        <entry key="CHINESE" value="258" />
+        <entry key="ENGLISH" value="258" />
+        <entry key="PORTUGUESE" value="1" />
       </map>
     </option>
   </component>
