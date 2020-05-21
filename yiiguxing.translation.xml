@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="count" />
+      <item value="统计" />
+      <item value="缴费" />
+      <item value="业主" />
       <item value="楼栋管理" />
       <item value="building" />
       <item value="楼栋" />
@@ -47,15 +51,11 @@
       <item value="Spot" />
       <item value="Panel" />
       <item value="Top Side" />
-      <item value="four named ports, one on each side" />
-      <item value="three named ports, one on each side except the bottom, all input only" />
-      <item value="desired Size" />
-      <item value="stroke Width" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="250" />
-        <entry key="ENGLISH" value="250" />
+        <entry key="CHINESE" value="254" />
+        <entry key="ENGLISH" value="255" />
       </map>
     </option>
   </component>
