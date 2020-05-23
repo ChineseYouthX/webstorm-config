@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="format" />
+      <item value="格式化" />
       <item value="calculate" />
       <item value="费用合计" />
       <item value="物业费" />
@@ -49,13 +51,11 @@
       <item value="自己" />
       <item value="stop" />
       <item value="播放" />
-      <item value="精" />
-      <item value="付款码" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="203" />
-        <entry key="ENGLISH" value="203" />
+        <entry key="CHINESE" value="205" />
+        <entry key="ENGLISH" value="206" />
       </map>
     </option>
   </component>
