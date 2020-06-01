@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="quick" />
+      <item value="qick" />
       <item value="Anonymous" />
       <item value="仝" />
       <item value="仝卓" />
@@ -49,8 +51,6 @@
       <item value="handy  " />
       <item value="abbreviation " />
       <item value="reside " />
-      <item value="explicit " />
-      <item value="deprecated" />
     </histories>
     <option name="languageScores">
       <map>
