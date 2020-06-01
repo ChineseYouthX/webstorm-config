@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Anonymous" />
       <item value="仝" />
       <item value="仝卓" />
       <item value="绝对值" />
@@ -50,11 +51,10 @@
       <item value="reside " />
       <item value="explicit " />
       <item value="deprecated" />
-      <item value="mc" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="206" />
+        <entry key="CHINESE" value="207" />
         <entry key="ENGLISH" value="207" />
       </map>
     </option>
