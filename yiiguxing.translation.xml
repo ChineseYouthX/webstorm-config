@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="缴费" />
       <item value="打印收据" />
       <item value="条件" />
       <item value="pay Amt" />
@@ -16,7 +17,6 @@
       <item value="住户" />
       <item value="count" />
       <item value="统计" />
-      <item value="缴费" />
       <item value="业主" />
       <item value="楼栋管理" />
       <item value="building" />
@@ -54,8 +54,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="268" />
-        <entry key="ENGLISH" value="268" />
+        <entry key="CHINESE" value="269" />
+        <entry key="ENGLISH" value="269" />
         <entry key="GERMAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
       </map>
