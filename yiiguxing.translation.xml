@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="菜品" />
       <item value="fire" />
       <item value="speak geek to " />
       <item value="geek " />
@@ -50,12 +51,11 @@
       <item value="通用的" />
       <item value="一卡通" />
       <item value="不滚动" />
-      <item value="annex" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="209" />
-        <entry key="ENGLISH" value="209" />
+        <entry key="ENGLISH" value="210" />
       </map>
     </option>
   </component>
