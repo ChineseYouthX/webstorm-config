@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="规格" />
       <item value="order dishes" />
       <item value="点菜" />
       <item value="菜品" />
@@ -50,12 +51,11 @@
       <item value="收件箱" />
       <item value="智能的" />
       <item value="智慧的" />
-      <item value="通用的" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="210" />
-        <entry key="ENGLISH" value="210" />
+        <entry key="ENGLISH" value="211" />
       </map>
     </option>
   </component>
