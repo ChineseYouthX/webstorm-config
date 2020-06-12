@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="购物车" />
+      <item value="gouwuche" />
+      <item value="cart" />
       <item value="规格" />
       <item value="order dishes" />
       <item value="点菜" />
@@ -48,14 +51,11 @@
       <item value="insanely " />
       <item value="fiction" />
       <item value="orchestration " />
-      <item value="收件箱" />
-      <item value="智能的" />
-      <item value="智慧的" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="210" />
-        <entry key="ENGLISH" value="211" />
+        <entry key="CHINESE" value="211" />
+        <entry key="ENGLISH" value="212" />
       </map>
     </option>
   </component>
