@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Valet order" />
+      <item value="Valet" />
+      <item value="代客点餐" />
       <item value="奥尔良烤肉" />
       <item value="套餐" />
       <item value="dish" />
@@ -48,13 +51,10 @@
       <item value="calculate" />
       <item value="费用合计" />
       <item value="物业费" />
-      <item value="member" />
-      <item value="二维码" />
-      <item value="Validate" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="216" />
+        <entry key="CHINESE" value="217" />
         <entry key="ENGLISH" value="217" />
       </map>
     </option>
