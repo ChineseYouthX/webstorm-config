@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="上架" />
+      <item value="售罄" />
       <item value="minus" />
       <item value="减" />
       <item value="Valet order" />
@@ -49,13 +51,11 @@
       <item value="仝卓" />
       <item value="绝对值" />
       <item value="format" />
-      <item value="格式化" />
-      <item value="calculate" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="218" />
-        <entry key="ENGLISH" value="218" />
+        <entry key="ENGLISH" value="219" />
       </map>
     </option>
   </component>
