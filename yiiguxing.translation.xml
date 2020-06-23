@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="矩形" />
+      <item value="group" />
       <item value="work Time" />
       <item value="上报类型" />
       <item value="附加费" />
@@ -49,13 +51,11 @@
       <item value="this DiagramEvent listener is defined below" />
       <item value="the label" />
       <item value="the label shape" />
-      <item value="the link label, normally not visible" />
-      <item value="the arrowhead" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="274" />
-        <entry key="ENGLISH" value="275" />
+        <entry key="CHINESE" value="276" />
+        <entry key="ENGLISH" value="276" />
         <entry key="GERMAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
       </map>
