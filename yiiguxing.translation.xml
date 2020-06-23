@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="百分比" />
+      <item value="group Info" />
+      <item value="上升" />
+      <item value="下降" />
       <item value="order form" />
       <item value="订单" />
       <item value="矩形" />
@@ -47,15 +51,11 @@
       <item value="when the document is modified, add a &quot;*&quot; to the title and enable the &quot;Save&quot; button" />
       <item value="selection Adorned" />
       <item value="resegmentable" />
-      <item value="reshapable" />
-      <item value="relinkable To" />
-      <item value="relinkable From" />
-      <item value="this DiagramEvent listener is defined below" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="278" />
-        <entry key="ENGLISH" value="279" />
+        <entry key="CHINESE" value="282" />
+        <entry key="ENGLISH" value="282" />
         <entry key="GERMAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
       </map>
