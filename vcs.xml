@@ -38,6 +38,10 @@
           <option name="url" value="http://10.10.10.12:81/project/order/frontEnd/com.order.user.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://10.10.10.12:81/project/order/frontEnd/com.order.kitchen.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="E:\project\order\frontEnd" />
