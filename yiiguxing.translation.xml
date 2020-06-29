@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Calendar" />
+      <item value="openCalenda" />
       <item value="logout" />
       <item value="关机" />
       <item value="座位号" />
@@ -49,8 +51,6 @@
       <item value="标准" />
       <item value="quick" />
       <item value="qick" />
-      <item value="Anonymous" />
-      <item value="仝" />
     </histories>
     <option name="languageScores">
       <map>
