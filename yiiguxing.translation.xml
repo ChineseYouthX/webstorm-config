@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="叉" />
+      <item value="×" />
       <item value="Calendar" />
       <item value="openCalenda" />
       <item value="logout" />
@@ -49,13 +51,11 @@
       <item value="criterions" />
       <item value="criterion" />
       <item value="标准" />
-      <item value="quick" />
-      <item value="qick" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="219" />
-        <entry key="ENGLISH" value="219" />
+        <entry key="ENGLISH" value="220" />
       </map>
     </option>
   </component>
