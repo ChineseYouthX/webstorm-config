@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="套餐" />
+      <item value="isUseSetMeal" />
       <item value="canteen" />
       <item value="guest room" />
       <item value="客房" />
@@ -19,7 +21,6 @@
       <item value="Valet" />
       <item value="代客点餐" />
       <item value="奥尔良烤肉" />
-      <item value="套餐" />
       <item value="dish" />
       <item value="菜" />
       <item value="payed" />
@@ -50,12 +51,11 @@
       <item value="love me 2" />
       <item value="最近两天" />
       <item value="verdaccio" />
-      <item value="forked" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="220" />
-        <entry key="ENGLISH" value="220" />
+        <entry key="ENGLISH" value="221" />
       </map>
     </option>
   </component>
