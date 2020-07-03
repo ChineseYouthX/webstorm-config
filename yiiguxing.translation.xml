@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="变更车牌" />
       <item value="备注" />
       <item value="续费" />
       <item value="停车记录" />
@@ -50,12 +51,11 @@
       <item value="车辆状态" />
       <item value="停车场" />
       <item value="场" />
-      <item value="更多条件" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="287" />
-        <entry key="ENGLISH" value="287" />
+        <entry key="CHINESE" value="290" />
+        <entry key="ENGLISH" value="290" />
         <entry key="GERMAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
       </map>
