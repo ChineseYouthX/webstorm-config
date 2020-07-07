@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="买单" />
       <item value="Cart" />
       <item value="口味" />
       <item value="下班" />
@@ -50,12 +51,11 @@
       <item value="geek " />
       <item value="silly " />
       <item value="metaphor" />
-      <item value="phor" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="222" />
-        <entry key="ENGLISH" value="222" />
+        <entry key="ENGLISH" value="223" />
       </map>
     </option>
   </component>
