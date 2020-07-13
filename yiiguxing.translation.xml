@@ -56,6 +56,7 @@
       <map>
         <entry key="CHINESE" value="224" />
         <entry key="ENGLISH" value="224" />
+        <entry key="CHINESE_TRADITIONAL" value="1" />
       </map>
     </option>
   </component>
