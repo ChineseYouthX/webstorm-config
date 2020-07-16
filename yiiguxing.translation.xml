@@ -1,6 +1,15 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="备注" />
+      <item value="合计" />
+      <item value="光纤代建费" />
+      <item value="装修垃圾清理费" />
+      <item value="生活垃圾费" />
+      <item value="物业费" />
+      <item value="面积" />
+      <item value="房号" />
+      <item value="栋号" />
       <item value="收款" />
       <item value="收据" />
       <item value="is Deadline Valid" />
@@ -17,7 +26,6 @@
       <item value="启用" />
       <item value="车牌" />
       <item value="变更车牌" />
-      <item value="备注" />
       <item value="续费" />
       <item value="停车记录" />
       <item value="营业执照" />
@@ -43,19 +51,11 @@
       <item value="pay Amt" />
       <item value="complete" />
       <item value="完成" />
-      <item value="计算金额和时间" />
-      <item value="费用" />
-      <item value="手动缴费" />
-      <item value="导出" />
-      <item value="elevator Num" />
-      <item value="householder" />
-      <item value="住户" />
-      <item value="count" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="303" />
-        <entry key="ENGLISH" value="303" />
+        <entry key="CHINESE" value="313" />
+        <entry key="ENGLISH" value="313" />
         <entry key="GERMAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
       </map>
