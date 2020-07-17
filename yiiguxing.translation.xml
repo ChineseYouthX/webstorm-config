@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="static" />
       <item value="备注" />
       <item value="合计" />
       <item value="光纤代建费" />
@@ -50,12 +51,11 @@
       <item value="条件" />
       <item value="pay Amt" />
       <item value="complete" />
-      <item value="完成" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="313" />
-        <entry key="ENGLISH" value="313" />
+        <entry key="ENGLISH" value="314" />
         <entry key="GERMAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
       </map>
