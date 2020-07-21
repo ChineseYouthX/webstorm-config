@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="交款时间" />
       <item value="交款人" />
       <item value="停车场" />
       <item value="Quick Menu" />
@@ -50,12 +51,11 @@
       <item value="error" />
       <item value="详细地址" />
       <item value="址" />
-      <item value="缴费" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="317" />
-        <entry key="ENGLISH" value="317" />
+        <entry key="CHINESE" value="318" />
+        <entry key="ENGLISH" value="318" />
         <entry key="GERMAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
       </map>
