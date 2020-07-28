@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="company Id" />
       <item value="Fee" />
       <item value="rgba" />
       <item value="验证码" />
@@ -50,12 +51,11 @@
       <item value="group" />
       <item value="work Time" />
       <item value="上报类型" />
-      <item value="附加费" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="320" />
-        <entry key="ENGLISH" value="321" />
+        <entry key="CHINESE" value="321" />
+        <entry key="ENGLISH" value="322" />
         <entry key="GERMAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
         <entry key="UZBEK" value="1" />
