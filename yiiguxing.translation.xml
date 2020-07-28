@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="rgba" />
       <item value="验证码" />
       <item value="短信验证码" />
       <item value="交款时间" />
@@ -50,7 +51,6 @@
       <item value="上报类型" />
       <item value="附加费" />
       <item value="字典" />
-      <item value="error" />
     </histories>
     <option name="languageScores">
       <map>
@@ -58,6 +58,7 @@
         <entry key="ENGLISH" value="320" />
         <entry key="GERMAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
+        <entry key="UZBEK" value="1" />
       </map>
     </option>
   </component>
