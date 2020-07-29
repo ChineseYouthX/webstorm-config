@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="烟" />
+      <item value="smoke" />
       <item value="invoice" />
       <item value="换行" />
       <item value="电子的" />
@@ -49,13 +51,11 @@
       <item value="分隔符" />
       <item value="购物车" />
       <item value="gouwuche" />
-      <item value="cart" />
-      <item value="规格" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="226" />
-        <entry key="ENGLISH" value="226" />
+        <entry key="ENGLISH" value="227" />
         <entry key="CHINESE_TRADITIONAL" value="1" />
       </map>
     </option>
