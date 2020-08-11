@@ -42,9 +42,13 @@
           <option name="url" value="http://10.10.10.12:81/project/order/frontEnd/com.order.kitchen.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://10.10.10.12:81/project/card/frontEnd/com.card.h5.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="E:\project\order\frontEnd" />
+    <option name="cloneParentDir" value="E:\project\card\frontEnd" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COMPACT_REFERENCES_VIEW" value="false" />
