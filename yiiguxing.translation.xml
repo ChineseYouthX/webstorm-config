@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="board" />
+      <item value="blackboard" />
+      <item value="黑板" />
+      <item value="borad" />
       <item value="充值" />
       <item value="套餐" />
       <item value="package" />
@@ -47,15 +51,11 @@
       <item value="Again" />
       <item value="乌龟" />
       <item value="tuitor" />
-      <item value="确认订单" />
-      <item value="surcharge" />
-      <item value="附加费" />
-      <item value="分隔符" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="227" />
-        <entry key="ENGLISH" value="228" />
+        <entry key="CHINESE" value="229" />
+        <entry key="ENGLISH" value="229" />
         <entry key="CHINESE_TRADITIONAL" value="1" />
       </map>
     </option>
