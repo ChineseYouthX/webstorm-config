@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="教务" />
       <item value="判断" />
       <item value="清空" />
       <item value="plate" />
@@ -50,12 +51,11 @@
       <item value="下降" />
       <item value="order form" />
       <item value="订单" />
-      <item value="矩形" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="324" />
-        <entry key="ENGLISH" value="324" />
+        <entry key="CHINESE" value="325" />
+        <entry key="ENGLISH" value="325" />
         <entry key="GERMAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
         <entry key="UZBEK" value="1" />
