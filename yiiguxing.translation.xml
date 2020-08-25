@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="control" />
       <item value="退卡" />
       <item value="purchase" />
       <item value="sale" />
@@ -50,12 +51,11 @@
       <item value="开卡" />
       <item value="renewal" />
       <item value="renew" />
-      <item value="注销" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="340" />
-        <entry key="ENGLISH" value="340" />
+        <entry key="ENGLISH" value="341" />
         <entry key="GERMAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
         <entry key="UZBEK" value="1" />
