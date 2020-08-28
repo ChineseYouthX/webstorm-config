@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="挂失申请" />
+      <item value="设备记录" />
+      <item value="刷卡统计" />
+      <item value="刷卡记录" />
       <item value="缓存" />
       <item value="control" />
       <item value="退卡" />
@@ -47,15 +51,11 @@
       <item value="is Deadline Valid" />
       <item value="优惠" />
       <item value="deploy" />
-      <item value="配置" />
-      <item value="月卡" />
-      <item value="开卡" />
-      <item value="renewal" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="341" />
-        <entry key="ENGLISH" value="341" />
+        <entry key="CHINESE" value="346" />
+        <entry key="ENGLISH" value="346" />
         <entry key="GERMAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
         <entry key="UZBEK" value="1" />
