@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="grade" />
+      <item value="级" />
       <item value="认证参数" />
       <item value="用户协议" />
       <item value="options" />
@@ -49,13 +51,11 @@
       <item value="面积" />
       <item value="房号" />
       <item value="栋号" />
-      <item value="收款" />
-      <item value="收据" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="349" />
-        <entry key="ENGLISH" value="349" />
+        <entry key="CHINESE" value="351" />
+        <entry key="ENGLISH" value="352" />
         <entry key="GERMAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
         <entry key="UZBEK" value="1" />
