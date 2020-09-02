@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="线上支付" />
+      <item value="现 金 支 付" />
       <item value="money" />
       <item value="结算" />
       <item value="物业中心" />
@@ -49,13 +51,11 @@
       <item value="static" />
       <item value="备注" />
       <item value="合计" />
-      <item value="光纤代建费" />
-      <item value="装修垃圾清理费" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="356" />
-        <entry key="ENGLISH" value="357" />
+        <entry key="CHINESE" value="358" />
+        <entry key="ENGLISH" value="358" />
         <entry key="GERMAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
         <entry key="UZBEK" value="1" />
