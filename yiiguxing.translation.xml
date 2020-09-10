@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="define" />
       <item value="Route Record Raw" />
       <item value="setup" />
       <item value="reactive" />
@@ -50,12 +51,11 @@
       <item value="清空" />
       <item value="plate" />
       <item value="company Id" />
-      <item value="Fee" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="370" />
-        <entry key="ENGLISH" value="371" />
+        <entry key="CHINESE" value="371" />
+        <entry key="ENGLISH" value="372" />
         <entry key="GERMAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
         <entry key="UZBEK" value="1" />
