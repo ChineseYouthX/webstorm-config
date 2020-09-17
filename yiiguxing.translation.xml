@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="付款码" />
       <item value="退出登录" />
       <item value="digit" />
       <item value="reduce" />
@@ -50,12 +51,11 @@
       <item value="control" />
       <item value="退卡" />
       <item value="purchase" />
-      <item value="sale" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="387" />
-        <entry key="ENGLISH" value="387" />
+        <entry key="CHINESE" value="388" />
+        <entry key="ENGLISH" value="388" />
         <entry key="GERMAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
         <entry key="UZBEK" value="1" />
