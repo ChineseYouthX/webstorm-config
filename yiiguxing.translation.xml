@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="找零钱" />
+      <item value="change" />
+      <item value="找零" />
+      <item value="实收" />
       <item value="扫码" />
       <item value="付款码" />
       <item value="退出登录" />
@@ -31,7 +35,6 @@
       <item value="设备" />
       <item value="状态视图" />
       <item value="键盘" />
-      <item value="实收" />
       <item value="线上支付" />
       <item value="现 金 支 付" />
       <item value="money" />
@@ -48,14 +51,11 @@
       <item value="设备记录" />
       <item value="刷卡统计" />
       <item value="刷卡记录" />
-      <item value="缓存" />
-      <item value="control" />
-      <item value="退卡" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="389" />
-        <entry key="ENGLISH" value="389" />
+        <entry key="CHINESE" value="393" />
+        <entry key="ENGLISH" value="393" />
         <entry key="GERMAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
         <entry key="UZBEK" value="1" />
