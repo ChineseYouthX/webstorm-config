@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="service" />
       <item value="车牌号" />
       <item value="logout" />
       <item value="charge" />
@@ -50,7 +51,6 @@
       <item value="device" />
       <item value="状态视图" />
       <item value="键盘" />
-      <item value="线上支付" />
     </histories>
     <option name="languageScores">
       <map>
