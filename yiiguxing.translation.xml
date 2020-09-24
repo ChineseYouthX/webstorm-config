@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="停车记录" />
       <item value="service" />
       <item value="车牌号" />
       <item value="logout" />
@@ -50,12 +51,11 @@
       <item value="管理" />
       <item value="device" />
       <item value="状态视图" />
-      <item value="键盘" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="410" />
-        <entry key="ENGLISH" value="410" />
+        <entry key="CHINESE" value="413" />
+        <entry key="ENGLISH" value="413" />
         <entry key="GERMAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
         <entry key="UZBEK" value="1" />
