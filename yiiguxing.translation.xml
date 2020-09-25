@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="收费记录" />
+      <item value="值班记录" />
       <item value="出场时间" />
       <item value="入场" />
       <item value="车场" />
@@ -49,13 +51,11 @@
       <item value="Route Record Raw" />
       <item value="setup" />
       <item value="reactive" />
-      <item value="Purchase" />
-      <item value="management" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="416" />
-        <entry key="ENGLISH" value="416" />
+        <entry key="CHINESE" value="418" />
+        <entry key="ENGLISH" value="418" />
         <entry key="GERMAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
         <entry key="UZBEK" value="1" />
