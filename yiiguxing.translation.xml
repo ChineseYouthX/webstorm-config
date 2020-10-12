@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="我的任务" />
       <item value="生活" />
       <item value="会员卡" />
       <item value="refactor with render function" />
@@ -50,12 +51,11 @@
       <item value="change" />
       <item value="找零" />
       <item value="实收" />
-      <item value="扫码" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="431" />
-        <entry key="ENGLISH" value="431" />
+        <entry key="CHINESE" value="432" />
+        <entry key="ENGLISH" value="432" />
         <entry key="GERMAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
         <entry key="UZBEK" value="1" />
