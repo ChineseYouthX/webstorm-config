@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="latitude" />
+      <item value="longitude" />
       <item value="收费放行" />
       <item value="turnover" />
       <item value="出入场" />
@@ -49,13 +51,11 @@
       <item value="车牌号" />
       <item value="logout" />
       <item value="charge" />
-      <item value="收费" />
-      <item value="车" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="444" />
-        <entry key="ENGLISH" value="444" />
+        <entry key="ENGLISH" value="445" />
         <entry key="GERMAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
         <entry key="UZBEK" value="1" />
