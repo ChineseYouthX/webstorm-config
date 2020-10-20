@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="清除车辆" />
       <item value="latitude" />
       <item value="longitude" />
       <item value="收费放行" />
@@ -50,7 +51,6 @@
       <item value="service" />
       <item value="车牌号" />
       <item value="logout" />
-      <item value="charge" />
     </histories>
     <option name="languageScores">
       <map>
