@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="发布评价" />
+      <item value="评价" />
+      <item value="evaluate" />
       <item value="乡村时景" />
       <item value="村村通" />
       <item value="村通" />
@@ -48,14 +51,11 @@
       <item value="值班记录" />
       <item value="Object.keys" />
       <item value="Duplicate" />
-      <item value="删除重复" />
-      <item value="去重" />
-      <item value="员工" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="451" />
-        <entry key="ENGLISH" value="451" />
+        <entry key="CHINESE" value="455" />
+        <entry key="ENGLISH" value="455" />
         <entry key="GERMAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
         <entry key="UZBEK" value="1" />
