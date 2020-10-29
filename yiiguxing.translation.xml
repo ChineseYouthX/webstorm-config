@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="描述" />
       <item value="信息发布" />
       <item value="理由" />
       <item value="驳回" />
@@ -29,7 +30,6 @@
       <item value="资料" />
       <item value="更多权益" />
       <item value="更多" />
-      <item value="描述" />
       <item value="待付款" />
       <item value="退/换货" />
       <item value="待评价" />
@@ -54,8 +54,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="461" />
-        <entry key="ENGLISH" value="461" />
+        <entry key="CHINESE" value="462" />
+        <entry key="ENGLISH" value="462" />
         <entry key="GERMAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
         <entry key="UZBEK" value="1" />
