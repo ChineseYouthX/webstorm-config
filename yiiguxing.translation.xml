@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="消费" />
       <item value="支付方式" />
       <item value="充值记录" />
       <item value="金额" />
@@ -50,7 +51,6 @@
       <item value="待发货" />
       <item value="订单" />
       <item value="服务" />
-      <item value="我的任务" />
     </histories>
     <option name="languageScores">
       <map>
