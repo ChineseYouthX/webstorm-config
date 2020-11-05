@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="原价" />
+      <item value="现价" />
       <item value="价格" />
       <item value="money" />
       <item value="开通会员" />
@@ -49,8 +51,6 @@
       <item value="出入场" />
       <item value="商城" />
       <item value="分割" />
-      <item value="资料" />
-      <item value="更多权益" />
     </histories>
     <option name="languageScores">
       <map>
