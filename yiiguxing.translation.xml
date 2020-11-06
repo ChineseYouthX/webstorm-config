@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="收货地址" />
       <item value="邀请大使" />
       <item value="激活" />
       <item value="未激活" />
@@ -50,7 +51,6 @@
       <item value="latitude" />
       <item value="longitude" />
       <item value="收费放行" />
-      <item value="turnover" />
     </histories>
     <option name="languageScores">
       <map>
