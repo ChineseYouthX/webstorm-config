@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="白名单" />
+      <item value="被邀请" />
       <item value="receiver" />
       <item value="channel Type" />
       <item value="会员权益" />
@@ -49,13 +51,11 @@
       <item value="发布评价" />
       <item value="评价" />
       <item value="evaluate" />
-      <item value="乡村时景" />
-      <item value="村村通" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="494" />
-        <entry key="ENGLISH" value="495" />
+        <entry key="CHINESE" value="496" />
+        <entry key="ENGLISH" value="496" />
         <entry key="GERMAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
         <entry key="UZBEK" value="1" />
