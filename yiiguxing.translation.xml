@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="折扣" />
+      <item value="起止时间" />
       <item value="请" />
       <item value="打折" />
       <item value="Event" />
@@ -49,13 +51,11 @@
       <item value="金额" />
       <item value="充值" />
       <item value="头像" />
-      <item value="生日" />
-      <item value="昵称" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="510" />
-        <entry key="ENGLISH" value="510" />
+        <entry key="CHINESE" value="512" />
+        <entry key="ENGLISH" value="512" />
         <entry key="GERMAN" value="1" />
         <entry key="CATALAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
