@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="超时" />
       <item value="已收款" />
       <item value="等待" />
       <item value="线上支付" />
@@ -50,12 +51,11 @@
       <item value="奖励" />
       <item value="邀请好友" />
       <item value="background-image" />
-      <item value="未使用" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="519" />
-        <entry key="ENGLISH" value="519" />
+        <entry key="CHINESE" value="520" />
+        <entry key="ENGLISH" value="520" />
         <entry key="GERMAN" value="1" />
         <entry key="CATALAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
