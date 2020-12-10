@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="单位" />
+      <item value="供" />
       <item value="查看" />
       <item value="interceptor" />
       <item value="Creat" />
@@ -49,13 +51,11 @@
       <item value="未激活" />
       <item value="原价" />
       <item value="现价" />
-      <item value="价格" />
-      <item value="money" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="525" />
-        <entry key="ENGLISH" value="525" />
+        <entry key="CHINESE" value="527" />
+        <entry key="ENGLISH" value="527" />
         <entry key="GERMAN" value="1" />
         <entry key="CATALAN" value="1" />
         <entry key="ROMANIAN" value="1" />
