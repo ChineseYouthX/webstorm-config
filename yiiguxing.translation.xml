@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="折扣" />
+      <item value="常规" />
       <item value="单位" />
       <item value="供" />
       <item value="查看" />
@@ -13,7 +15,6 @@
       <item value="已收款" />
       <item value="等待" />
       <item value="线上支付" />
-      <item value="折扣" />
       <item value="应收" />
       <item value="清空" />
       <item value="table" />
@@ -50,12 +51,11 @@
       <item value="激活" />
       <item value="未激活" />
       <item value="原价" />
-      <item value="现价" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="527" />
-        <entry key="ENGLISH" value="527" />
+        <entry key="CHINESE" value="530" />
+        <entry key="ENGLISH" value="530" />
         <entry key="GERMAN" value="1" />
         <entry key="CATALAN" value="1" />
         <entry key="ROMANIAN" value="1" />
