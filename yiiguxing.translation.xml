@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="隐藏" />
       <item value="提示" />
       <item value="低库存" />
       <item value="低库存提示" />
@@ -50,12 +51,11 @@
       <item value="当前等级" />
       <item value="立即添加" />
       <item value="收货地址" />
-      <item value="邀请大使" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="533" />
-        <entry key="ENGLISH" value="533" />
+        <entry key="CHINESE" value="534" />
+        <entry key="ENGLISH" value="534" />
         <entry key="GERMAN" value="1" />
         <entry key="CATALAN" value="1" />
         <entry key="ROMANIAN" value="1" />
