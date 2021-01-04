@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="额度" />
+      <item value="quota" />
+      <item value="限额" />
+      <item value="限额配置" />
       <item value="撤销" />
       <item value="撤销消费" />
       <item value="允许" />
@@ -47,15 +51,11 @@
       <item value="receiver" />
       <item value="channel Type" />
       <item value="会员权益" />
-      <item value="制度" />
-      <item value="如何升级/降级/保级" />
-      <item value="会员等级" />
-      <item value="balance Amt" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="540" />
-        <entry key="ENGLISH" value="540" />
+        <entry key="CHINESE" value="544" />
+        <entry key="ENGLISH" value="544" />
         <entry key="GERMAN" value="1" />
         <entry key="CATALAN" value="1" />
         <entry key="ROMANIAN" value="1" />
