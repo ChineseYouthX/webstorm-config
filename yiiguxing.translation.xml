@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="时间" />
       <item value="次数" />
       <item value="额度" />
       <item value="quota" />
@@ -50,12 +51,11 @@
       <item value="白名单" />
       <item value="被邀请" />
       <item value="receiver" />
-      <item value="channel Type" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="545" />
-        <entry key="ENGLISH" value="545" />
+        <entry key="CHINESE" value="546" />
+        <entry key="ENGLISH" value="546" />
         <entry key="GERMAN" value="1" />
         <entry key="CATALAN" value="1" />
         <entry key="ROMANIAN" value="1" />
