@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="多个" />
+      <item value="多" />
       <item value="quota" />
       <item value="限额" />
       <item value="时间" />
@@ -49,13 +51,11 @@
       <item value="支付" />
       <item value="车牌" />
       <item value="白名单" />
-      <item value="被邀请" />
-      <item value="receiver" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="548" />
-        <entry key="ENGLISH" value="549" />
+        <entry key="CHINESE" value="550" />
+        <entry key="ENGLISH" value="550" />
         <entry key="GERMAN" value="1" />
         <entry key="CATALAN" value="1" />
         <entry key="ROMANIAN" value="1" />
