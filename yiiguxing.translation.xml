@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="退换" />
       <item value="多个" />
       <item value="多" />
       <item value="quota" />
@@ -50,12 +51,11 @@
       <item value="column" />
       <item value="支付" />
       <item value="车牌" />
-      <item value="白名单" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="550" />
-        <entry key="ENGLISH" value="550" />
+        <entry key="CHINESE" value="551" />
+        <entry key="ENGLISH" value="551" />
         <entry key="GERMAN" value="1" />
         <entry key="CATALAN" value="1" />
         <entry key="ROMANIAN" value="1" />
