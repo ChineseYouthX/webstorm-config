@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="线 上 支 付" />
       <item value="扫码" />
       <item value="请扫码" />
       <item value="倒计时" />
@@ -50,12 +51,11 @@
       <item value="操作" />
       <item value="brand" />
       <item value="时间类型" />
-      <item value="Prop" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="557" />
-        <entry key="ENGLISH" value="557" />
+        <entry key="CHINESE" value="558" />
+        <entry key="ENGLISH" value="558" />
         <entry key="GERMAN" value="1" />
         <entry key="CATALAN" value="1" />
         <entry key="ROMANIAN" value="1" />
