@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="其他" />
       <item value="handle Online Pay" />
       <item value="找零" />
       <item value="change" />
@@ -50,11 +51,10 @@
       <item value="清空" />
       <item value="table" />
       <item value="起止时间" />
-      <item value="请" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="564" />
+        <entry key="CHINESE" value="565" />
         <entry key="ENGLISH" value="565" />
         <entry key="GERMAN" value="1" />
         <entry key="CATALAN" value="1" />
