@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="is Can Edit" />
       <item value="详情" />
       <item value="detail" />
       <item value="其他" />
@@ -50,12 +51,11 @@
       <item value="已收款" />
       <item value="等待" />
       <item value="应收" />
-      <item value="清空" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="567" />
-        <entry key="ENGLISH" value="569" />
+        <entry key="CHINESE" value="568" />
+        <entry key="ENGLISH" value="570" />
         <entry key="GERMAN" value="1" />
         <entry key="CATALAN" value="1" />
         <entry key="ROMANIAN" value="1" />
