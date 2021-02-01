@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="watch" />
+      <item value="监听" />
+      <item value="keydown" />
       <item value="统计" />
       <item value="is Can Edit" />
       <item value="详情" />
@@ -48,14 +51,11 @@
       <item value="Creat" />
       <item value="current" />
       <item value="node" />
-      <item value="超时" />
-      <item value="已收款" />
-      <item value="等待" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="569" />
-        <entry key="ENGLISH" value="570" />
+        <entry key="CHINESE" value="571" />
+        <entry key="ENGLISH" value="572" />
         <entry key="GERMAN" value="1" />
         <entry key="CATALAN" value="1" />
         <entry key="ROMANIAN" value="1" />
