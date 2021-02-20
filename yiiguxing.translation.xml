@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="分配支行" />
+      <item value="分配" />
       <item value="未分配" />
       <item value="已分配" />
       <item value="公司" />
@@ -49,13 +51,11 @@
       <item value="常规" />
       <item value="单位" />
       <item value="供" />
-      <item value="查看" />
-      <item value="interceptor" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="575" />
-        <entry key="ENGLISH" value="575" />
+        <entry key="CHINESE" value="578" />
+        <entry key="ENGLISH" value="578" />
         <entry key="GERMAN" value="1" />
         <entry key="CATALAN" value="1" />
         <entry key="ROMANIAN" value="1" />
