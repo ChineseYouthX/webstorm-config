@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="角色" />
       <item value="添加客户" />
       <item value="is Cache" />
       <item value="缓存" />
@@ -50,12 +51,11 @@
       <item value="当前" />
       <item value="隐藏" />
       <item value="提示" />
-      <item value="低库存" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="581" />
-        <entry key="ENGLISH" value="581" />
+        <entry key="CHINESE" value="582" />
+        <entry key="ENGLISH" value="582" />
         <entry key="GERMAN" value="1" />
         <entry key="CATALAN" value="1" />
         <entry key="ROMANIAN" value="1" />
