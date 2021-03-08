@@ -20,6 +20,7 @@
   <component name="StatusBar">
     <option name="widgets">
       <map>
+        <entry key="InspectionProfile" value="false" />
         <entry key="Memory" value="true" />
       </map>
     </option>

@@ -1,62 +1,66 @@
 <application>
   <component name="AppStorage">
     <histories>
-      <item value="最低库存" />
-      <item value="低库存" />
-      <item value="便利店进销存" />
-      <item value="Invoicing" />
-      <item value="便利店" />
-      <item value="Subsidyer" />
-      <item value="补助对象" />
-      <item value="Arrayies" />
-      <item value="補充" />
-      <item value="泰山" />
-      <item value="cherry" />
-      <item value="bond" />
-      <item value="洗衣" />
-      <item value="洗涤" />
-      <item value="wash" />
-      <item value="shower" />
-      <item value="consume" />
-      <item value="board" />
-      <item value="blackboard" />
-      <item value="黑板" />
-      <item value="borad" />
-      <item value="充值" />
-      <item value="套餐" />
-      <item value="package" />
-      <item value="烟" />
-      <item value="smoke" />
-      <item value="invoice" />
-      <item value="换行" />
-      <item value="电子的" />
-      <item value="receipt" />
-      <item value="发票" />
-      <item value="sign" />
-      <item value="符号" />
-      <item value="money signal" />
-      <item value="买单" />
-      <item value="Cart" />
-      <item value="口味" />
-      <item value="下班" />
-      <item value="close work" />
-      <item value="isUseSetMeal" />
-      <item value="canteen" />
-      <item value="guest room" />
-      <item value="客房" />
-      <item value="叉" />
-      <item value="×" />
-      <item value="Calendar" />
-      <item value="openCalenda" />
-      <item value="logout" />
-      <item value="关机" />
-      <item value="座位号" />
+      <item value="handle Judgment Is Can Edit" />
+      <item value="cashier Id" />
+      <item value="cash Id" />
+      <item value="register Id" />
+      <item value="角色" />
+      <item value="添加客户" />
+      <item value="is Cache" />
+      <item value="缓存" />
+      <item value="not Select" />
+      <item value="is Not Select" />
+      <item value="分配支行" />
+      <item value="分配" />
+      <item value="未分配" />
+      <item value="已分配" />
+      <item value="公司" />
+      <item value="watch" />
+      <item value="监听" />
+      <item value="keydown" />
+      <item value="统计" />
+      <item value="is Can Edit" />
+      <item value="详情" />
+      <item value="detail" />
+      <item value="其他" />
+      <item value="handle Online Pay" />
+      <item value="找零" />
+      <item value="change" />
+      <item value="cash" />
+      <item value="scan Code" />
+      <item value="线上支付" />
+      <item value="原" />
+      <item value="原始" />
+      <item value="线 上 支 付" />
+      <item value="扫码" />
+      <item value="请扫码" />
+      <item value="倒计时" />
+      <item value="service" />
+      <item value="checkout Info" />
+      <item value="refresh" />
+      <item value="退换" />
+      <item value="多个" />
+      <item value="多" />
+      <item value="quota" />
+      <item value="限额" />
+      <item value="时间" />
+      <item value="次数" />
+      <item value="额度" />
+      <item value="限额配置" />
+      <item value="撤销" />
+      <item value="撤销消费" />
+      <item value="允许" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="236" />
-        <entry key="ENGLISH" value="236" />
-        <entry key="CHINESE_TRADITIONAL" value="1" />
+        <entry key="CHINESE" value="585" />
+        <entry key="ENGLISH" value="586" />
+        <entry key="GERMAN" value="1" />
+        <entry key="CATALAN" value="1" />
+        <entry key="ROMANIAN" value="1" />
+        <entry key="PORTUGUESE" value="1" />
+        <entry key="UZBEK" value="1" />
       </map>
     </option>
   </component>

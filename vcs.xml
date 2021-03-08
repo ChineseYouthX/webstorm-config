@@ -12,55 +12,10 @@
         </UrlAndUserName>
         <UrlAndUserName>
           <option name="url" value="http://10.10.10.12:81" />
-          <option name="userName" value="zhaozuhui" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://10.10.10.12:81/project/workflow/frontEnd/com.workflow.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://10.10.10.12:81/project/wisdomParking/frontEnd/com.wisdomParking.property.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://10.10.10.12:81/project/wisdom-park/frontEnd/biz.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://10.10.10.12:81/project/wisdom-park/frontEnd/box.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://10.10.10.12:81/project/wisdom-park/frontEnd/cus.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://10.10.10.12:81/project/order/frontEnd/com.order.user.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://10.10.10.12:81/project/order/frontEnd/com.order.kitchen.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://10.10.10.12:81/project/card/frontEnd/com.card.h5.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://10.10.10.12:81/project/userCenter/frontEnd/com.userLogin.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://10.10.10.12:81/project/card/frontEnd/com.card.admin.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://10.10.10.12:81/project/card/frontEnd/com.card.store.git" />
-          <option name="userName" value="" />
+          <option name="userName" value="xiaxilin" />
         </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="E:\project\card\frontEnd" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COMPACT_REFERENCES_VIEW" value="false" />
