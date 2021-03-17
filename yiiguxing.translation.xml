@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Plus" />
       <item value="description" />
       <item value="上一个" />
       <item value="last" />
@@ -50,13 +51,13 @@
       <item value="多个" />
       <item value="多" />
       <item value="quota" />
-      <item value="限额" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="591" />
+        <entry key="CHINESE" value="592" />
         <entry key="ENGLISH" value="592" />
         <entry key="GERMAN" value="1" />
+        <entry key="FRENCH" value="1" />
         <entry key="CATALAN" value="1" />
         <entry key="ROMANIAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
