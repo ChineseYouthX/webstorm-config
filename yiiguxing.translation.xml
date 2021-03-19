@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="save" />
+      <item value="commit" />
       <item value="prototype" />
       <item value="clipboard" />
       <item value="Plus" />
@@ -49,13 +51,11 @@
       <item value="service" />
       <item value="checkout Info" />
       <item value="refresh" />
-      <item value="退换" />
-      <item value="多个" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="594" />
-        <entry key="ENGLISH" value="595" />
+        <entry key="CHINESE" value="596" />
+        <entry key="ENGLISH" value="597" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
         <entry key="CATALAN" value="1" />
