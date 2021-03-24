@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="sale Order Pay Amt" />
       <item value="会员价" />
       <item value="合计金额" />
       <item value="advertisement Timer" />
@@ -50,12 +51,12 @@
       <item value="change" />
       <item value="cash" />
       <item value="scan Code" />
-      <item value="线上支付" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="604" />
         <entry key="ENGLISH" value="604" />
+        <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
         <entry key="CATALAN" value="1" />
