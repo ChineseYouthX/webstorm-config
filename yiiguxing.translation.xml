@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="destroyed" />
+      <item value="deactivated" />
       <item value="隐藏" />
       <item value="立即" />
       <item value="客房管理" />
@@ -49,13 +51,11 @@
       <item value="分配" />
       <item value="未分配" />
       <item value="已分配" />
-      <item value="公司" />
-      <item value="watch" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="617" />
-        <entry key="ENGLISH" value="617" />
+        <entry key="CHINESE" value="618" />
+        <entry key="ENGLISH" value="619" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
