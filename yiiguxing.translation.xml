@@ -1,6 +1,40 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="立即" />
+      <item value="客房管理" />
+      <item value="Housekeep" />
+      <item value="taste Management" />
+      <item value="Text" />
+      <item value="登录" />
+      <item value="已登录" />
+      <item value="身份" />
+      <item value="缓存" />
+      <item value="初始化" />
+      <item value="初始" />
+      <item value="initialize" />
+      <item value="sale Order Pay Amt" />
+      <item value="会员价" />
+      <item value="合计金额" />
+      <item value="advertisement Timer" />
+      <item value="监听事件" />
+      <item value="receive render process msg" />
+      <item value="Tray" />
+      <item value="close Confirm" />
+      <item value="browser" />
+      <item value="secondary Win" />
+      <item value="save" />
+      <item value="commit" />
+      <item value="prototype" />
+      <item value="clipboard" />
+      <item value="Plus" />
+      <item value="description" />
+      <item value="上一个" />
+      <item value="last" />
+      <item value="autocomplete" />
+      <item value="immediate" />
+      <item value="command" />
+      <item value="production Tip" />
       <item value="handle Judgment Is Can Edit" />
       <item value="cashier Id" />
       <item value="cash Id" />
@@ -8,7 +42,6 @@
       <item value="角色" />
       <item value="添加客户" />
       <item value="is Cache" />
-      <item value="缓存" />
       <item value="not Select" />
       <item value="is Not Select" />
       <item value="分配支行" />
@@ -18,45 +51,14 @@
       <item value="公司" />
       <item value="watch" />
       <item value="监听" />
-      <item value="keydown" />
-      <item value="统计" />
-      <item value="is Can Edit" />
-      <item value="详情" />
-      <item value="detail" />
-      <item value="其他" />
-      <item value="handle Online Pay" />
-      <item value="找零" />
-      <item value="change" />
-      <item value="cash" />
-      <item value="scan Code" />
-      <item value="线上支付" />
-      <item value="原" />
-      <item value="原始" />
-      <item value="线 上 支 付" />
-      <item value="扫码" />
-      <item value="请扫码" />
-      <item value="倒计时" />
-      <item value="service" />
-      <item value="checkout Info" />
-      <item value="refresh" />
-      <item value="退换" />
-      <item value="多个" />
-      <item value="多" />
-      <item value="quota" />
-      <item value="限额" />
-      <item value="时间" />
-      <item value="次数" />
-      <item value="额度" />
-      <item value="限额配置" />
-      <item value="撤销" />
-      <item value="撤销消费" />
-      <item value="允许" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="585" />
-        <entry key="ENGLISH" value="586" />
+        <entry key="CHINESE" value="616" />
+        <entry key="ENGLISH" value="616" />
+        <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
+        <entry key="FRENCH" value="1" />
         <entry key="CATALAN" value="1" />
         <entry key="ROMANIAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
