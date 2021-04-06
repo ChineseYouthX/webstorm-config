@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="报表" />
+      <item value="门店" />
+      <item value="菜品" />
+      <item value="店铺" />
       <item value="destroyed" />
       <item value="deactivated" />
       <item value="隐藏" />
@@ -47,15 +51,11 @@
       <item value="is Cache" />
       <item value="not Select" />
       <item value="is Not Select" />
-      <item value="分配支行" />
-      <item value="分配" />
-      <item value="未分配" />
-      <item value="已分配" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="618" />
-        <entry key="ENGLISH" value="619" />
+        <entry key="CHINESE" value="622" />
+        <entry key="ENGLISH" value="622" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
