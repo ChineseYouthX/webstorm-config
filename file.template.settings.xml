@@ -1,6 +1,7 @@
 <application>
   <component name="ExportableFileTemplateSettings">
     <default_templates>
+      <template name="base form.vue" reformat="true" live-template-enabled="true" />
       <template name="base page.vue" reformat="true" live-template-enabled="true" />
       <template name="table page.vue" reformat="true" live-template-enabled="true" />
     </default_templates>
