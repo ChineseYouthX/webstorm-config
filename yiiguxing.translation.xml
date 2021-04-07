@@ -1,9 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="菜品" />
       <item value="报表" />
       <item value="门店" />
-      <item value="菜品" />
       <item value="店铺" />
       <item value="destroyed" />
       <item value="deactivated" />
@@ -54,8 +54,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="622" />
-        <entry key="ENGLISH" value="622" />
+        <entry key="CHINESE" value="623" />
+        <entry key="ENGLISH" value="623" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
