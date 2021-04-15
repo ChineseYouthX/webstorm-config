@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="人数" />
+      <item value="已有人数" />
       <item value="component" />
       <item value="规格" />
       <item value="单价" />
@@ -49,13 +51,11 @@
       <item value="Plus" />
       <item value="description" />
       <item value="上一个" />
-      <item value="last" />
-      <item value="autocomplete" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="631" />
-        <entry key="ENGLISH" value="632" />
+        <entry key="CHINESE" value="634" />
+        <entry key="ENGLISH" value="634" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
