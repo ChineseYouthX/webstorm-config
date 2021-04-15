@@ -1,9 +1,21 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="component" />
+      <item value="规格" />
+      <item value="单价" />
+      <item value="do Upload" />
+      <item value="Desc" />
+      <item value="suffix" />
+      <item value="todo" />
+      <item value="口味" />
+      <item value="is By Weight" />
+      <item value="计重" />
+      <item value="node" />
+      <item value="Info" />
+      <item value="菜品" />
       <item value="报表" />
       <item value="门店" />
-      <item value="菜品" />
       <item value="店铺" />
       <item value="destroyed" />
       <item value="deactivated" />
@@ -39,23 +51,11 @@
       <item value="上一个" />
       <item value="last" />
       <item value="autocomplete" />
-      <item value="immediate" />
-      <item value="command" />
-      <item value="production Tip" />
-      <item value="handle Judgment Is Can Edit" />
-      <item value="cashier Id" />
-      <item value="cash Id" />
-      <item value="register Id" />
-      <item value="角色" />
-      <item value="添加客户" />
-      <item value="is Cache" />
-      <item value="not Select" />
-      <item value="is Not Select" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="622" />
-        <entry key="ENGLISH" value="622" />
+        <entry key="CHINESE" value="631" />
+        <entry key="ENGLISH" value="632" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
@@ -63,6 +63,7 @@
         <entry key="ROMANIAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
         <entry key="UZBEK" value="1" />
+        <entry key="SPANISH" value="1" />
       </map>
     </option>
   </component>
