@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="已预付金额" />
+      <item value="预付金额" />
+      <item value="预付" />
       <item value="临时菜" />
       <item value="划菜" />
       <item value="value" />
@@ -48,14 +51,11 @@
       <item value="隐藏" />
       <item value="立即" />
       <item value="客房管理" />
-      <item value="Housekeep" />
-      <item value="taste Management" />
-      <item value="Text" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="653" />
-        <entry key="ENGLISH" value="653" />
+        <entry key="CHINESE" value="657" />
+        <entry key="ENGLISH" value="657" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
