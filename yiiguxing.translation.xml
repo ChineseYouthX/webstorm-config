@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="取消并台" />
       <item value="import" />
       <item value="enough" />
       <item value="排号" />
@@ -50,11 +51,10 @@
       <item value="order" />
       <item value="reserve" />
       <item value="正则" />
-      <item value="validate" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="688" />
+        <entry key="CHINESE" value="689" />
         <entry key="ENGLISH" value="689" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
