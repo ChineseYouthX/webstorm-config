@@ -1,6 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="is Timer" />
+      <item value="is Timing" />
+      <item value="is Time" />
+      <item value="定时" />
       <item value="总价" />
       <item value="取消并台" />
       <item value="import" />
@@ -47,15 +51,11 @@
       <item value="清台" />
       <item value="label" />
       <item value="urge" />
-      <item value="催" />
-      <item value="催菜" />
-      <item value="order" />
-      <item value="reserve" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="691" />
-        <entry key="ENGLISH" value="691" />
+        <entry key="CHINESE" value="694" />
+        <entry key="ENGLISH" value="695" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
