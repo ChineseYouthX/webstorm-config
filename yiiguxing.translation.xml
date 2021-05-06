@@ -1,69 +1,71 @@
 <application>
   <component name="AppStorage">
     <histories>
-      <item value="Bill Please" />
-      <item value="component" />
-      <item value="规格" />
-      <item value="单价" />
-      <item value="do Upload" />
-      <item value="Desc" />
-      <item value="suffix" />
-      <item value="todo" />
-      <item value="口味" />
-      <item value="is By Weight" />
+      <item value="import" />
+      <item value="enough" />
+      <item value="排号" />
+      <item value="服务" />
+      <item value="提成" />
+      <item value="控制" />
+      <item value="显示" />
+      <item value="并台明细" />
+      <item value="免单" />
+      <item value="优惠方式" />
+      <item value="找零" />
+      <item value="calculate" />
+      <item value="计算" />
+      <item value="下一张" />
+      <item value="优惠" />
+      <item value="handle Select Pay" />
+      <item value="ways" />
+      <item value="多选" />
+      <item value="取消" />
+      <item value="退菜" />
+      <item value="Handle" />
+      <item value="Bind" />
+      <item value="业绩归属" />
+      <item value="用餐人数" />
+      <item value="用餐" />
+      <item value="查看原因" />
+      <item value="原因" />
+      <item value="套餐信息" />
       <item value="计重" />
-      <item value="node" />
-      <item value="Info" />
-      <item value="菜品" />
-      <item value="报表" />
-      <item value="门店" />
-      <item value="店铺" />
-      <item value="destroyed" />
-      <item value="deactivated" />
-      <item value="隐藏" />
-      <item value="立即" />
-      <item value="客房管理" />
-      <item value="Housekeep" />
-      <item value="taste Management" />
-      <item value="Text" />
-      <item value="登录" />
-      <item value="已登录" />
-      <item value="身份" />
-      <item value="缓存" />
-      <item value="初始化" />
-      <item value="初始" />
-      <item value="initialize" />
-      <item value="sale Order Pay Amt" />
-      <item value="会员价" />
-      <item value="合计金额" />
-      <item value="advertisement Timer" />
-      <item value="监听事件" />
-      <item value="receive render process msg" />
-      <item value="Tray" />
-      <item value="close Confirm" />
-      <item value="browser" />
-      <item value="secondary Win" />
-      <item value="save" />
-      <item value="commit" />
-      <item value="prototype" />
-      <item value="clipboard" />
-      <item value="Plus" />
-      <item value="description" />
-      <item value="上一个" />
-      <item value="last" />
+      <item value="附加费" />
+      <item value="已预付金额" />
+      <item value="预付金额" />
+      <item value="预付" />
+      <item value="临时菜" />
+      <item value="划菜" />
+      <item value="value" />
+      <item value="info" />
+      <item value="小计" />
+      <item value="结算" />
+      <item value="结账" />
+      <item value="清除" />
+      <item value="清台" />
+      <item value="label" />
+      <item value="urge" />
+      <item value="催" />
+      <item value="催菜" />
+      <item value="order" />
+      <item value="reserve" />
+      <item value="正则" />
+      <item value="validate" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="632" />
-        <entry key="ENGLISH" value="633" />
+        <entry key="CHINESE" value="688" />
+        <entry key="ENGLISH" value="689" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
         <entry key="CATALAN" value="1" />
         <entry key="ROMANIAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
+        <entry key="JAPANESE" value="2" />
         <entry key="UZBEK" value="1" />
         <entry key="SPANISH" value="1" />
+        <entry key="ITALIAN" value="1" />
       </map>
     </option>
   </component>
