@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="actions" />
       <item value="已填写" />
       <item value="已输入备用金" />
       <item value="change Shifts" />
@@ -50,12 +51,11 @@
       <item value="value" />
       <item value="info" />
       <item value="小计" />
-      <item value="结算" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="698" />
-        <entry key="ENGLISH" value="698" />
+        <entry key="ENGLISH" value="699" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
