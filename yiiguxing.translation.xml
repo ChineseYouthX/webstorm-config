@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="is Tablet" />
+      <item value="Tablet" />
+      <item value="ablet" />
       <item value="actions" />
       <item value="已填写" />
       <item value="已输入备用金" />
@@ -48,14 +51,11 @@
       <item value="预付" />
       <item value="临时菜" />
       <item value="划菜" />
-      <item value="value" />
-      <item value="info" />
-      <item value="小计" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="698" />
-        <entry key="ENGLISH" value="699" />
+        <entry key="CHINESE" value="701" />
+        <entry key="ENGLISH" value="702" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
