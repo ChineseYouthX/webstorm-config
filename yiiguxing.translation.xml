@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="单菜" />
+      <item value="online" />
       <item value="specifications" />
       <item value="spare" />
       <item value="is Tablet" />
@@ -49,13 +51,11 @@
       <item value="计重" />
       <item value="附加费" />
       <item value="已预付金额" />
-      <item value="预付金额" />
-      <item value="预付" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="703" />
-        <entry key="ENGLISH" value="704" />
+        <entry key="CHINESE" value="705" />
+        <entry key="ENGLISH" value="705" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
