@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="后厨打印" />
       <item value="打印机" />
       <item value="单菜" />
       <item value="online" />
@@ -50,12 +51,11 @@
       <item value="原因" />
       <item value="套餐信息" />
       <item value="计重" />
-      <item value="附加费" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="706" />
-        <entry key="ENGLISH" value="706" />
+        <entry key="CHINESE" value="707" />
+        <entry key="ENGLISH" value="707" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
