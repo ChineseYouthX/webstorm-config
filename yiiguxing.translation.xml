@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="已结账" />
+      <item value="结账" />
       <item value="后厨打印" />
       <item value="打印机" />
       <item value="单菜" />
@@ -49,13 +51,11 @@
       <item value="用餐" />
       <item value="查看原因" />
       <item value="原因" />
-      <item value="套餐信息" />
-      <item value="计重" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="707" />
-        <entry key="ENGLISH" value="707" />
+        <entry key="CHINESE" value="709" />
+        <entry key="ENGLISH" value="709" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
