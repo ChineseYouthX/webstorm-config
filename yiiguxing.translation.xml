@@ -1,8 +1,10 @@
 <application>
   <component name="AppStorage">
     <histories>
-      <item value="secure" />
       <item value="已结账" />
+      <item value="settled" />
+      <item value="已结算" />
+      <item value="secure" />
       <item value="结账" />
       <item value="后厨打印" />
       <item value="打印机" />
@@ -49,13 +51,11 @@
       <item value="Bind" />
       <item value="业绩归属" />
       <item value="用餐人数" />
-      <item value="用餐" />
-      <item value="查看原因" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="709" />
-        <entry key="ENGLISH" value="710" />
+        <entry key="CHINESE" value="713" />
+        <entry key="ENGLISH" value="713" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
