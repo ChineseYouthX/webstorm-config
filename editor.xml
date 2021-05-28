@@ -10,5 +10,10 @@
   </component>
   <component name="TodoConfiguration">
     <pattern pattern="\b(todo|fixme)\b.*" />
+    <pattern useCustomColors="true" pattern="\b注意\b.*">
+      <option name="FOREGROUND" value="409eff" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="f56c6c" />
+    </pattern>
   </component>
 </application>
