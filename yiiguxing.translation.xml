@@ -1,6 +1,12 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="todo" />
+      <item value="handle" />
+      <item value="filter" />
+      <item value="Selected" />
+      <item value="selectd" />
+      <item value="rbac" />
       <item value="添加" />
       <item value="已结账" />
       <item value="settled" />
@@ -45,17 +51,11 @@
       <item value="优惠" />
       <item value="handle Select Pay" />
       <item value="ways" />
-      <item value="多选" />
-      <item value="取消" />
-      <item value="退菜" />
-      <item value="Handle" />
-      <item value="Bind" />
-      <item value="业绩归属" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="714" />
-        <entry key="ENGLISH" value="714" />
+        <entry key="CHINESE" value="720" />
+        <entry key="ENGLISH" value="720" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
@@ -64,7 +64,7 @@
         <entry key="PORTUGUESE" value="1" />
         <entry key="JAPANESE" value="2" />
         <entry key="UZBEK" value="1" />
-        <entry key="SPANISH" value="1" />
+        <entry key="SPANISH" value="2" />
         <entry key="ITALIAN" value="1" />
       </map>
     </option>
