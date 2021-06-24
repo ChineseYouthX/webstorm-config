@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="selection" />
       <item value="urge Goods" />
       <item value="Member" />
       <item value="Unit Price" />
@@ -50,12 +51,11 @@
       <item value="优惠方式" />
       <item value="找零" />
       <item value="calculate" />
-      <item value="计算" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="723" />
-        <entry key="ENGLISH" value="724" />
+        <entry key="CHINESE" value="724" />
+        <entry key="ENGLISH" value="725" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
