@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="afresh" />
+      <item value="重新" />
+      <item value="again" />
       <item value="for show the changes, you can delete in you code" />
       <item value="小计" />
       <item value="单价" />
@@ -48,14 +51,11 @@
       <item value="import" />
       <item value="enough" />
       <item value="排号" />
-      <item value="服务" />
-      <item value="提成" />
-      <item value="控制" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="729" />
-        <entry key="ENGLISH" value="730" />
+        <entry key="CHINESE" value="733" />
+        <entry key="ENGLISH" value="734" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
