@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="that" />
       <item value="afresh" />
       <item value="重新" />
       <item value="again" />
@@ -50,7 +51,6 @@
       <item value="取消并台" />
       <item value="import" />
       <item value="enough" />
-      <item value="排号" />
     </histories>
     <option name="languageScores">
       <map>
