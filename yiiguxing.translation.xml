@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="未联系" />
       <item value="状态" />
       <item value="详情" />
       <item value="业务预约" />
@@ -50,12 +51,11 @@
       <item value="is Timing" />
       <item value="is Time" />
       <item value="定时" />
-      <item value="总价" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="738" />
-        <entry key="ENGLISH" value="738" />
+        <entry key="CHINESE" value="739" />
+        <entry key="ENGLISH" value="739" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
