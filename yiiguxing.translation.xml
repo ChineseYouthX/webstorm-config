@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="handle Form" />
       <item value="整单打印" />
       <item value="产品列表" />
       <item value="current" />
@@ -50,12 +51,11 @@
       <item value="specifications" />
       <item value="spare" />
       <item value="is Tablet" />
-      <item value="Tablet" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="751" />
-        <entry key="ENGLISH" value="751" />
+        <entry key="ENGLISH" value="752" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
