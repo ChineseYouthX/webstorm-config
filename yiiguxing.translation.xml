@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="下载" />
       <item value="return-previous-page" />
       <item value="标签" />
       <item value="handle Form" />
@@ -50,11 +51,10 @@
       <item value="打印机" />
       <item value="单菜" />
       <item value="online" />
-      <item value="specifications" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="752" />
+        <entry key="CHINESE" value="753" />
         <entry key="ENGLISH" value="753" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
