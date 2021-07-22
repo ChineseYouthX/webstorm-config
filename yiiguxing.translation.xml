@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="recruit-announce" />
+      <item value="recruit-announce-box" />
       <item value="店铺简介" />
       <item value="Invalid Host header" />
       <item value="预览桌牌" />
@@ -49,13 +51,11 @@
       <item value="添加" />
       <item value="已结账" />
       <item value="settled" />
-      <item value="已结算" />
-      <item value="secure" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="758" />
-        <entry key="ENGLISH" value="758" />
+        <entry key="CHINESE" value="760" />
+        <entry key="ENGLISH" value="761" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
