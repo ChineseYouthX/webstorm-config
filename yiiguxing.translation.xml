@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="点餐" />
       <item value="inactive" />
       <item value="active" />
       <item value="recruit-announce" />
@@ -50,11 +51,10 @@
       <item value="Selected" />
       <item value="selectd" />
       <item value="rbac" />
-      <item value="添加" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="762" />
+        <entry key="CHINESE" value="763" />
         <entry key="ENGLISH" value="763" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
