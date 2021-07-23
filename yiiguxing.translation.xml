@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="inactive" />
+      <item value="active" />
       <item value="recruit-announce" />
       <item value="recruit-announce-box" />
       <item value="店铺简介" />
@@ -49,13 +51,11 @@
       <item value="selectd" />
       <item value="rbac" />
       <item value="添加" />
-      <item value="已结账" />
-      <item value="settled" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="760" />
-        <entry key="ENGLISH" value="761" />
+        <entry key="CHINESE" value="762" />
+        <entry key="ENGLISH" value="763" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
