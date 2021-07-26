@@ -1,8 +1,8 @@
 <application>
-  <component name="FileTypeManager" version="17">
+  <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping pattern="system.svg" type="PLAIN_TEXT" />
       <mapping pattern="version" type="PLAIN_TEXT" />
+      <mapping pattern="system.svg" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
