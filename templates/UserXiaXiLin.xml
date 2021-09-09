@@ -4,4 +4,29 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="api list" value="list: data =&gt; {&#10;    return request({&#10;      url: basePath + 'list',&#10;      method: 'post',&#10;      data&#10;    })&#10;  }," toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="api del" value="del: data =&gt; {&#10;    return request({&#10;      url: basePath + 'del',&#10;      method: 'post',&#10;      data&#10;    })&#10;  }," toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="api isUse" value="isUse: data =&gt; {&#10;    return request({&#10;      url: basePath + 'isUse',&#10;      method: 'post',&#10;      data&#10;    })&#10;  }," toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="api get" value="get: data =&gt; {&#10;    return request({&#10;      url: basePath + 'get',&#10;      method: 'post',&#10;      data&#10;    })&#10;  }," toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="api edit" value="edit: data =&gt; {&#10;    return request({&#10;      url: basePath + 'edit',&#10;      method: 'post',&#10;      data&#10;    })&#10;  }," toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
