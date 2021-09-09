@@ -4,6 +4,13 @@
     <option name="newTranslationDialogX" value="2735" />
     <option name="newTranslationDialogY" value="450" />
     <histories>
+      <item value="新增" />
+      <item value="handle Form" />
+      <item value="handleform" />
+      <item value="handle Edit" />
+      <item value="form" />
+      <item value="from" />
+      <item value="没有分页" />
       <item value="支付平台" />
       <item value="支付" />
       <item value="refresh" />
@@ -22,7 +29,6 @@
       <item value="下载" />
       <item value="return-previous-page" />
       <item value="标签" />
-      <item value="handle Form" />
       <item value="整单打印" />
       <item value="产品列表" />
       <item value="current" />
@@ -48,22 +54,17 @@
       <item value="订单状态" />
       <item value="label" />
       <item value="商户" />
-      <item value="parameter" />
-      <item value="selection" />
-      <item value="urge Goods" />
-      <item value="Member" />
-      <item value="Unit Price" />
-      <item value="todo" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="766" />
-        <entry key="ENGLISH" value="767" />
+        <entry key="CHINESE" value="772" />
+        <entry key="ENGLISH" value="772" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
         <entry key="CATALAN" value="1" />
         <entry key="ROMANIAN" value="1" />
+        <entry key="NORWEGIAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
         <entry key="JAPANESE" value="2" />
         <entry key="UZBEK" value="1" />
