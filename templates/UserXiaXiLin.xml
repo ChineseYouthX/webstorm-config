@@ -1,0 +1,7 @@
+<templateSet group="UserXiaXiLin">
+  <template name="search" value="&lt;el-row&gt;&#10;            &lt;el-col :span=&quot;4&quot;&gt;&#10;              &lt;el-button v-if=&quot;isCanEdit&quot; type=&quot;primary&quot; icon=&quot;el-icon-plus&quot; @click=&quot;handleGoPage('routerName')&quot;&gt;操作&lt;/el-button&gt;&#10;            &lt;/el-col&gt;&#10;            &lt;el-col :span=&quot;20&quot; align=&quot;right&quot;&gt;&#10;              &lt;el-form ref=&quot;form&quot; :model=&quot;requestSearch&quot; onsubmit=&quot;return false&quot; :inline=&quot;true&quot;&gt;&#10;                &lt;el-form-item label=&quot;label&quot; prop=&quot;title&quot;&gt;&#10;                  &lt;el-input&#10;                    v-model.trim=&quot;requestSearch.input&quot;&#10;                    placeholder=&quot;请输入&quot;&#10;                    clearable&#10;                  /&gt;&#10;                &lt;/el-form-item&gt;&#10;                &lt;base-search-reset @search=&quot;getTableData(true)&quot; @reset=&quot;handleResetForm&quot; /&gt;&#10;              &lt;/el-form&gt;&#10;            &lt;/el-col&gt;&#10;          &lt;/el-row&gt;" description="列表搜索" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

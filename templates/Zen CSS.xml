@@ -1,19 +1,19 @@
 <templateSet group="Zen CSS">
-    <template name="pos:f" value="position:fixed;" description="position:fixed;" toReformat="true" toShortenFQNames="true">
-        <context>
-            <option name="XSL_TEXT" value="true"/>
-        </context>
-    </template>
-    <template name="bdri" value="border-right-image:url($VAR0$);" description="border-right-image:url(...);" toReformat="true" toShortenFQNames="true">
-        <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true"/>
-        <context>
-            <option name="HTML_TEXT" value="true"/>
-            <option name="JSX_HTML" value="true"/>
-        </context>
-    </template>
-    <template name="animtf:l" value="animation-timing-function:linear;" description="animation-timing-function: linear;" toReformat="true" toShortenFQNames="true">
-        <context>
-            <option name="XSL_TEXT" value="true"/>
-        </context>
-    </template>
+  <template name="pos:f" value="position:fixed;" description="position:fixed;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XSL_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="bdri" value="border-right-image:url($VAR0$);" description="border-right-image:url(...);" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="JSX_HTML" value="true" />
+    </context>
+  </template>
+  <template name="animtf:l" value="animation-timing-function:linear;" description="animation-timing-function: linear;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XSL_TEXT" value="true" />
+    </context>
+  </template>
 </templateSet>
