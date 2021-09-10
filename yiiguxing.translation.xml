@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="2735" />
     <option name="newTranslationDialogY" value="450" />
     <histories>
+      <item value="hide" />
       <item value="company Form" />
       <item value="新增" />
       <item value="handle Form" />
@@ -53,12 +54,11 @@
       <item value="小计" />
       <item value="单价" />
       <item value="订单状态" />
-      <item value="label" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="772" />
-        <entry key="ENGLISH" value="773" />
+        <entry key="CHINESE" value="773" />
+        <entry key="ENGLISH" value="774" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
