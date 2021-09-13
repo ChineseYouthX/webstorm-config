@@ -29,4 +29,11 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="need change" value="/* $date$ $time$ 夏犀麟 需求变更 */" description="需求变更" toReformat="true" toShortenFQNames="true">
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="time" expression="time()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
