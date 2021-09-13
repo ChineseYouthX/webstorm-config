@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="2735" />
     <option name="newTranslationDialogY" value="450" />
     <histories>
+      <item value="详情" />
       <item value="当前" />
       <item value="active Route Name" />
       <item value="simple Table Route" />
@@ -46,7 +47,6 @@
       <item value="完" />
       <item value="complete" />
       <item value="联系" />
-      <item value="详情" />
       <item value="未联系" />
       <item value="状态" />
       <item value="业务预约" />
@@ -57,8 +57,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="776" />
-        <entry key="ENGLISH" value="776" />
+        <entry key="CHINESE" value="777" />
+        <entry key="ENGLISH" value="777" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
