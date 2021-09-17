@@ -36,4 +36,9 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="req func" value="func() {&#10;      Api.apiName({}).then(res =&gt; {&#10;        const data = res.data&#10;      }).catch(() =&gt; {}).finally(() =&gt; {})&#10;    }," toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
