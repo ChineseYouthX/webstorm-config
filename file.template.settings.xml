@@ -1,0 +1,9 @@
+<application>
+  <component name="ExportableFileTemplateSettings">
+    <default_templates>
+      <template name="api.js" file-name="api" reformat="true" live-template-enabled="false" />
+      <template name="table columns mixin.js" file-name="mixin" reformat="true" live-template-enabled="false" />
+      <template name="table page.vue" file-name="index" reformat="true" live-template-enabled="false" />
+    </default_templates>
+  </component>
+</application>
