@@ -4,6 +4,10 @@
     <option name="newTranslationDialogX" value="2735" />
     <option name="newTranslationDialogY" value="450" />
     <histories>
+      <item value="处理人" />
+      <item value="create Event" />
+      <item value="window" />
+      <item value="download" />
       <item value="详情" />
       <item value="当前" />
       <item value="active Route Name" />
@@ -50,10 +54,6 @@
       <item value="未联系" />
       <item value="状态" />
       <item value="业务预约" />
-      <item value="that" />
-      <item value="afresh" />
-      <item value="重新" />
-      <item value="again" />
     </histories>
     <option name="languageScores">
       <map>
