@@ -4,6 +4,7 @@
     <option name="newTranslationDialogX" value="2735" />
     <option name="newTranslationDialogY" value="450" />
     <histories>
+      <item value="active Selected Department Data" />
       <item value="has Power Access Page" />
       <item value="is Can Edit" />
       <item value="评价分析" />
@@ -53,7 +54,6 @@
       <item value="完成" />
       <item value="完" />
       <item value="complete" />
-      <item value="联系" />
     </histories>
     <option name="languageScores">
       <map>
