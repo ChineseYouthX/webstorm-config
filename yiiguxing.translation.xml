@@ -1,9 +1,16 @@
 <application>
   <component name="AppStorage">
-    <option name="newTranslationDialogWidth" value="598" />
+    <option name="newTranslationDialogWidth" value="596" />
     <option name="newTranslationDialogX" value="2735" />
     <option name="newTranslationDialogY" value="450" />
+    <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="active Menu" />
+      <item value="one" />
+      <item value="a" />
+      <item value="1" />
+      <item value="111" />
+      <item value="RBAC Mixin" />
       <item value="Text" />
       <item value="Staff Management" />
       <item value="active Selected Department Data" />
@@ -48,17 +55,11 @@
       <item value="标签" />
       <item value="整单打印" />
       <item value="产品列表" />
-      <item value="current" />
-      <item value="business Appointment" />
-      <item value="免登陆" />
-      <item value="投票" />
-      <item value="投票管理" />
-      <item value="完成" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="777" />
-        <entry key="ENGLISH" value="777" />
+        <entry key="CHINESE" value="781" />
+        <entry key="ENGLISH" value="780" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
@@ -74,6 +75,13 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1631522384539" />
+    <option name="lastTrimTime" value="1632884746625" />
+  </component>
+  <component name="Settings">
+    <option name="googleTranslateSettings">
+      <google-translate>
+        <option name="useTranslateGoogleCom" value="true" />
+      </google-translate>
+    </option>
   </component>
 </application>
