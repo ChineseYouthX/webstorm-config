@@ -5,6 +5,9 @@
     <option name="newTranslationDialogY" value="450" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Back" />
+      <item value="back" />
+      <item value="handle Back Page" />
       <item value="收银机" />
       <item value="active Menu" />
       <item value="one" />
@@ -52,14 +55,11 @@
       <item value="预览桌" />
       <item value="桌牌" />
       <item value="下载" />
-      <item value="return-previous-page" />
-      <item value="标签" />
-      <item value="整单打印" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="782" />
-        <entry key="ENGLISH" value="781" />
+        <entry key="CHINESE" value="783" />
+        <entry key="ENGLISH" value="784" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
@@ -75,7 +75,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1632884746625" />
+    <option name="lastTrimTime" value="1633678423003" />
   </component>
   <component name="Settings">
     <option name="googleTranslateSettings">

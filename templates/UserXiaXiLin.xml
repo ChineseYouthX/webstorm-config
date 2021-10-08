@@ -41,4 +41,9 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="page header" value="&lt;el-page-header content=&quot;详情页面&quot; @back=&quot;$router.back()&quot; /&gt;" description="页头" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
