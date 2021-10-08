@@ -5,6 +5,10 @@
     <option name="newTranslationDialogY" value="450" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="work" />
+      <item value="person" />
+      <item value="个人信息" />
+      <item value="{ label: '个人信息', name: 'person' }," />
       <item value="位置信息" />
       <item value="Back" />
       <item value="back" />
@@ -51,15 +55,11 @@
       <item value="recruit-announce" />
       <item value="recruit-announce-box" />
       <item value="店铺简介" />
-      <item value="Invalid Host header" />
-      <item value="预览桌牌" />
-      <item value="预览桌" />
-      <item value="桌牌" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="784" />
-        <entry key="ENGLISH" value="784" />
+        <entry key="CHINESE" value="788" />
+        <entry key="ENGLISH" value="789" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
