@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="450" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="办理" />
       <item value="is Need Lease Contract" />
       <item value="cached Views" />
       <item value="visited Views" />
@@ -54,11 +55,10 @@
       <item value="refresh" />
       <item value="percent" />
       <item value="分享" />
-      <item value="点餐" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="793" />
+        <entry key="CHINESE" value="794" />
         <entry key="ENGLISH" value="794" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
@@ -75,13 +75,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1634182212421" />
-  </component>
-  <component name="Settings">
-    <option name="googleTranslateSettings">
-      <google-translate>
-        <option name="useTranslateGoogleCom" value="true" />
-      </google-translate>
-    </option>
+    <option name="lastTrimTime" value="1634633323242" />
   </component>
 </application>
