@@ -6,6 +6,8 @@
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
       <item value="兑换" />
+      <item value="积分" />
+      <item value="积分兑换" />
       <item value="办理" />
       <item value="is Need Lease Contract" />
       <item value="cached Views" />
@@ -53,13 +55,11 @@
       <item value="没有分页" />
       <item value="支付平台" />
       <item value="支付" />
-      <item value="refresh" />
-      <item value="percent" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="795" />
-        <entry key="ENGLISH" value="795" />
+        <entry key="CHINESE" value="799" />
+        <entry key="ENGLISH" value="799" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
