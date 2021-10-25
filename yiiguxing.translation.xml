@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="450" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="selcted Data" />
       <item value="绑定设备" />
       <item value="绑定码牌" />
       <item value="码牌" />
@@ -54,12 +55,11 @@
       <item value="company Form" />
       <item value="新增" />
       <item value="handle Form" />
-      <item value="handleform" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="804" />
-        <entry key="ENGLISH" value="804" />
+        <entry key="ENGLISH" value="805" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
