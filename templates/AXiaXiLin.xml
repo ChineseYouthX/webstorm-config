@@ -1,0 +1,72 @@
+<templateSet group="AXiaXiLin">
+  <template name="search" value="&lt;el-row&gt;&#10;            &lt;el-col :span=&quot;4&quot;&gt;&#10;              &lt;el-button v-if=&quot;isCanEdit&quot; type=&quot;primary&quot; icon=&quot;el-icon-plus&quot; @click=&quot;handleGoPage('routerName')&quot;&gt;操作&lt;/el-button&gt;&#10;            &lt;/el-col&gt;&#10;            &lt;el-col :span=&quot;20&quot; align=&quot;right&quot;&gt;&#10;              &lt;el-form ref=&quot;form&quot; :model=&quot;requestSearch&quot; onsubmit=&quot;return false&quot; :inline=&quot;true&quot;&gt;&#10;                &lt;el-form-item label=&quot;label&quot; prop=&quot;title&quot;&gt;&#10;                  &lt;el-input&#10;                    v-model.trim=&quot;requestSearch.input&quot;&#10;                    placeholder=&quot;请输入&quot;&#10;                    clearable&#10;                  /&gt;&#10;                &lt;/el-form-item&gt;&#10;                &lt;base-search-reset @search=&quot;getTableData(true)&quot; @reset=&quot;handleResetForm&quot; /&gt;&#10;              &lt;/el-form&gt;&#10;            &lt;/el-col&gt;&#10;          &lt;/el-row&gt;" description="列表搜索" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="api list" value="list: data =&gt; {&#10;    return request({&#10;      url: basePath + 'list',&#10;      method: 'post',&#10;      data&#10;    })&#10;  }," description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="api del" value="del: data =&gt; {&#10;    return request({&#10;      url: basePath + 'del',&#10;      method: 'post',&#10;      data&#10;    })&#10;  }," description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="api isUse" value="isUse: data =&gt; {&#10;    return request({&#10;      url: basePath + 'isUse',&#10;      method: 'post',&#10;      data&#10;    })&#10;  }," description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="api get" value="get: data =&gt; {&#10;    return request({&#10;      url: basePath + 'get',&#10;      method: 'post',&#10;      data&#10;    })&#10;  }," description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="api edit" value="edit: data =&gt; {&#10;    return request({&#10;      url: basePath + 'edit',&#10;      method: 'post',&#10;      data&#10;    })&#10;  }," description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="need change" value="/* $date$ $time$ 夏犀麟 需求变更 */" description="需求变更" toReformat="true" toShortenFQNames="true">
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="time" expression="time()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="req func" value="func() {&#10;      Api.apiName({}).then(res =&gt; {&#10;        const data = res.data&#10;      }).catch(() =&gt; {}).finally(() =&gt; {})&#10;    }," description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ph" value="&lt;el-page-header content=&quot;$content$&quot; @back=&quot;$router.back()&quot; /&gt;" description="页头" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="bc" value="&lt;base-container&gt;&#10;   &lt;template #header&gt;header&lt;/template&gt;&#10;   &lt;template #main&gt;main&lt;/template&gt;&#10;&lt;/base-container&gt;" description="布局容器" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="tp" value="&lt;template&gt;&lt;/template&gt;" description="vue template 标签" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="efi" value="&lt;el-form-item label=&quot;$label$&quot; prop=&quot;&quot;&gt;&lt;/el-form-item&gt;" description="el form item" toReformat="true" toShortenFQNames="true">
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="divider" value="&lt;el-divider content-position=&quot;left&quot;&gt;$text$&lt;/el-divider&gt;" description="分割线" toReformat="false" toShortenFQNames="true">
+    <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
