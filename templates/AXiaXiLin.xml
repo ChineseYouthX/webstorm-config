@@ -69,4 +69,9 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="table" value="&lt;base-table&#10;              :loading=&quot;tableLoading&quot;&#10;              :table-data=&quot;tableData&quot;&#10;              :table-columns=&quot;tableColumns&quot;&#10;              :pagination=&quot;requestPage&quot;&#10;              @paginationEvent=&quot;handlePagination&quot;&#10;            &gt;&#10;              &lt;template #col-handle=&quot;scope&quot;&gt;&#10;                &lt;table-row-button&gt;&#10;                  操作&#10;                &lt;/table-row-button&gt;&#10;              &lt;/template&gt;&#10;            &lt;/base-table&gt;" description="基础表格" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
