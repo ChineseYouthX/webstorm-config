@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="450" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="新增" />
       <item value="is Pass" />
       <item value="add" />
       <item value="身份" />
@@ -54,11 +55,10 @@
       <item value="详情" />
       <item value="当前" />
       <item value="active Route Name" />
-      <item value="simple Table Route" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="809" />
+        <entry key="CHINESE" value="810" />
         <entry key="ENGLISH" value="810" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
