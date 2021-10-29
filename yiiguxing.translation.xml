@@ -5,6 +5,12 @@
     <option name="newTranslationDialogY" value="450" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="出" />
+      <item value="入" />
+      <item value="住" />
+      <item value="迁出" />
+      <item value="入驻" />
+      <item value="入住" />
       <item value="户型" />
       <item value="房屋" />
       <item value="el-scr" />
@@ -49,17 +55,11 @@
       <item value="Staff Management" />
       <item value="active Selected Department Data" />
       <item value="has Power Access Page" />
-      <item value="is Can Edit" />
-      <item value="评价分析" />
-      <item value="处理人" />
-      <item value="create Event" />
-      <item value="window" />
-      <item value="download" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="812" />
-        <entry key="ENGLISH" value="812" />
+        <entry key="CHINESE" value="821" />
+        <entry key="ENGLISH" value="821" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
