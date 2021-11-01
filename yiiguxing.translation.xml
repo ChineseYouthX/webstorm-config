@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="450" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="住址" />
       <item value="出" />
       <item value="入" />
       <item value="住" />
@@ -54,12 +55,11 @@
       <item value="Text" />
       <item value="Staff Management" />
       <item value="active Selected Department Data" />
-      <item value="has Power Access Page" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="821" />
-        <entry key="ENGLISH" value="821" />
+        <entry key="CHINESE" value="822" />
+        <entry key="ENGLISH" value="822" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
@@ -75,6 +75,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1635152664621" />
+    <option name="lastTrimTime" value="1635732701151" />
   </component>
 </application>
