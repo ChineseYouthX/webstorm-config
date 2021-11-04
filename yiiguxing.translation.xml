@@ -5,6 +5,11 @@
     <option name="newTranslationDialogY" value="450" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="广告" />
+      <item value="广告语" />
+      <item value="店名" />
+      <item value="店" />
+      <item value="欢迎" />
       <item value="combo" />
       <item value="套餐" />
       <item value="住址" />
@@ -50,16 +55,11 @@
       <item value="收银机" />
       <item value="active Menu" />
       <item value="one" />
-      <item value="a" />
-      <item value="1" />
-      <item value="111" />
-      <item value="RBAC Mixin" />
-      <item value="Text" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="823" />
-        <entry key="ENGLISH" value="824" />
+        <entry key="CHINESE" value="828" />
+        <entry key="ENGLISH" value="828" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
