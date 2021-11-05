@@ -5,6 +5,8 @@
     <option name="newTranslationDialogY" value="450" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="分割线" />
+      <item value="分割" />
       <item value="广告" />
       <item value="广告语" />
       <item value="店名" />
@@ -53,13 +55,11 @@
       <item value="back" />
       <item value="handle Back Page" />
       <item value="收银机" />
-      <item value="active Menu" />
-      <item value="one" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="828" />
-        <entry key="ENGLISH" value="828" />
+        <entry key="CHINESE" value="830" />
+        <entry key="ENGLISH" value="830" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
