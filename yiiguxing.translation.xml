@@ -5,6 +5,9 @@
     <option name="newTranslationDialogY" value="450" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="is Typing" />
+      <item value="输入" />
+      <item value="正在输入" />
       <item value="分割线" />
       <item value="分割" />
       <item value="广告" />
@@ -52,14 +55,11 @@
       <item value="{ label: '个人信息', name: 'person' }," />
       <item value="位置信息" />
       <item value="Back" />
-      <item value="back" />
-      <item value="handle Back Page" />
-      <item value="收银机" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="830" />
-        <entry key="ENGLISH" value="830" />
+        <entry key="CHINESE" value="832" />
+        <entry key="ENGLISH" value="833" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
@@ -75,6 +75,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1635732701151" />
+    <option name="lastTrimTime" value="1636341736416" />
   </component>
 </application>
