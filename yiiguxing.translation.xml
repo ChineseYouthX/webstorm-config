@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="450" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="原因" />
       <item value="design Width" />
       <item value="已注册" />
       <item value="注册" />
@@ -54,12 +55,11 @@
       <item value="积分兑换" />
       <item value="办理" />
       <item value="is Need Lease Contract" />
-      <item value="cached Views" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="841" />
-        <entry key="ENGLISH" value="842" />
+        <entry key="CHINESE" value="843" />
+        <entry key="ENGLISH" value="843" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
@@ -75,6 +75,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1636341736416" />
+    <option name="lastTrimTime" value="1637133518216" />
   </component>
 </application>
