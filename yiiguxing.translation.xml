@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="450" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="is-horizontal" />
       <item value="intercept" />
       <item value="原因" />
       <item value="design Width" />
@@ -54,12 +55,11 @@
       <item value="兑换" />
       <item value="积分" />
       <item value="积分兑换" />
-      <item value="办理" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="844" />
-        <entry key="ENGLISH" value="845" />
+        <entry key="CHINESE" value="845" />
+        <entry key="ENGLISH" value="846" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
@@ -75,6 +75,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1637133518216" />
+    <option name="lastTrimTime" value="1637826126796" />
   </component>
 </application>
