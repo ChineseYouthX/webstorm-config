@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="450" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="立即" />
       <item value="is-horizontal" />
       <item value="intercept" />
       <item value="原因" />
@@ -54,11 +55,10 @@
       <item value="超时" />
       <item value="兑换" />
       <item value="积分" />
-      <item value="积分兑换" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="845" />
+        <entry key="CHINESE" value="846" />
         <entry key="ENGLISH" value="846" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
