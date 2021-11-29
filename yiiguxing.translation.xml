@@ -5,6 +5,9 @@
     <option name="newTranslationDialogY" value="450" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="第三方" />
+      <item value="微信" />
+      <item value="支付宝" />
       <item value="立即" />
       <item value="is-horizontal" />
       <item value="intercept" />
@@ -52,14 +55,11 @@
       <item value="码牌" />
       <item value="time Out" />
       <item value="timeout" />
-      <item value="超时" />
-      <item value="兑换" />
-      <item value="积分" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="846" />
-        <entry key="ENGLISH" value="846" />
+        <entry key="CHINESE" value="849" />
+        <entry key="ENGLISH" value="849" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
