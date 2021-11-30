@@ -5,6 +5,10 @@
     <option name="newTranslationDialogY" value="450" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="分割线" />
+      <item value="last-time" />
+      <item value="剩余" />
+      <item value="支付金额" />
       <item value="第三方" />
       <item value="微信" />
       <item value="支付宝" />
@@ -24,7 +28,6 @@
       <item value="is Typing" />
       <item value="输入" />
       <item value="正在输入" />
-      <item value="分割线" />
       <item value="分割" />
       <item value="广告" />
       <item value="广告语" />
@@ -52,14 +55,11 @@
       <item value="selcted Data" />
       <item value="绑定设备" />
       <item value="绑定码牌" />
-      <item value="码牌" />
-      <item value="time Out" />
-      <item value="timeout" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="849" />
-        <entry key="ENGLISH" value="849" />
+        <entry key="CHINESE" value="852" />
+        <entry key="ENGLISH" value="852" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
