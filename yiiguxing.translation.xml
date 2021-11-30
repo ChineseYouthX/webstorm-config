@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="450" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="请求参数" />
       <item value="JS支付" />
       <item value="分割线" />
       <item value="last-time" />
@@ -54,12 +55,11 @@
       <item value="入驻身份" />
       <item value="unbind" />
       <item value="selcted Data" />
-      <item value="绑定设备" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="853" />
-        <entry key="ENGLISH" value="853" />
+        <entry key="CHINESE" value="854" />
+        <entry key="ENGLISH" value="854" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
