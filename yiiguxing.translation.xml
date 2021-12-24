@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="450" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="stage" />
       <item value="web Security" />
       <item value="node Integration" />
       <item value="码牌支付" />
@@ -54,12 +55,11 @@
       <item value="入住" />
       <item value="户型" />
       <item value="房屋" />
-      <item value="el-scr" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="858" />
-        <entry key="ENGLISH" value="858" />
+        <entry key="ENGLISH" value="859" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
