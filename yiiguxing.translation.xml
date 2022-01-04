@@ -5,6 +5,30 @@
     <option name="newTranslationDialogY" value="450" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="staged" />
+      <item value="plop" />
+      <item value="husky" />
+      <item value="connect" />
+      <item value="chalk" />
+      <item value="fuse" />
+      <item value="clipboard" />
+      <item value="sortablejs" />
+      <item value="showdown" />
+      <item value="A modern alternative to CSS resets" />
+      <item value="jsonlint" />
+      <item value="jsencrypt" />
+      <item value="crypto" />
+      <item value="vuedraggable" />
+      <item value="splitpane" />
+      <item value="seamless" />
+      <item value="regexp" />
+      <item value="normalize" />
+      <item value="dropzone" />
+      <item value="codemirror" />
+      <item value="driver" />
+      <item value="the :export directive is the magic sauce for webpack" />
+      <item value="I think element-ui's default theme color is too light for long-term use" />
+      <item value="So I modified the default color and you can modify it to your liking" />
       <item value="收费标准" />
       <item value="Base Text" />
       <item value="current Department Node" />
@@ -31,45 +55,23 @@
       <item value="支付宝" />
       <item value="立即" />
       <item value="is-horizontal" />
-      <item value="intercept" />
-      <item value="原因" />
-      <item value="design Width" />
-      <item value="已注册" />
-      <item value="注册" />
-      <item value="交易" />
-      <item value="交易汇总" />
-      <item value="汇总" />
-      <item value="export" />
-      <item value="export Loading" />
-      <item value="hideshow" />
-      <item value="is Typing" />
-      <item value="输入" />
-      <item value="正在输入" />
-      <item value="分割" />
-      <item value="广告" />
-      <item value="广告语" />
-      <item value="店名" />
-      <item value="店" />
-      <item value="欢迎" />
-      <item value="combo" />
-      <item value="套餐" />
-      <item value="住址" />
-      <item value="出" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="866" />
-        <entry key="ENGLISH" value="866" />
+        <entry key="CHINESE" value="886" />
+        <entry key="ENGLISH" value="887" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
         <entry key="CATALAN" value="1" />
-        <entry key="ROMANIAN" value="2" />
+        <entry key="CZECH" value="1" />
+        <entry key="LUXEMBOURGISH" value="1" />
+        <entry key="ROMANIAN" value="3" />
         <entry key="NORWEGIAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
         <entry key="JAPANESE" value="4" />
         <entry key="UZBEK" value="1" />
-        <entry key="SPANISH" value="2" />
+        <entry key="SPANISH" value="3" />
         <entry key="ITALIAN" value="1" />
       </map>
     </option>
