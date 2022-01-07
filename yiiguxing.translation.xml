@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="450" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="根" />
       <item value="staged" />
       <item value="plop" />
       <item value="husky" />
@@ -54,11 +55,10 @@
       <item value="微信" />
       <item value="支付宝" />
       <item value="立即" />
-      <item value="is-horizontal" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="886" />
+        <entry key="CHINESE" value="887" />
         <entry key="ENGLISH" value="887" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
