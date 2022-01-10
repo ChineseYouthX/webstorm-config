@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="450" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="所属分组" />
       <item value="根" />
       <item value="staged" />
       <item value="plop" />
@@ -54,12 +55,11 @@
       <item value="第三方" />
       <item value="微信" />
       <item value="支付宝" />
-      <item value="立即" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="887" />
-        <entry key="ENGLISH" value="887" />
+        <entry key="CHINESE" value="889" />
+        <entry key="ENGLISH" value="889" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
@@ -77,6 +77,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1641267179616" />
+    <option name="lastTrimTime" value="1641795738830" />
   </component>
 </application>
