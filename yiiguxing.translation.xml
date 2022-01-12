@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="450" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="渠道进件" />
       <item value="详情" />
       <item value="消费记录" />
       <item value="消费" />
@@ -54,12 +55,11 @@
       <item value="请求参数" />
       <item value="JS支付" />
       <item value="分割线" />
-      <item value="last-time" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="897" />
-        <entry key="ENGLISH" value="897" />
+        <entry key="CHINESE" value="898" />
+        <entry key="ENGLISH" value="898" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
