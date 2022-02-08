@@ -1,25 +1,29 @@
 <application>
   <component name="ExportableFileTemplateSettings">
     <default_templates>
-      <template name="api.js" file-name="api" reformat="true" live-template-enabled="false" />
-      <template name="aside table page.vue" file-name="index" reformat="true" live-template-enabled="false">
-        <template name="aside table page.vue.child.1.js" file-name="mixin" reformat="true" live-template-enabled="false" />
-        <template name="aside table page.vue.child.0.js" file-name="api" reformat="true" live-template-enabled="false" />
+      <template name="api.js" file-name="api" reformat="true" live-template-enabled="true" />
+      <template name="aside table page.vue" file-name="index" reformat="true" live-template-enabled="true">
+        <template name="aside table page.vue.child.0.js" file-name="api" reformat="true" live-template-enabled="true" />
+        <template name="aside table page.vue.child.1.js" file-name="mixin" reformat="true" live-template-enabled="true" />
       </template>
-      <template name="aside table page.vue.child.0.js" file-name="api" reformat="true" live-template-enabled="false" />
-      <template name="aside table page.vue.child.1.js" file-name="mixin" reformat="true" live-template-enabled="false" />
-      <template name="base dialog.vue" file-name="index" reformat="true" live-template-enabled="false" />
-      <template name="dialog form.vue" file-name="index" reformat="true" live-template-enabled="false">
-        <template name="dialog form.vue.child.0.js" file-name="api" reformat="true" live-template-enabled="false" />
+      <template name="aside table page.vue.child.0.js" file-name="api" reformat="true" live-template-enabled="true" />
+      <template name="aside table page.vue.child.1.js" file-name="mixin" reformat="true" live-template-enabled="true" />
+      <template name="base dialog.vue" file-name="index" reformat="true" live-template-enabled="true" />
+      <template name="base page.vue" reformat="true" live-template-enabled="true" />
+      <template name="dialog form.vue" file-name="index" reformat="true" live-template-enabled="true">
+        <template name="dialog form.vue.child.0.js" file-name="api" reformat="true" live-template-enabled="true" />
       </template>
-      <template name="dialog form.vue.child.0.js" file-name="api" reformat="true" live-template-enabled="false" />
-      <template name="table columns mixin.js" file-name="mixin" reformat="true" live-template-enabled="false" />
-      <template name="table page.vue" reformat="true" live-template-enabled="false">
-        <template name="table page.vue.child.1.js" file-name="api" reformat="true" live-template-enabled="false" />
-        <template name="table page.vue.child.0.js" file-name="mixin" reformat="true" live-template-enabled="false" />
+      <template name="dialog form.vue.child.0.js" file-name="api" reformat="true" live-template-enabled="true" />
+      <template name="router.js" reformat="true" live-template-enabled="true" />
+      <template name="table columns mixin.js" file-name="mixin" reformat="true" live-template-enabled="true" />
+      <template name="table page.vue" reformat="true" live-template-enabled="true">
+        <template name="table page.vue.child.0.js" file-name="mixin" reformat="true" live-template-enabled="true" />
+        <template name="table page.vue.child.1.js" file-name="api" reformat="true" live-template-enabled="true" />
       </template>
-      <template name="table page.vue.child.0.js" file-name="mixin" reformat="true" live-template-enabled="false" />
-      <template name="table page.vue.child.1.js" file-name="api" reformat="true" live-template-enabled="false" />
+      <template name="table page.vue.child.0.js" file-name="mixin" reformat="true" live-template-enabled="true" />
+      <template name="table page.vue.child.1.js" file-name="api" reformat="true" live-template-enabled="true" />
+      <template name="vue page.vue" reformat="true" live-template-enabled="true" />
+      <template name="vue vant.vue" reformat="true" live-template-enabled="true" />
     </default_templates>
   </component>
 </application>
