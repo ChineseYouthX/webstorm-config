@@ -1,11 +1,50 @@
 <application>
   <component name="AppStorage">
-    <option name="newTranslationDialogWidth" value="592" />
-    <option name="newTranslationDialogX" value="1248" />
-    <option name="newTranslationDialogY" value="171" />
+    <option name="newTranslationDialogWidth" value="594" />
+    <option name="newTranslationDialogX" value="2680" />
+    <option name="newTranslationDialogY" value="437" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
-      <item value="https://git.weixin.qq.com/xlspiskirts/webstorm_config.git: Secure connection to https://git.weixin.qq.com/xlspiskirts/webstorm_config.git could not be established because of SSL problems" />
+      <item value="Plugin 'Ember.js' (version '2021.2.1') is not compatible with the current version of the IDE, because it requires build 212.* or older but the current build is WS-213.6777.57 Plugin 'Chinese (Simplified) Language Pack / 中文语言包' (version '212.324') is not compatible with the current version of the IDE, because it requires build 212.* or older but the current build is WS-213.6777.57" />
+      <item value="渠道进件" />
+      <item value="详情" />
+      <item value="消费记录" />
+      <item value="消费" />
+      <item value="充值记录" />
+      <item value="充值" />
+      <item value="所属分组" />
+      <item value="根" />
+      <item value="staged" />
+      <item value="plop" />
+      <item value="husky" />
+      <item value="connect" />
+      <item value="chalk" />
+      <item value="fuse" />
+      <item value="clipboard" />
+      <item value="sortablejs" />
+      <item value="showdown" />
+      <item value="A modern alternative to CSS resets" />
+      <item value="jsonlint" />
+      <item value="jsencrypt" />
+      <item value="crypto" />
+      <item value="vuedraggable" />
+      <item value="splitpane" />
+      <item value="seamless" />
+      <item value="regexp" />
+      <item value="normalize" />
+      <item value="dropzone" />
+      <item value="codemirror" />
+      <item value="driver" />
+      <item value="the :export directive is the magic sauce for webpack" />
+      <item value="I think element-ui's default theme color is too light for long-term use" />
+      <item value="So I modified the default color and you can modify it to your liking" />
+      <item value="收费标准" />
+      <item value="Base Text" />
+      <item value="current Department Node" />
+      <item value="当前" />
+      <item value="handle" />
+      <item value="handle Download" />
+      <item value="handle Export" />
       <item value="stage" />
       <item value="web Security" />
       <item value="node Integration" />
@@ -16,65 +55,28 @@
       <item value="银盛支付" />
       <item value="请求参数" />
       <item value="JS支付" />
-      <item value="分割线" />
-      <item value="last-time" />
-      <item value="剩余" />
-      <item value="支付金额" />
-      <item value="第三方" />
-      <item value="微信" />
-      <item value="支付宝" />
-      <item value="立即" />
-      <item value="is-horizontal" />
-      <item value="intercept" />
-      <item value="原因" />
-      <item value="design Width" />
-      <item value="已注册" />
-      <item value="注册" />
-      <item value="交易" />
-      <item value="交易汇总" />
-      <item value="汇总" />
-      <item value="export" />
-      <item value="export Loading" />
-      <item value="hideshow" />
-      <item value="is Typing" />
-      <item value="输入" />
-      <item value="正在输入" />
-      <item value="分割" />
-      <item value="广告" />
-      <item value="广告语" />
-      <item value="店名" />
-      <item value="店" />
-      <item value="欢迎" />
-      <item value="combo" />
-      <item value="套餐" />
-      <item value="住址" />
-      <item value="出" />
-      <item value="入" />
-      <item value="住" />
-      <item value="迁出" />
-      <item value="入驻" />
-      <item value="入住" />
-      <item value="户型" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="859" />
-        <entry key="ENGLISH" value="860" />
+        <entry key="CHINESE" value="899" />
+        <entry key="ENGLISH" value="899" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
         <entry key="CATALAN" value="1" />
-        <entry key="ROMANIAN" value="2" />
+        <entry key="CZECH" value="1" />
+        <entry key="LUXEMBOURGISH" value="1" />
+        <entry key="ROMANIAN" value="3" />
         <entry key="NORWEGIAN" value="1" />
         <entry key="PORTUGUESE" value="1" />
         <entry key="JAPANESE" value="4" />
         <entry key="UZBEK" value="1" />
-        <entry key="SPANISH" value="2" />
+        <entry key="SPANISH" value="3" />
         <entry key="ITALIAN" value="1" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1644302043514" />
+    <option name="lastTrimTime" value="1644292602720" />
   </component>
 </application>
