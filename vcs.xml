@@ -14,8 +14,13 @@
           <option name="url" value="http://10.10.10.12:81" />
           <option name="userName" value="xiaxilin" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/ChineseYouthX/webstorm-config" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
+    <option name="cloneParentDir" value="C:\Users\Lenovo\WebstormProjects" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COMPACT_REFERENCES_VIEW" value="false" />
