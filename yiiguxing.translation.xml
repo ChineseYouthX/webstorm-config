@@ -1,10 +1,11 @@
 <application>
   <component name="AppStorage">
-    <option name="newTranslationDialogWidth" value="594" />
+    <option name="newTranslationDialogWidth" value="592" />
     <option name="newTranslationDialogX" value="1248" />
     <option name="newTranslationDialogY" value="171" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="https://git.weixin.qq.com/xlspiskirts/webstorm_config.git: Secure connection to https://git.weixin.qq.com/xlspiskirts/webstorm_config.git could not be established because of SSL problems" />
       <item value="stage" />
       <item value="web Security" />
       <item value="node Integration" />
@@ -54,12 +55,11 @@
       <item value="入驻" />
       <item value="入住" />
       <item value="户型" />
-      <item value="房屋" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="858" />
-        <entry key="ENGLISH" value="859" />
+        <entry key="CHINESE" value="859" />
+        <entry key="ENGLISH" value="860" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
@@ -75,6 +75,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1640224821121" />
+    <option name="lastTrimTime" value="1644302043514" />
   </component>
 </application>
