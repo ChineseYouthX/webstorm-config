@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="437" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="swipe" />
       <item value="Plugin 'Ember.js' (version '2021.2.1') is not compatible with the current version of the IDE, because it requires build 212.* or older but the current build is WS-213.6777.57 Plugin 'Chinese (Simplified) Language Pack / 中文语言包' (version '212.324') is not compatible with the current version of the IDE, because it requires build 212.* or older but the current build is WS-213.6777.57" />
       <item value="渠道进件" />
       <item value="详情" />
@@ -54,12 +55,11 @@
       <item value="支付平台" />
       <item value="银盛支付" />
       <item value="请求参数" />
-      <item value="JS支付" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="899" />
-        <entry key="ENGLISH" value="899" />
+        <entry key="ENGLISH" value="900" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
@@ -77,6 +77,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1644292602720" />
+    <option name="lastTrimTime" value="1645413764179" />
   </component>
 </application>
