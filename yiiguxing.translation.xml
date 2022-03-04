@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="437" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="show" />
       <item value="费率配置" />
       <item value="Tex T" />
       <item value="swipe" />
@@ -54,12 +55,11 @@
       <item value="码牌支付" />
       <item value="码牌" />
       <item value="option" />
-      <item value="支付平台" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="901" />
-        <entry key="ENGLISH" value="901" />
+        <entry key="ENGLISH" value="902" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
