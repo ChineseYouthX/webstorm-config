@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="437" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="扫码费率变更" />
       <item value="county" />
       <item value="重定向" />
       <item value="公共" />
@@ -54,7 +55,6 @@
       <item value="handle Export" />
       <item value="stage" />
       <item value="web Security" />
-      <item value="node Integration" />
     </histories>
     <option name="languageScores">
       <map>
