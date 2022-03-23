@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="437" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="settlement" />
       <item value="扫码费率变更" />
       <item value="county" />
       <item value="重定向" />
@@ -54,12 +55,11 @@
       <item value="handle Download" />
       <item value="handle Export" />
       <item value="stage" />
-      <item value="web Security" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="903" />
-        <entry key="ENGLISH" value="904" />
+        <entry key="CHINESE" value="904" />
+        <entry key="ENGLISH" value="905" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
@@ -77,6 +77,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1646815792683" />
+    <option name="lastTrimTime" value="1648022463543" />
   </component>
 </application>
