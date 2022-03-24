@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="437" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="handle Select" />
       <item value="申请表" />
       <item value="settlement" />
       <item value="扫码费率变更" />
@@ -54,12 +55,11 @@
       <item value="当前" />
       <item value="handle" />
       <item value="handle Download" />
-      <item value="handle Export" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="905" />
-        <entry key="ENGLISH" value="905" />
+        <entry key="ENGLISH" value="906" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
