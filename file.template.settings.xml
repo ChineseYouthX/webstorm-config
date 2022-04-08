@@ -1,13 +1,22 @@
 <application>
   <component name="ExportableFileTemplateSettings">
     <default_templates>
+      <template name="aside table page.vue" reformat="true" live-template-enabled="false">
+        <template name="aside table page.vue.child.0.js" file-name="api" reformat="true" live-template-enabled="false" />
+      </template>
+      <template name="aside table page.vue.child.0.js" file-name="api" reformat="true" live-template-enabled="false" />
       <template name="base form.vue" file-name="index" reformat="true" live-template-enabled="true">
         <template name="base form.vue.child.0.js" file-name="api" reformat="true" live-template-enabled="true" />
       </template>
       <template name="base form.vue.child.0.js" file-name="api" reformat="true" live-template-enabled="true" />
-      <template name="table page.vue" reformat="true" live-template-enabled="true">
-        <template name="table page.vue.child.0.js" reformat="true" live-template-enabled="false" />
+      <template name="dialog form.vue" reformat="true" live-template-enabled="false">
+        <template name="dialog form.vue.child.0.js" file-name="api" reformat="true" live-template-enabled="false" />
       </template>
+      <template name="dialog form.vue.child.0.js" file-name="api" reformat="true" live-template-enabled="false" />
+      <template name="table page.vue" reformat="true" live-template-enabled="true">
+        <template name="table page.vue.child.0.js" file-name="api" reformat="true" live-template-enabled="false" />
+      </template>
+      <template name="table page.vue.child.0.js" file-name="api" reformat="true" live-template-enabled="false" />
     </default_templates>
   </component>
 </application>
