@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="437" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="Two Decimal Places" />
       <item value="handle Select" />
       <item value="申请表" />
       <item value="settlement" />
@@ -54,12 +55,11 @@
       <item value="current Department Node" />
       <item value="当前" />
       <item value="handle" />
-      <item value="handle Download" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="905" />
-        <entry key="ENGLISH" value="906" />
+        <entry key="CHINESE" value="906" />
+        <entry key="ENGLISH" value="907" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
@@ -77,6 +77,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1648022463543" />
+    <option name="lastTrimTime" value="1650337558290" />
   </component>
 </application>
