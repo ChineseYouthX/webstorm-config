@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="437" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="library" />
       <item value="加解密" />
       <item value="Auth" />
       <item value="Logout" />
@@ -54,12 +55,11 @@
       <item value="codemirror" />
       <item value="driver" />
       <item value="the :export directive is the magic sauce for webpack" />
-      <item value="I think element-ui's default theme color is too light for long-term use" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="912" />
-        <entry key="ENGLISH" value="912" />
+        <entry key="ENGLISH" value="913" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
