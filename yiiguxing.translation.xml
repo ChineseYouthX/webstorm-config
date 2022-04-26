@@ -5,9 +5,12 @@
     <option name="newTranslationDialogY" value="437" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="加解密" />
+      <item value="Auth" />
+      <item value="Logout" />
+      <item value="sign Out" />
       <item value="获取系统配置" />
       <item value="退出登录" />
-      <item value="Auth" />
       <item value="Two Decimal Places" />
       <item value="handle Select" />
       <item value="申请表" />
@@ -52,14 +55,11 @@
       <item value="driver" />
       <item value="the :export directive is the magic sauce for webpack" />
       <item value="I think element-ui's default theme color is too light for long-term use" />
-      <item value="So I modified the default color and you can modify it to your liking" />
-      <item value="收费标准" />
-      <item value="Base Text" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="909" />
-        <entry key="ENGLISH" value="909" />
+        <entry key="CHINESE" value="912" />
+        <entry key="ENGLISH" value="912" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
