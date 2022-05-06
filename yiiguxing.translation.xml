@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="437" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="清除" />
       <item value="library" />
       <item value="加解密" />
       <item value="Auth" />
@@ -54,11 +55,10 @@
       <item value="dropzone" />
       <item value="codemirror" />
       <item value="driver" />
-      <item value="the :export directive is the magic sauce for webpack" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="912" />
+        <entry key="CHINESE" value="913" />
         <entry key="ENGLISH" value="913" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
@@ -77,6 +77,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1650938071143" />
+    <option name="lastTrimTime" value="1651802977858" />
   </component>
 </application>
