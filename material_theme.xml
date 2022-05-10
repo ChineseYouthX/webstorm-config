@@ -1,6 +1,8 @@
 <application>
   <component name="MaterialThemeConfig">
+    <option name="isTabsShadow" value="false" />
     <option name="pristineConfig" value="false" />
+    <option name="indicatorStyle" value="None" />
     <option name="accentColor" value="416a9b" />
     <option name="selectedTheme" value="NATIVE" />
     <option name="userId" value="70f8caa8:17172ca52ff:-8000" />
