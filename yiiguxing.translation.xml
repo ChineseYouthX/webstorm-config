@@ -5,6 +5,7 @@
     <option name="newTranslationDialogY" value="437" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="debounce" />
       <item value="Currently MockJs will be used in the production environment" />
       <item value="please remove it before going online" />
       <item value="you can execute" />
@@ -54,12 +55,11 @@
       <item value="splitpane" />
       <item value="seamless" />
       <item value="regexp" />
-      <item value="normalize" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="915" />
-        <entry key="ENGLISH" value="916" />
+        <entry key="CHINESE" value="916" />
+        <entry key="ENGLISH" value="917" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
