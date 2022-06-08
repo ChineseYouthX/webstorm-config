@@ -5,6 +5,8 @@
     <option name="newTranslationDialogY" value="437" />
     <option name="pinNewTranslationDialog" value="true" />
     <histories>
+      <item value="写" />
+      <item value="只读" />
       <item value="详情" />
       <item value="target" />
       <item value="time Ago" />
@@ -53,13 +55,11 @@
       <item value="A modern alternative to CSS resets" />
       <item value="jsonlint" />
       <item value="jsencrypt" />
-      <item value="crypto" />
-      <item value="vuedraggable" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="920" />
-        <entry key="ENGLISH" value="920" />
+        <entry key="CHINESE" value="922" />
+        <entry key="ENGLISH" value="922" />
         <entry key="DANISH" value="1" />
         <entry key="GERMAN" value="1" />
         <entry key="FRENCH" value="1" />
@@ -77,6 +77,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1653298890311" />
+    <option name="lastTrimTime" value="1654680482105" />
   </component>
 </application>
