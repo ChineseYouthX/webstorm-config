@@ -79,7 +79,12 @@
       <option name="Vue" value="true" />
     </context>
   </template>
-  <template name="date picker" value="&lt;el-date-picker&#10;                    v-model=&quot;requestSearch.startEndTime&quot;&#10;                    type=&quot;daterange&quot;&#10;                    range-separator=&quot;至&quot;&#10;                    start-placeholder=&quot;开始日期&quot;&#10;                    end-placeholder=&quot;结束日期&quot;&#10;                    value-format=&quot;yyyy-MM-dd&quot;&#10;                    :editable=&quot;false&quot;&#10;                    :clearable=&quot;true&quot;&#10;                  /&gt;" description="时间选择器" toReformat="true" toShortenFQNames="true">
+  <template name="date picker" value="&lt;el-date-picker&#10;                    v-model=&quot;requestSearch.startEndTime&quot;&#10;                    type=&quot;daterange&quot;&#10;                    range-separator=&quot;至&quot;&#10;                    start-placeholder=&quot;开始日期&quot;&#10;                    end-placeholder=&quot;结束日期&quot;&#10;                    value-format=&quot;yyyy-MM-dd&quot;&#10;                    :editable=&quot;false&quot;&#10;                    clearable&#10;                  /&gt;" description="时间选择器" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="select" value="&lt;el-select v-model=&quot;requestSearch.select&quot; placeholder=&quot;请选择&quot; clearable&gt;&#10;                    &lt;el-option&#10;                      v-for=&quot;item in optionsList&quot;&#10;                      :key=&quot;item.value&quot;&#10;                      :label=&quot;item.label&quot;&#10;                      :value=&quot;item.value&quot;&#10;                    /&gt;&#10;                  &lt;/el-select&gt;" description="选择器" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="Vue" value="true" />
     </context>
