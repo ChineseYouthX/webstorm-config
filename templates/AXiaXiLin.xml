@@ -79,4 +79,9 @@
       <option name="Vue" value="true" />
     </context>
   </template>
+  <template name="date picker" value="&lt;el-date-picker&#10;                    v-model=&quot;requestSearch.startEndTime&quot;&#10;                    type=&quot;daterange&quot;&#10;                    range-separator=&quot;至&quot;&#10;                    start-placeholder=&quot;开始日期&quot;&#10;                    end-placeholder=&quot;结束日期&quot;&#10;                    value-format=&quot;yyyy-MM-dd&quot;&#10;                    :editable=&quot;false&quot;&#10;                    :clearable=&quot;true&quot;&#10;                  /&gt;" description="时间选择器" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
 </templateSet>
