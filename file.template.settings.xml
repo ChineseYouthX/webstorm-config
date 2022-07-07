@@ -6,10 +6,10 @@
       </template>
       <template name="aside table page.vue.child.0.js" file-name="api" reformat="true" live-template-enabled="false" />
       <template name="base page.vue" file-name="index" reformat="true" live-template-enabled="false" />
-      <template name="base table.vue" file-name="index" reformat="true" live-template-enabled="true">
-        <template name="base table.vue.child.0.js" file-name="api" reformat="true" live-template-enabled="false" />
+      <template name="base table page.vue" file-name="index" reformat="true" live-template-enabled="true">
+        <template name="base table page.vue.child.0.js" file-name="api" reformat="true" live-template-enabled="false" />
       </template>
-      <template name="base table.vue.child.0.js" file-name="api" reformat="true" live-template-enabled="false" />
+      <template name="base table page.vue.child.0.js" file-name="api" reformat="true" live-template-enabled="false" />
       <template name="form dialog.vue" reformat="true" live-template-enabled="false">
         <template name="form dialog.vue.child.0.js" file-name="api" reformat="true" live-template-enabled="false" />
       </template>
